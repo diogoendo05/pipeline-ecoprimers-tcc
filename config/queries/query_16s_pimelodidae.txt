@@ -1,10 +1,5 @@
 QUERY GENBANK - 16s_pimelodidae
 =======================================
-target_id  : 16s_pimelodidae
-marker     : 16S
-root_taxid :
-min_len    :
-max_len    :
 
 Arquivo de saida esperado: data/raw/16s_pimelodidae.gb
 
@@ -12,11 +7,9 @@ Arquivo de saida esperado: data/raw/16s_pimelodidae.gb
 QUERY BOOLEANA
 --------------
 
-
+(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((Aguarunichthys inpai) OR Aguarunichthys tocantinsensis) OR Aguarunichthys torosus) OR Bagropsis reinhardti) OR Bergiaria platana) OR Bergiaria westermanni) OR Brachyplatystoma filamentosum) OR Brachyplatystoma juruense) OR Brachyplatystoma platynema) OR Brachyplatystoma rousseauxii) OR Brachyplatystoma tigrinum) OR Brachyplatystoma vaillantii) OR Calophysus macropterus) OR Cheirocerus eques) OR Cheirocerus goeldii) OR Duopalatinus emarginatus) OR Duopalatinus peruanus) OR Exallodontus aguanai) OR Hypophthalmus celiae) OR Hemisorubim platyrhynchos) OR Hypophthalmus donascimientoi) OR Hypophthalmus edentatus) OR Hypophthalmus fimbriatus) OR Hypophthalmus marginatus) OR Hypophthalmus oremaculatus) OR Iheringichthys labrosus) OR Iheringichthys megalops) OR Iheringichthys syi) OR Leiarius longibarbis) OR Leiarius marmoratus) OR Leiarius perruno) OR Leiarius pictus) OR Luciopimelodus pati) OR Megalonema amaxanthum) OR Megalonema orixanthum) OR Megalonema pauciradiatum) OR Megalonema platanum) OR Megalonema platycephalum) OR Megalonema psammiu) OR Megalonema xanthum) OR Parapimelodus nigribarbis) OR Parapimelodus valenciennis) OR Phenacorhamdia hoehnei) OR Phractocephalus hemioliopterus) OR Pimelabditus moli) OR Pimelodella taenioptera) OR Pimelodina flavipinnis) OR Pimelodus albicans) OR Pimelodus albofasciatus) OR Pimelodus altissimus) OR Pimelodus argenteus) OR Pimelodus atrobrunneus) OR Pimelodus blochii) OR Pimelodus britskii) OR Pimelodus coprophagus) OR Pimelodus crypticus) OR Pimelodus fur) OR Pimelodus garciabarrigai) OR Pimelodus grosskopfii) OR Pimelodus halisodous) OR Pimelodus jivaro) OR Pimelodus joannis) OR Pimelodus luciae) OR Pimelodus maculatus) OR Pimelodus microstoma) OR Pimelodus multicratifer) OR Pimelodus mysteriosus) OR Pimelodus navarroi) OR Pimelodus ornatus) OR Pimelodus ornatus Kner) OR Pimelodus ortmanni Haseman) OR Pimelodus pantaneirceps) OR Pimelodus paranaensis) OR Pimelodus pictus) OR Pimelodus pintado) OR Pimelodus platicirris) OR Pimelodus punctatus) OR Pimelodus quadratus) OR Pimelodus speciosus) OR Pimelodus stewarti) OR Pimelodus tetramerus) OR Pimelodus yuma) OR Pinirampus argentina) OR Pinirampus pirinampu) OR Platynematichthys notatus) OR Platysilurus malarmo) OR Platysilurus mucosus) OR Platysilurus olallae) OR Platystomatichthys sturio) OR Propimelodus araguayae) OR Propimelodus caesius) OR Propimelodus eigenmanni) OR Propimelodus lobatus) OR Pseudoplatystoma corruscans) OR Pseudoplatystoma fasciatum) OR Pseudoplatystoma magdaleniatum) OR Pseudoplatystoma metaense) OR Pseudoplatystoma orinocoense) OR Pseudoplatystoma punctifer) OR Pseudoplatystoma reticulatum) OR Pseudoplatystoma tigrinum) OR Rhyacoglanis variolosus) OR Sorubim cuspicaudus) OR Sorubim elongatus) OR Sorubim lima) OR Sorubim trigonocephalus) OR Sorubimichthys planiceps) OR Steindachneridion amblyurum) OR Steindachneridion doceanum) OR Steindachneridion melanodermatum) OR Steindachneridion parahybae) OR Steindachneridion punctatum) OR Steindachneridion scriptum) OR Tympanopleura rondoni) OR Zungaro jahu) OR Zungaro zungaro))) OR Piramutana macrospila) OR Pimelodus maculatus) OR Pimelodus multiradiatus) OR Pseudariodes pantherinus) OR Bagrus punctulatus) OR Silurus quatuordecimradiatus) OR Pimelodus rigidus) OR Bagrus valenciennei) AND 12S) AND "ray-finned fishes"[porgn:__txid7898] 
 
 REGISTRO
 --------
-Data do download   :
-Sequencias obtidas :
-Filtros aplicados  :
+Sequencias obtidas : 184
 Observacoes        :
