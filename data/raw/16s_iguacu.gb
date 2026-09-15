@@ -1,0 +1,794 @@
+LOCUS       MF579257                1679 bp    DNA     linear   VRT 24-JUN-2018
+DEFINITION  Misgurnus anguillicaudatus mitochondrion, complete genome.
+ACCESSION   MF579257 REGION: 1095..2773
+VERSION     MF579257.1
+KEYWORDS    .
+SOURCE      mitochondrion Misgurnus anguillicaudatus (oriental weatherfish)
+  ORGANISM  Misgurnus anguillicaudatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Cypriniformes; Cobitidae; Cobitinae; Misgurnus.
+REFERENCE   1  (bases 1 to 1679)
+  AUTHORS   Lee,S.Y., Bang,I.C. and Nam,Y.K.
+  TITLE     Complete mitochondrial genome of albino cyprinid loach, Misgurnus
+            anguillicaudatus (Cypriniformes: Cobitidae)
+  JOURNAL   Conserv Genet Resour (2018) In press
+REFERENCE   2  (bases 1 to 1679)
+  AUTHORS   Lee,S.Y., Bang,I.C. and Nam,Y.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JUL-2017) Dept. Marine Bio-Materials & Aquaculture,
+            Pukyong National University, Nam-gu 599-1, Busan, Kyoung-Nam
+            608-737, Republic of Korea
+FEATURES             Location/Qualifiers
+     source          1..1679
+                     /organism="Misgurnus anguillicaudatus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:75329"
+     rRNA            1..1679
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 gctaaatagc tagcttaaac atcacattaa attgacaata taaataaagt agtaaaacct
+       61 aaaattatta attaaaccat ttttccacct tagtacggga gacgaaaaag gttctgtaag
+      121 caatagagaa agtaccgcaa gggaatgctg aaagagcaat gaaacaagtc atttaagcat
+      181 aaaaaagcag agactaaaac tcgtaccttt tgcatcatga tttagcaagc atacaacagg
+      241 cagagagacc tttagtctgt taccccgaaa ccaagtgagc taccccggga cagccttata
+      301 agggccaacc cgtctctgtg gcaaaagcgt gggaagagcc ccgggtagag gtgacagacc
+      361 taccgaactt ggtgatagct ggttgcttaa gaaatgaata gaagttcagc ctcgtgcccc
+      421 tttaattaaa taagtaatat ctgatttaaa aatataagag aaacatgaga gttagctgaa
+      481 gggggtacag ccccttcaat taaggataca actttaccag gaggataggg attataatta
+      541 taaagattta ttgcttcagt gggcctaaaa gcagccatct gcacagaaag cgttaaagct
+      601 caagcactac aaaatttatt atcctaataa aatatcccac tcccctaaat atattaagcc
+      661 gttccatgat atcatggaag agattatgct aaaatgagta acaagagata atatttctct
+      721 ccaagcataa gtgtaagcca gcccggataa gccgctggca attaacgaac ccaataaaag
+      781 agggcagtgt aactaataaa aaacacaaga aaattataca acccctaatc gttaacccca
+      841 cactggaatg cccaaaggaa agactaaaag gaaaggaagg aactcggcaa acacaagcct
+      901 cgcctgttta ccaaaaacat cgcctcctgc aaaactcaaa gtataggagg tccagcctgc
+      961 ccagtgacca caagttcaac ggccgcggta ttttgaccgt gcaaaggtag cgcaatcact
+     1021 tgtcttttaa atgaagacct gtatgaatgg ctaaacgagg gcttagctgt ctccctttcc
+     1081 aagtcagtga aattgatctg cccgtgcaga agcggacata aaaatacaag acgagaagac
+     1141 cctttggagc ttaaggttca agcccaaccg catcaaacaa ctttcttaat aagaactaaa
+     1201 ccttagcgga tgatggagct ttaccttcgg ttggggcgac cacggagaaa aatttatcct
+     1261 ccaagtggat tgggtaataa acctaaaact aagaaagaca tttctaagtc acagaaaatc
+     1321 tgaccaacaa tgatccggcc tataggccga tcaacggacc aagttaccct agggataaca
+     1381 gcgcaatcct ctcccagagt ccatatcgac gagggggttt acgacctcga tgttggatca
+     1441 ggacatccta atggtgcagc cgctattaag ggttcgtttg ttcaacgatt aaagtcctac
+     1501 gtgatctgag ttcagaccgg agcaatccag gtcagtttct atctgtaaat gtcacttttc
+     1561 ctagtacgaa aggaccggaa aagaaaggcc catgctaaaa gtatgcctta cccttaatta
+     1621 atgaagacaa ctaaattaaa caaatggagg accttcaatc taggcaaaga taaagccat
+//
+
+LOCUS       KY825190                1675 bp    DNA     linear   VRT 24-MAR-2026
+DEFINITION  Salminus brasiliensis mitochondrion, complete genome.
+ACCESSION   KY825190 REGION: 1088..2762
+VERSION     KY825190.1
+KEYWORDS    .
+SOURCE      mitochondrion Salminus brasiliensis (dorado)
+  ORGANISM  Salminus brasiliensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Salmininae; Salminus.
+REFERENCE   1  (bases 1 to 1675)
+  AUTHORS   Graciano,R.C.D., Oliveira,R.S., Santos,I.M. and Yazbeck,G.M.
+  TITLE     Genomic Resources for Salminus brasiliensis
+  JOURNAL   Front Genet 13, 855718 (2022)
+   PUBMED   35419039
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1675)
+  AUTHORS   Ribeiro,J.M., Oliveira,R.S., Carmo,F.M.S. and Yazbeck,G.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-MAR-2017) Departamento de Ciencia da computacao,
+            Universidade Federal de Sao Joao del Rei, Pca. Frei Orlando, 170,
+            Sao Joao Del-Rei, MG 36307-352, Brasil
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Mitobim v. 1.8; Mira v. 4.0.2
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1675
+                     /organism="Salminus brasiliensis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:930266"
+     rRNA            1..1675
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 gctaaatagc tagctcactc aaccaaaatg aaccagataa tatatctaat ttttcccaac
+       61 ccaaacccaa taaactaaaa cattttaccg tcctagtata ggcgatagaa aagaaactac
+      121 cgaagcaata gaaatagtac cgcaagggaa agctgaaaaa gtaatgaaat aacccgttaa
+      181 agcactaaaa agcagagatt tatcctcgta ccttttgcat catgatttag ctagcacctt
+      241 tgagcaaaaa gaattttagt tcaaaacccc gaaaccaagt gagctacccc gagacagcct
+      301 attatagggc caacccgtct ctgtggcaaa agagtgggaa gatctccggg tagcagtgat
+      361 aaacttaccg aacttggtga tagctggtta cttgggaaat ggatagaagt tcagcctcgt
+      421 tctcctcgca ccaaaaaagc aacgctgcac aatggagtag agtaaaatac gagagttagt
+      481 caaagggggt acagcccctt tgaacaggat acaacctgcc caggaggtta aggatcatat
+      541 taactaaaat aactgcttta gtgggcctag aagcagccac ctattagaaa gcgttaaagc
+      601 tcaagcagat aacaacattt attattctga taatatattt cctaaacccc taaccctacc
+      661 aagttattcc atgccaccat ggaagcaata ctgctaaaat gagtaacaag aagacaccct
+      721 cttctcctag cccacgtgta agttagatcg gaccaaccac taacaattaa cgaatccaac
+      781 ccaagaggaa actgtgcata aataatgaaa acaagaaata cccacacacc cctcatcgtt
+      841 aaccctacac tggagagccg ataggaaaga cttaaagaaa aagaaggaac tcggcaaatc
+      901 taagcctcgc ctgtttacca aaaacatcgc ctcccgcaaa taccgaagta taggaggtcc
+      961 tacctgccca gtgattatat tcaacggccg cggtatcctg accgtgctaa ggtagcgaaa
+     1021 tcacttgtct tttaaatgaa gacctgtatg aatggtggaa cgagggctta actgtctcct
+     1081 ttttcaggtc agtgaaattg atctgcccgt gcagaagcgg acatatacat gcaagacgag
+     1141 aagacccttt ggagcttaag acttaagagt caactgcgtt aagaattttg actaaaaaaa
+     1201 ttaagattaa ccaccactga ctctgcgcct tcggttgggg cgaccgcggg ggaaacaaag
+     1261 cccccacgca gaatgggata acccttaaac taagagagac atctctaagt cacagaacct
+     1321 ctgacttaat gatccggcac aaaccgatca acgaaccaag ttaccctagg gataacagcg
+     1381 caatcccctt caagagcccg tatcaacaag ggggtttacg acctcgatgt tggatcagga
+     1441 catcctaatg gtgcagccgc tattaagggt tcgtttgttc aacgattaaa gtcctacgtg
+     1501 atctgagttc agaccggagc aatccaggtc agtttctatc tgtatcacta tttttcctag
+     1561 tacgaaagga ccggaaaaat gaggcccatg ccacaggcac gcctcctatt aacttgatga
+     1621 aaacaactca atcaagtaat aataggtacc tctctccccg agagaaggga gcgca
+//
+
+LOCUS       KU291530                1680 bp    DNA     linear   VRT 08-FEB-2017
+DEFINITION  Pseudoplatystoma reticulatum mitochondrion, complete genome.
+ACCESSION   KU291530 REGION: 1103..2782
+VERSION     KU291530.1
+KEYWORDS    .
+SOURCE      mitochondrion Pseudoplatystoma reticulatum
+  ORGANISM  Pseudoplatystoma reticulatum
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Siluriformes;
+            Pimelodidae; Pseudoplatystoma.
+REFERENCE   1  (bases 1 to 1680)
+  AUTHORS   Villela,L.C., Alves,A.L., Varela,E.S., Yamagishi,M.E.,
+            Giachetto,P.F., da Silva,N.M., Ponzetto,J.M., Paiva,S.R. and
+            Caetano,A.R.
+  TITLE     Complete mitochondrial genome from South American catfish
+            Pseudoplatystoma reticulatum (Eigenmann & Eigenmann) and its impact
+            in Siluriformes phylogenetic tree
+  JOURNAL   Genetica (2017) In press
+   PUBMED   28160169
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1680)
+  AUTHORS   Villela,L.C.V., Alves,A.L., Varella,E.S., Yamagishi,M.E.B.,
+            Giachetto,P.F., Silva,N.M.A., Ponzetto,J.M., Paiva,S.R. and
+            Caetano,A.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-DEC-2015) Pesquisa E Desenvolvimento, Embrapa Pesca e
+            Aquicultura, Prolongamento da Avenida NS 10, Cruzamento com a
+            Avenida LO 18, Sentido Norte, loteamento Agua Fria, Palmas, TO
+            77008-900, Brazil
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Trinity v. trinityrnaseq_r20140717
+            Assembly Name         :: Cachara mitogenome
+            Coverage              :: 39.95
+            Sequencing Technology :: Illumina; Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1680
+                     /organism="Pseudoplatystoma reticulatum"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:594006"
+                     /tissue_type="gills; gonad; kidney; liver; pituitary
+                     gland; red muscle; white muscle"
+     rRNA            1..1680
+                     /product="16S ribosomal RNA"
+     variation       861
+                     /replace="c"
+     variation       1042
+                     /replace="a"
+     variation       1190
+                     /replace="g"
+     variation       1284
+                     /replace="g"
+     variation       1335
+                     /replace="c"
+ORIGIN      
+        1 gctaaacagc tagcttaacc acctaaataa tcaacacaac attaaaacat ttaacaccga
+       61 ccccaaccca ttaaaccaaa acattctacc gccttagtat gggagacaga aaaggcccac
+      121 ccataaagca ataacaaaag taccgcaagg gaacgctgaa agagaaatga aataaatcat
+      181 taaagcacaa taaagcagag attaaccctc gtaccttttg catcatgatt tagctagtat
+      241 tattgagcaa agagcacttt agttcaaacc cccgaaacta agtgagctac cccgggacag
+      301 cctatgaatt agggccaacc cgtctctgtg gcaaaagagt gggaagatcc ccgggtagag
+      361 gtgacagacc taccgaactt agttatagct ggttgcctaa gaaatgaata gaagttcagc
+      421 ctgcactcct caactcacag atacattaaa aatacgagcc agagcaacat gcaagagtta
+      481 atcaaaggag gtacagctcc tctgaaacag gacacaacct taccaggagg ttaaagatta
+      541 tattaaccaa gatacaccgc ttcagtgggc ctaaaagcag ccacccaaat agaaagcgtt
+      601 aaagctcaag cggattaaaa atctattatt caaatactta atctaaaacc cctaactata
+      661 ttaggccgcc ctatgcacac ataggagaga cgctgctaaa atgagtaata agaaggaacc
+      721 cccttctccc cagcctacgt gtacgctaga tcgaactctc actagcaatt atcgaaccca
+      781 ataaaagagg gcaatgtgtt tacctcagac atcaagaaaa ccccacacaa cccaatcgtt
+      841 aaccccacac tggaaggcct taataacgga ggaaagacta aaagaaaagg aaggaactcg
+      901 gcaaacataa gcctcgcctg tttaccaaaa acatcgcctc ctgcaaaaat caatgtatag
+      961 gaggtcttgc ctgcccagtg acaagtttaa cggccgcggt attttgaccg tgcaaaggta
+     1021 gcgcaatcac ttgtctttta attgaagacc tgtatgaatg gtggaacgag ggcttaactg
+     1081 tctccccttt caagtcaatg aaattgatct gcccgtgcag aagcggacat ataaatacaa
+     1141 gacgagaaga ccctttggag ctttagatac aagatcacct atgtcaagga ccataaactc
+     1201 aagtcaaact aaatagcaac ctgatcctaa tcttttgttg gggcgaccgc gggaaaaaac
+     1261 aaagctccca cgaggactgg ggtaacaacc ccaaaaccaa gaaagacatc tctaagtcac
+     1321 agaatatctg accataaaga tccggctaca cgccgaccaa cggaccaagt taccctaggg
+     1381 ataacagcgc aatccccttc cagagtccat atcgacaagg gggtttacga cctcgatgtt
+     1441 ggatcaggac atcctaatgg tgcagccgct attaagggtt cgtttgttca acgattaaag
+     1501 tcctacgtga tctgagttca gaccggagta atccaggtca gtttctatct gtaatgctac
+     1561 tcttcccagt acgaaaggac cggaaaagaa gggcccatgt taaaaatacg ccctacccca
+     1621 acttaatgac accaactaaa ttaaacaaag ggagagcaca accccaatca agataagatt
+//
+
+LOCUS       AB898687                1672 bp    DNA     linear   VRT 26-DEC-2013
+DEFINITION  Poecilia reticulata mitochondrial DNA, complete genome.
+ACCESSION   AB898687 REGION: 1085..2756
+VERSION     AB898687.1
+KEYWORDS    .
+SOURCE      mitochondrion Poecilia reticulata (guppy)
+  ORGANISM  Poecilia reticulata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Atherinomorphae; Cyprinodontiformes;
+            Poeciliidae; Poeciliinae; Poecilia.
+REFERENCE   1
+  AUTHORS   Kong,X.F., Li,J.T. and Wen,S.X.
+  TITLE     Complete mitochondrial genome of Japanese guppy, Poecilia
+            reticulata
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1672)
+  AUTHORS   Wen,S.X., Kong,X.F. and Li,J.T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-DEC-2013) Contact:Sun Xiao Wen Chinese Academy of
+            Fishery Sciences, The Centre for Applied Aquatic Genomics; No.150,
+            QingTa Village, YongDing Road, FengTai District, Beijing City,
+            Beijing, Beijing 100041, China URL :http://genomics.cafs.ac.cn/
+FEATURES             Location/Qualifiers
+     source          1..1672
+                     /organism="Poecilia reticulata"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:8081"
+     rRNA            1..1672
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 aacccaacag ctagcctcca cttctaacac aacataaatt tataacctcc cccttcaacc
+       61 ccttccaatc aaaccatttt tccacctaag taaaggcgat agaaaaggac aaaagagagc
+      121 tacagaaatt gtaccgcaag ggaaagctga aaaaaaatga aagaaatcag taaagtaata
+      181 aaaagcagag actagccctc gtaccttttg catcatgatt tagcaagtcc ccccaagcaa
+      241 aaagactttt agtttgcccc cccgaaacta gacgagctac ttcaaggcag cctaataaat
+      301 agggccaacc cgtctctgta gcaaaagagt gggaagacct tcgagtagag gtgacagacc
+      361 taccgagcct agctatagct ggttgcctgg aaactaaata gaagtttagc ctctatttat
+      421 ctcctgccca aacgtctatc acaaacatag gtccagagat ccttagagag ttattaaaaa
+      481 ggggtacagc cctttttaac aaagacacaa ctttacagag cggataataa tcataaataa
+      541 attaggtagg cgcctaggtg ggcctaaaag cagccaccct taaagaaagc gttaaagctc
+      601 cgacgcatcc taacacccgt aataccgaca ataaaactac actccctcaa cactaccagg
+      661 ccattctatt aattaataga agagattatg ctaaaatgag taatcagaga atgcacttct
+      721 ctccccgcac acgtgtaaac cggatcggac aacccaccgg aaattaacgg ccccaaacca
+      781 agagggtatt aagaactaaa aaaacaacaa gaaagcccct taaacttcaa cccgttttcc
+      841 ccacactgga gtgccccacg ggaaagacta aaaggggaag aaggaactcg gcaaaaaata
+      901 tcctaagcct cgcctgttta ccaaaaacat cgcctcttga acctctataa gaggtcccgc
+      961 ctgccctgtg acttaagttt aacggccgcg gtatcttgac cgtgcaaagg tagcgtaatc
+     1021 acttgtcttt taaatgaaga cccgtatgaa tggcaaaacg agggcttaac tgtctcctcc
+     1081 ccccggtcaa tgaaattgat ctccccgtgc agaagcgggg atagttacat aagacgagaa
+     1141 gaccctatgg agctttagac acatcgacag atcatgtaaa tacccttaat aaaaagacaa
+     1201 aaccaaatga accctgtcgt aatgtctttg gttggggcga ccccgggaaa ataaaaaacc
+     1261 cccgaacgga atgaagaaat ttaaacttca taaacaagag ccacagctca caaaatcaga
+     1321 acttctgacc caaagatccg atataatcga tcaacggacc gagttaccct agggataaca
+     1381 gcgcaatcct ctttaagagc ccctatcgac aagagggttt acgacctcga tgttggatca
+     1441 ggacatccta atggtgcagc cgctattaag gggtcgtttg ttcacgatta aagtcctacg
+     1501 tgatctgagt tcagaccgga gtaatccagg tcagtttcta tctatgacat gttttctttc
+     1561 agtacgaaag gatcaaagaa aaaaggccca tgcttaaagt aagccttacc ccaacctaat
+     1621 gaaaacaaat caattaggta aaaggcatat cttccaaacc ggagataacg ac
+//
+
+LOCUS       KJ502112                1678 bp    DNA     linear   VRT 31-MAR-2015
+DEFINITION  Pseudoplatystoma corruscans mitochondrion, complete genome.
+ACCESSION   KJ502112 REGION: 666..2343
+VERSION     KJ502112.1
+KEYWORDS    .
+SOURCE      mitochondrion Pseudoplatystoma corruscans (spotted shovelnose)
+  ORGANISM  Pseudoplatystoma corruscans
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Siluriformes;
+            Pimelodidae; Pseudoplatystoma.
+REFERENCE   1  (bases 1 to 1678)
+  AUTHORS   Perini,V.R., Carvalho,D.C., Furtado,C. and Prosdocimi,F.
+  TITLE     The complete mitochondrial genome of the surubim Pseudoplatystoma
+            corruscans (Siluriformes: Pimelodidae)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1678)
+  AUTHORS   Perini,V.R., Carvalho,D.C., Furtado,C. and Prosdocimi,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-FEB-2014) Bioquimica Medica Leopoldo de Meis,
+            Universidade Federal do Rio de Janeiro, Centro de Ciencias da
+            Saude, Bloco E, Sala 22, Rio de Janeiro 21941902, Brazil
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SOAP-denovo-trans v. 31mer; MIRA v. 3.4;
+                                     MITOBIN v. 1.6
+            Assembly Name         :: P_corruscans_mitogenome
+            Coverage              :: 809.02
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1678
+                     /organism="Pseudoplatystoma corruscans"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:309911"
+     rRNA            1..1678
+                     /product="16S ribosomal RNA"
+     tRNA            1677..>1678
+                     /product="tRNA-Leu"
+ORIGIN      
+        1 gctaaacagc tagcttaacc acctaaataa ccaacacaac attaaaacat ttaacaccaa
+       61 ctccaacccg tcaaaccaaa acattctacc gccttagtat gggagacaga aaaggcacac
+      121 cccaaagcaa taacaaaagt accgcaaggg aacgctgaaa gagaaatgaa ataaatcatt
+      181 aaagcataat aaagcagaga ttaaccctcg taccttttgc atcatgattt agctagtatt
+      241 attgagcaaa gagcacttta gttcaaaccc ccgaaactaa gtgagctacc ccgggacagc
+      301 ctatgaatta gggccaaccc gtctctgtgg caaaagagtg ggaagatccc cgggtagagg
+      361 tgacagacct accgaactta gttatagctg gttgcctaag aaatgaatag aagttcagcc
+      421 tgcactcctc aactcagata tattaaaaac acgagccaga gcaacatgca agagttaatc
+      481 aaaggaggta cagctcctct gaaacaggac acaaccttac caggaggtta aagattatat
+      541 taaccaagat acaccgcttc agtgggccta aaagcagcca cccaaataga aagcgttaaa
+      601 gctcaagcgg attaaaaatc tattattcaa atactcaatc tcaaacccct aaccatatta
+      661 ggccgcccta tgcacacata ggagagacgc tgctaaaatg agtaataaga aggaaccccc
+      721 ttctccccag cctacgtgta cgctagatcg aactctcact agcaattatc gaacccaata
+      781 aaagagggca atgtgtttac ttcagacatc aagaaaaccc cacacaaccc aatcgttaac
+      841 cccacactgg aaggccttaa aacggaggaa agactaaaag aaaaggaagg aactcggcaa
+      901 acataagcct cgcctgttta ccaaaaacat cgcctcctgc aaaaatcaat gtataggagg
+      961 tcttgcctgc ccagtgacaa gtttaacggc cgcggtattt tgaccgtgca aaggtagcgc
+     1021 aatcacttgt cttttaaatg aagacctgta tgaatggtgg aacgagggct taactgtctc
+     1081 ccctttcaag tcaatgaaat tgatctgccc gtgcagaagc ggacatataa atacaagacg
+     1141 agaagaccct ttggagcttt agatacaaga tcacctatgt caaggaccat aaattcaagt
+     1201 caaactaaat agcaacctga tcctaatctt ttgttggggc gaccgcggga aaaaacaaag
+     1261 ctcccacgag gactggggca acaaccccaa aaccaagaaa gacatctcta agtcacagaa
+     1321 catctgacca taaagatccg gctatacgcc gaccaacgga ccaagttacc ctagggataa
+     1381 cagcgcaatc cccttccaga gtccatatcg acaagggggt ttacgacctc gatgttggat
+     1441 caggacatcc taatggtgca gccgctatta agggttcgtt tgttcaacga ttaaagtcct
+     1501 acgtgatctg agttcagacc ggagtaatcc aggtcagttt ctatctgtaa tgctactctt
+     1561 cccagtacga aaggaccgga aaagaagggc ccatgttaca aacacgccct accccaactt
+     1621 aatgacacca actaaattaa acaaagggaa agcataaccc caatcaagat aagattat
+//
+
+LOCUS       AP004439                1662 bp    DNA     linear   VRT 24-JUL-2016
+DEFINITION  Synbranchus marmoratus mitochondrial DNA, complete genome except
+            for ND1 gene.
+ACCESSION   AP004439 REGION: 13827..15488
+VERSION     AP004439.1
+KEYWORDS    .
+SOURCE      mitochondrion Synbranchus marmoratus (marbled swamp eel)
+  ORGANISM  Synbranchus marmoratus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Anabantaria; Synbranchiformes; Synbranchidae;
+            Synbranchus.
+REFERENCE   1
+  AUTHORS   Miya,M., Takeshima,H., Endo,H., Ishiguro,N.B., Inoue,J.G.,
+            Mukai,T., Satoh,T.P., Yamaguchi,M., Kawaguchi,A., Mabuchi,K.,
+            Shirai,S.M. and Nishida,M.
+  TITLE     Major patterns of higher teleostean phylogenies: a new perspective
+            based on 100 complete mitochondrial DNA sequences
+  JOURNAL   Mol. Phylogenet. Evol. 26 (1), 121-138 (2003)
+   PUBMED   12470944
+REFERENCE   2  (bases 1 to 1662)
+  AUTHORS   Miya,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-DEC-2001) Masaki Miya, Natural History Museum &
+            Institute, Chiba, Department of Zoology; 955-2 Aoba-cho, Chuo-ku,
+            Chiba, Chiba 260-8682, Japan (E-mail:miya@chiba-muse.or.jp,
+            Tel:81-43-265-3111(ex.257), Fax:81-43-266-2481)
+FEATURES             Location/Qualifiers
+     source          1..1662
+                     /organism="Synbranchus marmoratus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:181452"
+     rRNA            1..1662
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 taccaaacag ctagcagccc taaaaacaca acaaaccacc ataactaaac ccaaatacac
+       61 taaccataac aaaacaaaat atttaacctc caagtatgga agacagaaaa gactatatac
+      121 gcaatagaga aagtaccgca agggaacgct gaaaaagaaa tgaaaaaaat cagttaagtt
+      181 aaaaaaagca gagattatac ctcgtacctt ttgcatcatg atttagcaag ccccctcaag
+      241 caaaacgtcc tttaagtttg acaccccgaa actacgtgag ctactccaag acagtctaca
+      301 acaggaccaa cccgtctctg tggcaaaaga gtgggaagag ctttgagtag aggtgataaa
+      361 cctaccgaac ctagttatag ctggttacct gaaaattgaa tttaagttca gcctcccaaa
+      421 ttctccatac aacacaccac cttagttaac aaagaacttt gagagagtta cttaaagggg
+      481 gaacagctcc tttaagacaa gatacaactt ttaccagaag gatacggctc attatatcta
+      541 aaggcatttt atacctgtgg gcttaaaagc agccatccta acagaaagcg tcaaagctcg
+      601 tataacacaa tcaacctatt atcctgataa ttatacccca atcctctaac cctaccaggt
+      661 cttctcatgc atacatgaga gcgattctgc taatatgagt aataagagag ctacgcctct
+      721 ctccagacac taacgtacat caaaacgaac ccacatcgaa aattaatggc cccaaacaaa
+      781 gagagccctg ataaacctaa acagataact agaaaactaa tcaacataca ccattaactc
+      841 tacacttagt gtaataaagg aaagactaaa ataaagagaa gggaattcag caaacatagg
+      901 ctccgcctgt ttaccaaaaa catcgcctct tgcccccccc caatataaga ggtcccacct
+      961 gccccctgac tatatgttca acggccacgg tatcctaacc gtgcaaaggt agcgcaatca
+     1021 tttgtcttct aattaaagac ctgtatgaac ggcataacga gagcttacct gtctcctctt
+     1081 taaagtcaat aaaattgatc tccccgtgca gaagcgagga taaacacata agacgagaag
+     1141 accctgtgga gctttaggca ctaaaataat gtacacatta cacaaacatt catcttattt
+     1201 caatgccttc ggttggggcg accaaggaga attaaccaac ccccacgtgg aatagaagta
+     1261 ctccttctca aaccaagagt tacaactcta accaatagaa cttctaacca ttcaacacaa
+     1321 gacccggcaa cgccgatcta cgaactaagt taccccaggg ataacagcgc aatccccttt
+     1381 aagagcccat atcgacaagg gggtttacga cctcgatgtt ggatcaggac accccaatgg
+     1441 tgcatccgtt attaaaggtt cgtttgttca acgattaaag tcctacgtga tctgagttca
+     1501 gaccggagta atccaggtca gtttctatct atgttatact tttttctagt acgaaaggac
+     1561 cgaaaaaaga gggcccatac ctaaagcaag ccctaccccc aacccctgaa acaaactaaa
+     1621 gcggtataag gatatatccc tacaaaccca agagattggt at
+//
+
+LOCUS       JF898645                1649 bp    DNA     linear   VRT 24-SEP-2020
+DEFINITION  Steindachneridion scriptum voucher MZUSP 78463 12S ribosomal RNA
+            gene, partial sequence; tRNA-Val gene, complete sequence; and 16S
+            ribosomal RNA gene, partial sequence; mitochondrial.
+ACCESSION   JF898645 REGION: 1013..2661
+VERSION     JF898645.1
+KEYWORDS    .
+SOURCE      mitochondrion Steindachneridion scriptum
+  ORGANISM  Steindachneridion scriptum
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Siluriformes;
+            Pimelodidae; Steindachneridion.
+REFERENCE   1  (bases 1 to 1649)
+  AUTHORS   Lundberg,J.G., Sullivan,J.P. and Hardman,M.
+  TITLE     Phylogenetics of the South American catfish family Pimelodidae
+            (Teleostei: Siluriformes) using nuclear and mitochondrial gene
+            sequences
+  JOURNAL   Proc. Acad. Nat. Sci. Philadelphia 161, 153-189 (2011)
+REFERENCE   2  (bases 1 to 1649)
+  AUTHORS   Lundberg,J.G. and Sullivan,J.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-MAR-2011) Ichthyology, The Academy of Natural
+            Sciences, 1900 Benjamin Franklin Parkway, Philadelphia, PA 19103,
+            USA
+FEATURES             Location/Qualifiers
+     source          1..1649
+                     /organism="Steindachneridion scriptum"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="MZUSP 78463"
+                     /db_xref="taxon:380998"
+     rRNA            1..>1649
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 gctaaacagc tagcttaacc acgttaaata actaacacaa tattaaaaaa tttaacataa
+       61 actacaacct gtttaaacca aaacattcta ccgccccagt atgggagaca gaaaaggcac
+      121 aacccaaagc aataacaaaa gtaccgcaag ggaatactga aaaagaaatg aaataaatca
+      181 ttaaagcaca acaaagcaga gattaatcct cgtacctttt gcatcatgat ttagccagta
+      241 ccctcgagca aagagtacta tagttcaaaa ccccgaaact aagtgagcta ccccgggaca
+      301 gcctataaat tagggccaac ccgtctctgt ggcaaaagag tgggaagatc cccgggtaga
+      361 ggtgacaaac ctaccgaact tagttatagc tggttgccta agaaatggat agaagttcag
+      421 cctgcactcc tcaactcaca taaacattaa aacatacgag tcagagtaac atgcaagagt
+      481 taatcagagg aggtacagct cctctgaaac aggacacaac cttaccagga ggttaaagat
+      541 tatattaatc aagacatacc gcttcagtgg gcctaaaagc agccacccaa tcagaaagcg
+      601 ttaaagctca agcggaccaa aaatctatta ttcaaatatt taatcttaaa cccctaacta
+      661 tattaggcca tcctatgtat acataggaga gacgctgcta aaatgagtaa taagaaggaa
+      721 cccccttctc cccagcctac gtgtacgcta gatcgaaccc ccactagcaa ttaccgaacc
+      781 caataaaaga gggcaatgtg ttttcatcaa acatcaagaa aaccccacat aaccaaatcg
+      841 ttaaccccac actggaaggc ctaaacatag ggaaagacta aaagaaaagg aaggaactcg
+      901 gcaaacacaa gcctcgcctg tttaccaaaa acatcgcctc ctgcaaaaat caatatatag
+      961 gaggtcttgc ctgcccagtg ataagtttta acggccgcgg tattttgacc gtgcaaaggt
+     1021 agcgcaatca cttgtctttt aaatgaagac ctgtatgaat ggtggaacga gggcttaact
+     1081 gtctcccctt tcaagtcaat gaaattgatc tgcccgtgca gaagcggaca tatatataca
+     1141 agacgagaag accctttgga gctttagata caagatcacc tatgtcaaga actacaaatc
+     1201 aagttaaact aaatagtaac ctgatcctaa tcttttgttg gggcgaccgc gggaaaaaac
+     1261 aaaactccca cgaggatagg ggaaacaacc ctagaaccaa gaaagacatc tctaagtcac
+     1321 agaatatctg accataaaga tccggccatc cgccgaccaa cggaccaagt taccctaggg
+     1381 ataacagcgc aatccccttc cagagtccat atcgacaagg gggtttacga cctcgatgtt
+     1441 ggatcaggac atcctaatgg tgcagccgct attaagggtt cgtttgttca acgattaaag
+     1501 tcctacgtga tctgagttca gaccggagta atccaggtca gtttctatct gtaacgctac
+     1561 tcttcccagt acgaaaggac cggaaaagaa gggcccatat tataaatacg ccctacccca
+     1621 attcaatgac atcaactaaa ttaaacaaa
+//
+
+LOCUS       JF898657                1645 bp    DNA     linear   VRT 24-SEP-2020
+DEFINITION  Pseudoplatystoma corruscans voucher MZUSP uncat. skel. 12S
+            ribosomal RNA gene, partial sequence; tRNA-Val gene, complete
+            sequence; and 16S ribosomal RNA gene, partial sequence;
+            mitochondrial.
+ACCESSION   JF898657 REGION: 1017..2661
+VERSION     JF898657.1
+KEYWORDS    .
+SOURCE      mitochondrion Pseudoplatystoma corruscans (spotted shovelnose)
+  ORGANISM  Pseudoplatystoma corruscans
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Siluriformes;
+            Pimelodidae; Pseudoplatystoma.
+REFERENCE   1  (bases 1 to 1645)
+  AUTHORS   Lundberg,J.G., Sullivan,J.P. and Hardman,M.
+  TITLE     Phylogenetics of the South American catfish family Pimelodidae
+            (Teleostei: Siluriformes) using nuclear and mitochondrial gene
+            sequences
+  JOURNAL   Proc. Acad. Nat. Sci. Philadelphia 161, 153-189 (2011)
+REFERENCE   2  (bases 1 to 1645)
+  AUTHORS   Lundberg,J.G. and Sullivan,J.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-MAR-2011) Ichthyology, The Academy of Natural
+            Sciences, 1900 Benjamin Franklin Parkway, Philadelphia, PA 19103,
+            USA
+FEATURES             Location/Qualifiers
+     source          1..1645
+                     /organism="Pseudoplatystoma corruscans"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="MZUSP uncat. skel."
+                     /db_xref="taxon:309911"
+     rRNA            1..>1645
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 gctaaacagc tagcttaacc acctaaataa ccaacacaac attaaaacat ttaacaccaa
+       61 ctccaacccg tcaaaccaaa acattctacc gccttagtat gggagacaga aaaggcacac
+      121 cccaaagcaa taacaaaagt accgcaaggg aacgctgaaa gagaaatgaa ataaatcatt
+      181 aaagcataat aaagcagaga ttaaccctcg taccttttgc atcatgattt agctagtatt
+      241 attgagcaaa gagcacttta gttcaaaccc ccgaaactaa gtgagctacc ccgggacagc
+      301 ctatgaatta gggccaaccc gtctctgtgg caaaagagtg ggaagatccc cgggtagagg
+      361 tgacagacct accgaactta gttatagctg gttgcctaag aaatgaatag aagttcagcc
+      421 tgcactcctc aactcaaata tattaaaaac acgagccaga gcaacatgca agagttaatc
+      481 aaaggaggta cagctcctct gaaacaggac acaaccttac caggaggtta aagattatat
+      541 taaccaagat acaccgcttc agtgggccta aaagcagcca cccaaataga aagcgttaaa
+      601 gctcaagcgg attaaaaatc tattattcaa atactcaatc tcaaacccct aaccatatta
+      661 ggccgcccta tgcacacata ggagagacgc tgctaaaatg agtaataaga aggaaccccc
+      721 ttctccccag cctacgtgta cgctagatcg aactctcact agcaattatc gaacccaata
+      781 aaagagggca atgtgtttac ttcagacatc aagaaaaccc cacacaaccc aatcgttaac
+      841 cccacactgg aaggccttaa aacggaggaa agactaaaag aaaaggaagg aactcggcaa
+      901 acataagcct cgcctgttta ccaaaaacat cgcctcctgc aaaaatcaat gtataggagg
+      961 tcttgcctgc ccagtgacaa gtttaacggc cgcggtattt tgaccgtgca aaggtagcgc
+     1021 aatcacttgt cttttaaatg aagacctgta tgaatggtgg aacgagggct taactgtctc
+     1081 ccctttcaag tcaatgaaat tgatctgccc gtgcagaagc ggacatataa atacaagacg
+     1141 agaagaccct ttggagcttt agatacaaga tcacctatgt caaggaccat aaattcaagt
+     1201 caaactaaat agcaacctga tcctaatctt ttgttggggc gaccgcggga aaaaacaaag
+     1261 ctcccacgag gactggggca acaaccccaa aaccaagaaa gacatctcta agtcacagaa
+     1321 catctgacca taaagatccg gctatacgcc gaccaacgga ccaagttacc ctagggataa
+     1381 cagcgcaatc cccttccaga gtccatatcg acaagggggt ttacgacctc gatgttggat
+     1441 caggacatcc taatggtgca gccgctatta agggttcgtt tgttcaacga ttaaagtcct
+     1501 acgtgatctg agttcagacc ggagtaatcc aggtcagttt ctatctgtaa tgctactctt
+     1561 cccagtacga aaggaccgga aaagaagggc ccatgttaca aacacgccct accccaactt
+     1621 aatgacacca actaaattaa acaaa
+//
+
+LOCUS       KM245046                1688 bp    DNA     linear   VRT 21-SEP-2014
+DEFINITION  Piaractus mesopotamicus mitochondrion, complete genome.
+ACCESSION   KM245046 REGION: 1094..2781
+VERSION     KM245046.1
+KEYWORDS    .
+SOURCE      mitochondrion Piaractus mesopotamicus (pacu)
+  ORGANISM  Piaractus mesopotamicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Piaractus.
+REFERENCE   1  (bases 1 to 1688)
+  AUTHORS   Pimentel,J.S.M., Carmo,A.O., Maciel,D.C.L. and Kalapothakis,E.
+  TITLE     Complete mitochondrial genome of Piaractus mesopotamicus
+            (Characiformes, Serrasalmidae)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1688)
+  AUTHORS   Pimentel,J.S.M., Carmo,A.O., Maciel,D.C.L. and Kalapothakis,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-JUL-2014) Biologia Geral, Universidade Federal de
+            Minas Gerais, Avenida Antonio Carlos, 6627, Belo Horizonte, Minas
+            Gerais 31270-901, Brasil
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Mira v. 4.0
+            Coverage              :: 597
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1688
+                     /organism="Piaractus mesopotamicus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:42528"
+     rRNA            1..1688
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 gctaaatagc tagctcgacc accaagacta aaatcacacc atccataacc ttatttaaac
+       61 ctaaacaacc aaactaaacc attctcctgc cttagtacgg gcgacggaaa aggcacttac
+      121 tagaagcaat agaaaaagta ccgcaaggga aagctgaaag agaggtgaaa cagcccatca
+      181 aagcctaaaa aagcagagac taaccctcgt accttttgca tcatgattta gctagtatcc
+      241 ttgagcaaag agaactttag ttcaaacccc cgaaaccaag tgagctaccc cgagacagcc
+      301 tacatcaggg ccaacccgtc tctgtggcaa aagagtggga agatctccgg gtagcggtga
+      361 cagacctacc gaacttggtg atagctggtt gcctaagaaa tggatagaag ttcagcctcg
+      421 tactcctcaa ctcatataag taccactaca cacgaaactg agaaatatac gagagttagt
+      481 caaagggggt acagcccctt tgaaccagga cacaacctta cataaggagg ttaaggatca
+      541 tatttaataa gactactgct ccagtgggcc taaaagcagc cacctgaata gaaagcgtta
+      601 aagctcaggc agaacaataa atctattatt ctgataactc atcccaaacc cctccaaata
+      661 ctaggccatt ccatgccaac atggaagaga ccctgctaaa atgagtaata agaaggaacc
+      721 cccttctccc gatccacgtg taagctagac cggaccaacc actaacaatt aacgaaccca
+      781 acacaagagg gcaacgtgat tataaacaaa caacaagaaa acaccacatc acacccaatc
+      841 gttaacccca cactggagga ccaaagggaa agactaaaag aaaaagaagg aactcggcaa
+      901 acacaagcct cgcctgttta ccaaaaacat cgcctcctgc ataataactc aacgtatagg
+      961 aggtcctgcc tgcccagtga caactagtta aacggccgcg gtattttgac cgtgctaagg
+     1021 tagcgcaatc acttgtcttt taaatgagga cctgtatgaa tggcggaacg agggcttaac
+     1081 tgtctccttt tcctagtcaa tgaaattgat ctacccgtgc agaagcgggt atactaatac
+     1141 aagacgagaa gaccctttgg agcttaagat aaaaggccaa ctatgtcaaa ggcccaaata
+     1201 aaactaagcc aaacaaaaca gccaactggc caatatcttc ggttggggcg accgcggggg
+     1261 aaaacaaagc ccccacgtgg aacggggaat ataccctaaa accaagagag acatctctaa
+     1321 gtcacagaac atctgaccaa aagatccggc caaccaagcc gatcaacgga ccaagttacc
+     1381 ctagggataa cagcgcaatc ccctccaaga gttcatatcg acaagggggt ttacgacctc
+     1441 gatgttggat caggacatcc taatggtgca gccgctatta agggttcgtt tgttcaacga
+     1501 ttaaagtcct acgtgatctg agttcagacc ggagcaatcc aggtcagttt ctatctgtaa
+     1561 agctactttt cctagtacga aaggaccgga aaaatgaggc ccatgctaca agtacgcctc
+     1621 cctccaactt aatgaaacca actaaattaa ataaaggaag agcaacccag cccccaagat
+     1681 aagggact
+//
+
+LOCUS       KM245045                1679 bp    DNA     linear   VRT 21-SEP-2014
+DEFINITION  Prochilodus lineatus mitochondrion, complete genome.
+ACCESSION   KM245045 REGION: 1093..2771
+VERSION     KM245045.1
+KEYWORDS    .
+SOURCE      mitochondrion Prochilodus lineatus (curimbata)
+  ORGANISM  Prochilodus lineatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Prochilodus.
+REFERENCE   1  (bases 1 to 1679)
+  AUTHORS   Carmo,A.O., Brandao-Dias,P.F.P., Martins,A.P.V., Bedore,A.G. and
+            Kalapothakis,E.
+  TITLE     Complete mitochondrial genome of Prochilodus lineatus
+            (Characiformes, Prochilodontidae)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1679)
+  AUTHORS   Carmo,A.O., Brandao-Dias,P.F.P., Martins,A.P.V., Bedore,A.G. and
+            Kalapothakis,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-JUL-2014) Biologia Geral, Universidade Federal de
+            Minas Gerais, Avenida Antonio Carlos, 6627, Belo Horizonte, Minas
+            Gerais 31270-901, Brasil
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Mira v. 4.0
+            Coverage              :: 296
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1679
+                     /organism="Prochilodus lineatus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:27695"
+     rRNA            1..1679
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 gccaaacagc tagcttaaaa accaaaacaa aaccaacaac atatattatt ttacttaacc
+       61 ccaattaact aaactaaatc attcttccgc cttagtacgg gcgacggaaa aggcacttat
+      121 aaagcaatag acaaagtacc gcaagggaaa gctgaaagag aaatgaaaca aaccattcaa
+      181 gccctaaaaa gcagagacta actctcgtac cttttgcatc atgatttagc cagtaaacct
+      241 gagcaaagag aactttagtt caaaaccccg aaaccaagtg agctaccccg agacagccta
+      301 ttttagggcc aacccgtctc tgtggcaaaa gagtgggaag atctccaggt agcggtgaca
+      361 gacctaccga acttggtgat agctggttgc ctaggaaatg gatagaagtt cagcctcgta
+      421 ctcctcaact catacttata ctatttattt acgagaccga gaaatatacg agagttagtc
+      481 aaaggaggta cagctcctct gaaccaggac acaacctgcc caggaggtta aggatcacac
+      541 tcaataagat tactgctcca gtgggcctaa aagcagccac ctgcacagaa agcgttaaag
+      601 ctcaggcaga actctaaatc aattatcctg ataattatat cctaaacccc tccccctact
+      661 aggccattcc atgctaacat ggaagagacc ctgctaaaat gagtaataag aaggcacccc
+      721 cttctcccgg cccatgtgta agtcagaccg gacccaccac tgacaattaa cgaacccaac
+      781 accagaggga aacgcgacca gaaaaaaaca caagaaaact ccgcactacc caaatcgtta
+      841 accccacact ggagcgccac caagggaaag actaaaagaa aaggaaggaa ctcggcaaac
+      901 acaagcctcg cctgtttacc aaaaacatcg cctcctgcaa aaatcaatgt ataagaggtc
+      961 ctgcctgccc agtgactatt agttaaacgg ccgcggtatt ttgaccgtgc taaggtagcg
+     1021 caatcacttg tcttttaaat gaagacctgt atgaatggtg gaacgagggc ttaactgtct
+     1081 cccttctcca gtcaatgaaa ttgatctgcc cgtgcagaag cgggcatata tatacaagac
+     1141 gagaagaccc tttggagctt aagacaaaag gccaaccgtg ttaaagaccc aaataaaatg
+     1201 aaatcaaaca aaacggcaac tgaccagcgt cttcggttgg ggcgaccacg ggggaaaata
+     1261 aagcccccat gtggaatggg gtaatcccta aaactaagag agacatctct aagccacaga
+     1321 atatctgacc aaaagatccg gcctaccagc cgatcaacga accaagttac cctagggata
+     1381 acagcgcaat cccctccaag agttcatatc gacgagaggg tttacgacct cgatgttgga
+     1441 tcaggacatc ctaatggtgc agccgctatt aagggttcgt ttgttcaacg attaaagtcc
+     1501 tacgtgatct gagttcagac cggagcaatc caggtcagtt tctatctgta aagctacttt
+     1561 tcctagtacg aaaggaccgg aaaaatgagg cctctaccca aagtacgcct cactctaact
+     1621 taatgaaacc aactaaatta aataaaagaa gagcaacccc agacccaaga taagggatc
+//
+
+LOCUS       ON408064                1181 bp    DNA     linear   VRT 11-JUL-2022
+DEFINITION  Steindachneridion melanodermatum voucher LGP11105 mitochondrion,
+            complete genome.
+ACCESSION   ON408064 REGION: 1096..2276
+VERSION     ON408064.1
+KEYWORDS    .
+SOURCE      mitochondrion Steindachneridion melanodermatum
+  ORGANISM  Steindachneridion melanodermatum
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Siluriformes;
+            Pimelodidae; Steindachneridion.
+REFERENCE   1  (bases 1 to 1181)
+  AUTHORS   Freitas,G.I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-MAY-2022) Departamento de Ciencias Biologicas, UNESP,
+            Av. Eng. Luis Edmundo Carrijo Coube14-01, Bauru, SP 17033-360,
+            Brasil
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: NOVOPlasty v. v1
+            Sequencing Technology :: BGISEQ
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1181
+                     /organism="Steindachneridion melanodermatum"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="LGP11105"
+                     /db_xref="taxon:1000982"
+                     /sex="female"
+                     /tissue_type="fin"
+                     /dev_stage="adult"
+                     /lab_host="LAGENPE"
+                     /geo_loc_name="Brazil"
+     rRNA            1..1181
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 gctaaacagc tagcttaacc acttaaataa ctaacacaac atcaaaaaat ttaacataaa
+       61 ctacaaccta tttaaaccaa aacattctac cgcctcagta tgggagacag aaaaggcaca
+      121 acccaaagca ataacaaaag taccgcaagg gaatactgaa aaagaaatga aataaatcat
+      181 taaagcacaa caaagcagag attaatcctc gtaccttttg catcatgatt tagccagtac
+      241 cctcgagcaa agagtactat agttcaaaac cccgaaacta agtgagctac cccgggacag
+      301 cctataaatt agggccaacc cgtctctgtg gcaaaagagt gggaagatcc ccgggtagag
+      361 gtgacaaacc taccgaactt agttatagct ggttgcctaa gaaatggata gaagttcagc
+      421 ctgcacccct caactcacat aaacattaaa acatacgagt cagagtaaca tgcaagagtt
+      481 aatcagagga ggtacagctc ctctgaaaca ggacacaacc ttaccaggag gttaaagatt
+      541 acattaatca agatataccg cttcagtggg cctaaaagca gccatccaat cagaaagcgt
+      601 taaagctcaa gcggaccgaa aatctattat tcaaatattt aatcttaaac ccctaactat
+      661 attaggccac cctatgcata cataggagag acgctgctaa aatgagtaat aagaaggaat
+      721 ccccttctcc ccagcctacg tgtacgctag atcgaacccc cactagcaat taccgaaccc
+      781 aattaaaaga gggcaatgtg ttttcatcaa acatcaagaa aaccccacat aaccaaatcg
+      841 ttaaccccac actggaaggc ctaaacatag ggaaagacta aaagaaaagg aaggaactcg
+      901 gcaaacacaa gcctcgcctg tttaccaaaa acatcgcctc ctgcaaaaat caatatatag
+      961 gaggtcttgc ctgcccagtg acaagtttta acggccgcgg tattttgacc gtgcaaaggt
+     1021 agcgcaatca cttgtctttt aaatgaagac ctgtatgaat ggtggaacga gggcttaact
+     1081 gtctcccctt tcaagtcaat gaaattgatc tgcccgtgca gaagcggaca tatatataca
+     1141 agacgagaag accctttgga gctttagata caagatcacc t
+//
+
+LOCUS       FJ226476                1674 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Xiphophorus hellerii mitochondrion, complete genome.
+ACCESSION   FJ226476 REGION: 1088..2761
+VERSION     FJ226476.1
+KEYWORDS    .
+SOURCE      mitochondrion Xiphophorus hellerii (green swordtail)
+  ORGANISM  Xiphophorus hellerii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Atherinomorphae; Cyprinodontiformes;
+            Poeciliidae; Poeciliinae; Xiphophorus.
+REFERENCE   1  (bases 1 to 1674)
+  AUTHORS   Bai,J.J., Liu,Y.F., Quan,Y.C., He,X.P. and Ye,X.
+  TITLE     The complete mitochondrial genome of the RR-B strain of swordtail
+            (Xiphophorus helleri)
+  JOURNAL   Mitochondrial DNA 20 (4), 72-77 (2009)
+   PUBMED   19575330
+REFERENCE   2  (bases 1 to 1674)
+  AUTHORS   He,X., Bai,J. and Liu,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-SEP-2008) Key Laboratory of Tropical & Subtropical
+            Fish Breeding & Cultivation, Pearl River Fisheries Research
+            Institute, Chinese Acadamy of Fishery Sciences, Xingyu Road 1,
+            Guangzhou, Guangdong 510380, China
+FEATURES             Location/Qualifiers
+     source          1..1674
+                     /organism="Xiphophorus hellerii"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:8084"
+                     /note="wild caught"
+     tRNA            <1..3
+                     /product="tRNA-Val"
+     rRNA            1..1674
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 tgaaacccaa cagctagcct cctcccctaa aaaacataaa cctattcttc acccccacca
+       61 aacccttcaa ccaaaccatt tttcccccca agtaaaggcg ataaaaaagg ataaaccgag
+      121 agctacaaaa acagtaccgc aagggaatgc tgaaagagaa atgaaagaat caataaagta
+      181 ataagaagca gagactagcc ctcgtacctt ttgcatcatg atttagcaag tcccatccaa
+      241 gcaaaaagac ttttagtttg atcccccgaa actagacgag ctactccaag gcagccaata
+      301 aatagggcca acccgtctct gtggcaaaag agtgggaaga ccttcgagta gaggtgacag
+      361 acctaccgag cctagtaata gctggttgcc tgagaactaa attaaagttt agcctttatt
+      421 tatctcccac ccccaacgga cagcccaata aagccccgac cccgagattc caaaagagtt
+      481 attcaaaggg ggtacagccc ctttgaacaa agacacaact ttaccgagcg gataacaatc
+      541 ataatcaccc aggtgagcgc caaggtgggc ctaaaagcag ccaccccaaa gaaagcgtta
+      601 aagctccaac acaccccaca cccccgatcc tgacaacaaa attgtattcc cccaacacta
+      661 tcaggccttc ctatgttaat agaaaagatt atgctaaaat gagtaataag agaacacact
+      721 tctctccccg cacacgtgta agccggatcg gaccccccac cggcaattaa cggccccaaa
+      781 ccagaggaaa ttagaccaaa cagacacaag aaacccccta aataaccccc gttaccctca
+      841 caccagcgtg ccgcccagga aagactaaaa agagaagaag gaactcggca aatactacta
+      901 aagcctcgcc tgtttaccaa aaacatcgcc tcttgacaac tcataataag aggtcccgcc
+      961 tgccctgtga cttaaatttt aacggccgcg gtatcttgac cgtgcaaagg tagcgtaatc
+     1021 acttgtcttt taaatgaaga cctgtatgaa tggcaaaacg agggcttaac tgtctccttc
+     1081 ccccagtcaa tgaaattgat ctccccgtgc agaagcgggg atgccaacat aagacgagaa
+     1141 gaccccatgg agctttagac gtactgacag atcacgtaaa gccttcttaa ctaaaagata
+     1201 aaaccgaccg acccctgtca cgatgtcttt ggttggggcg accccgggga aataaaaaac
+     1261 ccccgagcgg aatgaagaca cctcagcttc atgaacaaga gccgcagctc acaaaatcag
+     1321 aacctctgac ctaaagatcc gatacaatcg atcaacggac cgagttaccc tagggataac
+     1381 agcgcaatcc cctttcagag cccctatcga caagggggtt tacgacctcg atgttggatc
+     1441 aggacatcct aatggtgcag ccgctattaa gggctcgttt gttcaacgat taaagtccta
+     1501 cgtgatctga gttcagaccg gagtaatcca ggtcagtttc tatctataaa gtgctttctt
+     1561 ccagtacgaa aggaccaaag aaaagaggcc catgcttaag gtaaacctcg cccccaccta
+     1621 atgaaaacaa cttaattagg caaaaggaac cttcccctgc caaagataat agct
+//
+

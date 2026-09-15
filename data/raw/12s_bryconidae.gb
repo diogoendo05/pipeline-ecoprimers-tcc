@@ -1,0 +1,1723 @@
+LOCUS       XM_072671183            4563 bp    mRNA    linear   VRT 28-MAR-2025
+DEFINITION  PREDICTED: Salminus brasiliensis methyltransferase 15,
+            mitochondrial 12S rRNA N4-cytidine (mettl15), mRNA.
+ACCESSION   XM_072671183
+VERSION     XM_072671183.1
+DBLINK      BioProject: PRJNA1242384
+KEYWORDS    RefSeq.
+SOURCE      Salminus brasiliensis (dorado)
+  ORGANISM  Salminus brasiliensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Salmininae; Salminus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_132902) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI RefSeq
+            Annotation Status           :: Full annotation
+            Annotation Name             :: GCF_030463535.1-RS_2025_03
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 10.3
+            Annotation Method           :: Gnomon; cmsearch; tRNAscan-SE
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            Annotation Date             :: 03/27/2025
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4563
+                     /organism="Salminus brasiliensis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:930266"
+                     /chromosome="25"
+     gene            1..4563
+                     /gene="mettl15"
+                     /note="methyltransferase 15, mitochondrial 12S rRNA
+                     N4-cytidine; Derived by automated computational analysis
+                     using gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 14 Proteins"
+                     /db_xref="GeneID:140547910"
+     CDS             37..1254
+                     /gene="mettl15"
+                     /codon_start=1
+                     /product="12S rRNA N4-methylcytidine (m4C)
+                     methyltransferase"
+                     /protein_id="XP_072527284.1"
+                     /db_xref="GeneID:140547910"
+                     /translation="MVLPGRGSLVHLCQACSHVWRKVPRKCTPSHCWRKQLHPKRPCS
+                     GSAPDSPGWHSGNLEQSSTQTQQVPHTPVLLKEVLQYLDIQPGQIVLDLTFGGGGHSK
+                     AILKSVPGVTLVAADRDPEAFRMAQQLAEEYPGQVRPVLGRFSELRELLVGLGLGNGS
+                     VDVALLDAGCSSMQMDTADRGFSLSKDGPLDMRMDGDRYPGMPRAADAVNALDQQALA
+                     SILAAYGEERRAGKIAAAIARARSIQPIARTHQLASIVAGAFPDSAMYSRRDRLQRPS
+                     HIATKTFQALRVFVNNELNELVAGLEAAQLALRPGGRLCILTFHSLEDRIAKRFLRGE
+                     DLSAPPRQNVRQWARARRLEAEEEEEEEEEEAERESKHWVCLQKKVVLPSAEEVRDNP
+                     RARSAKLRAAFRR"
+ORIGIN      
+        1 ggactctcat gctgaagctt aaacgagtgg ctcaaaatgg ttctccctgg tcgtggctcg
+       61 ttggtgcacc tttgccaggc ttgcagtcat gtgtggagaa aagttcctcg taaatgcact
+      121 cccagccact gctggagaaa gcagctgcat cctaaacgcc catgttctgg ttctgctcct
+      181 gacagtcctg gttggcacag cggaaattta gagcagtcct ccacacaaac gcagcaagtt
+      241 ccgcacacac cagttctact gaaagaggtt ctgcagtact tggacatcca gccaggccag
+      301 attgttctag atttgacctt tggaggtgga ggtcacagta aggccatcct gaagtcggtc
+      361 ccaggtgtga cactcgtggc ggcagaccgc gaccctgagg cgttccgcat ggcccagcag
+      421 ctagcagaag aatatccagg ccaggtgagg ccagtgctgg gacgcttcag tgaattgagg
+      481 gagctgcttg taggccttgg tctggggaac ggaagcgttg acgttgccct gctggacgct
+      541 ggctgctctt ccatgcagat ggacacagcg gacagaggct tctccctaag caaggatgga
+      601 cctctggaca tgagaatgga tggagacagg taccccggca tgccccgcgc ggctgacgcc
+      661 gtcaacgcct tggatcagca ggcgcttgcg tccatcctgg ccgcatacgg ggaggagcgg
+      721 cgcgccggca aaatcgcggc ggccatcgct cgggcacgca gcatccagcc catcgcccgg
+      781 acgcatcagc tggccagcat cgtggcagga gcattcccag actctgctat gtactctcgg
+      841 cgggaccgcc tgcagaggcc ctcgcacatc gccactaaaa ccttccaggc gttgcgtgtg
+      901 tttgtgaata atgaactgaa cgagctggtg gctggactgg aggctgccca attggccctg
+      961 cgacctggcg gccgcctctg catcctcacc ttccattctc tggaggaccg catcgccaag
+     1021 cgcttcctcc ggggtgaaga cctctccgcc ccaccgcgcc aaaatgtccg ccagtgggcc
+     1081 cgcgcccggc gcctagaggc agaggaggaa gaggaggagg aagaggagga ggctgagaga
+     1141 gagagcaaac actgggtctg ccttcagaaa aaagttgtgt tgcccagcgc ggaggaagta
+     1201 cgggacaatc caagggccag gtcggctaag cttagagcag ccttcagacg ctaaagcggc
+     1261 acatagacaa agtgaactct gctgaggcct tttatccaat caaatctgag attagtccct
+     1321 caaacccttt gatatttggg cagttattaa tcagtcaaac aaaattctct tcatgcaaat
+     1381 gtattcaagt aaggtaagag gtgtgtggcc agttttaggc caaagtaacc aaacaaaaat
+     1441 ggtaaaagta cctttaccga gatgttaggg taatatcgtt tgatttgtgt ataaaaatat
+     1501 ttggcatttt tcactttttg acattatttg actgtggtag ttgttttttg cagtgcggca
+     1561 aactttcatg atgaatggac caatagaaac actccaaaat catttaaaaa ggtacatttg
+     1621 cttccaatga aaattaagaa ggttttcttc ttctcctgtg aaattgtcgt ttttggagat
+     1681 acagcagtgt tatgtcagac gatatgtctg tactgactta ttctgctgtt ttgtaaaatg
+     1741 acatattaac acatcatatt aaatgctttt ttcagcatgt ttatgatggt tcatgatgca
+     1801 gtttggaaaa ttctaattag ggatgcatga tgatattgaa atcatctggg aaatggctta
+     1861 tataatcgct taaaaaatta ttcatcaaat aatgatatgc tgatatgatg actcatttat
+     1921 tggtctggaa gagtaaaatg tttaggtgac actggatcac tgcaatctgt atttaattta
+     1981 ttttaatgga tttgtacctc atagataaat gctatttcca tccagtgcta atcaaacaaa
+     2041 atacagcctt ttgtaaagtt ttttttggac atttaattaa attctaaatt taattttaat
+     2101 ggtgacaaaa atgacaaaaa gggtggaaaa ttctacattt taacagaatt ttaagggtga
+     2161 caaaatcttc agaaaatgtc aatatttttt gtcattttca gtcaaaatct tgagagaatc
+     2221 tgttagtatt tttgaagaaa tcaaaatact aataaggttt tatttagcag ttttttatat
+     2281 actgctgcta gaaacagagg ggaattattt cttccctgtc tggtgggagg cagccttgag
+     2341 caaagaggtt tgttgacaaa atgccacaag aagtacaata tgcactggaa aactaatttt
+     2401 tagcatttct agcagatgta tgtttacttt ctctctaata ataataatga agggggtcac
+     2461 cagcttcgct tgctccattg cccagggcct acagtactga atcttctata ctgtactata
+     2521 ttgtgctaac tctttggtaa ccacaataaa gatatgtata tatatatgat ataaaataca
+     2581 ttttggagca tttcagttgg tccattcatc atgagaatat aaattcaaaa ttatgtcatg
+     2641 aagtgaaaag aggtagaaaa attgagatac atggtctttg tctggcagcg acaatatgca
+     2701 tttgaacagt tgtgtcagaa atgactgcat cttaaactaa atagtgttta tcaataaaag
+     2761 gggcgtccac aaactttctt ctaaatcagt ggtagggcca acaggggcca gtgtacagca
+     2821 cagaactact aaacctggca attagcaggt gagttgaatc agatgtgctt catcaggatt
+     2881 tgccaaaaaa ctgcaggaat ccggccctcc agaactggaa ttgcccaccc ctgatctagg
+     2941 tattatgttt ccatttctac tggtcggctt ctcttgaaat gtcaacagaa catgaagggc
+     3001 agctgctggt tttgtatggc gtaagtaaaa gtaaacaaaa agaaaagaac aaaaggttct
+     3061 gaggttctca ggttttctcc aatttcagct ctaataagta tacctgaaag ccttcttcca
+     3121 tatcttacac cccttctctt cagaactaag aaaagggctt tgtggtcagg atactccctg
+     3181 ctcgctttct attagcaggt agaataggag ccgtctcatt catatcccgt tcatttccca
+     3241 cctcagccag gatgcagact tcaccactgt ctaataagag actccaggag cttgtgtgtg
+     3301 tgtgtgtgtg tgtgtgtgtg tgtgtgtgtg tgtgtgtgtg tgtgtgtgtg tgtgtgtgtg
+     3361 tgtgtgagag agagagagtt tcacattcaa tttgtcccga tgagtgttgg tgtacgccgt
+     3421 agtgtgcgtg ggagttcatg tttgcgagag tcagcgtgag agtgagtgcg tgtgtgtgtc
+     3481 tttgtgcctt aaagaatgag ccgagcgctg agtggtatcg gaggatcgaa cgtcgtgatt
+     3541 gatgggtgtt ttgcatcact gcagtacgtg cggaagtggc ggagagcgag tgtgtgaatg
+     3601 agtgcatggg tgtgcggtgt gcccacatgg aagttggcag tgcggcatgt gtcagagaga
+     3661 gggagagaga gagagatagg gatagagata gagggagaga gagagatgga gagattgcgt
+     3721 ctctatgcgg tgtcctctgt ctctttgtgg agctgatggg tgagtcacac acctgcagga
+     3781 cgcgggtggg actctggctg ccatggtgat gctatgcgcc ttgtgtactg tactcacact
+     3841 ctccctctcg cgcgcactct ttctcacact cgctcgctca aactctgagt cacatcaaat
+     3901 ctgattaact ttgcatatat acttcattcg gagatccacc aaacaacccc cttcgcctgt
+     3961 gtggaataga atgtgtttca tgaatatgat gaataatatc agtgtaaccc ttttttttgt
+     4021 ctgctttgcc tcaaaatgag accatttttc ttgtcgactg agaccaccca gtaggactct
+     4081 ccctatgaaa tgatgctagc agcgatggaa gggtctgaag gctagcattt gcttcttctg
+     4141 aataacgtga agctctattg catctttcca gactgcccat agtgtaacgt cattggacat
+     4201 tggaagagaa cacttactcc cagttgtgtt acactgtgct ggctaccatc actctgatgg
+     4261 gggggagagg gagggccccc aggtcaccca gcaagagtga ggcccagaac acccagccac
+     4321 aggtggttgt tgtatcaccc gggattgaac ctgcgacaac ctgatgattg atagagccaa
+     4381 cacttagatg gttggtccac ctgcccccac cccagatata tgtaaaatca gttttacatg
+     4441 ctaccttaac tgctgtgttt ggtccagact gtgattccaa ctatttgtcc tggtcttaaa
+     4501 cctattgact tgcataataa acatgcataa taaaagccac atgtcaggcg tttccccttt
+     4561 gtg
+//
+
+LOCUS       XM_072663134            2785 bp    mRNA    linear   VRT 28-MAR-2025
+DEFINITION  PREDICTED: Salminus brasiliensis Era-like 12S mitochondrial rRNA
+            chaperone 1 (eral1), mRNA.
+ACCESSION   XM_072663134
+VERSION     XM_072663134.1
+DBLINK      BioProject: PRJNA1242384
+KEYWORDS    RefSeq.
+SOURCE      Salminus brasiliensis (dorado)
+  ORGANISM  Salminus brasiliensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Salmininae; Salminus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_132878) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI RefSeq
+            Annotation Status           :: Full annotation
+            Annotation Name             :: GCF_030463535.1-RS_2025_03
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 10.3
+            Annotation Method           :: Gnomon; cmsearch; tRNAscan-SE
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            Annotation Date             :: 03/27/2025
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2785
+                     /organism="Salminus brasiliensis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:930266"
+                     /chromosome="1"
+     gene            1..2785
+                     /gene="eral1"
+                     /note="Era-like 12S mitochondrial rRNA chaperone 1;
+                     Derived by automated computational analysis using gene
+                     prediction method: Gnomon. Supporting evidence includes
+                     similarity to: 4 Proteins"
+                     /db_xref="GeneID:140540696"
+     CDS             120..1466
+                     /gene="eral1"
+                     /codon_start=1
+                     /product="GTPase Era, mitochondrial"
+                     /protein_id="XP_072519235.1"
+                     /db_xref="GeneID:140540696"
+                     /translation="MALRVCEAFLRRCLPSPGRVFLLESASPRPRAAFQPIARSRGGF
+                     LLTSASYVSSSVFLDKLLKGKVAGVDQRPCRPAILTDGAEQLSLLLRAPDQPENPKCL
+                     RVAVIGAPNAGKSTLSNQLLGKKLFAVSKKVHTTRSRALGVLTENETQIILLDTPGLT
+                     TPSKVKRHHLEKSLLEDPLQSLREADLVVVLVDISDKWTRSRLDFEVLKCLALNPHIP
+                     AILVLNKVDLLKDKTLLLDFTAGLTEGIVNGERLKVSSVVKPSQKEFDERQVQQKAAQ
+                     EAQAGEEQFSGTGAQAKRGLSSEQLRGLKSRKGWPHFKDVFMLCATDMEDVNTLKRYL
+                     MVAAKPGPWHYHSDVLTDQSPEDVCINAIRERLLEYLPQEVPYTISPHIELWREDEDG
+                     RLDISVKLHVRKNSHMSMVIGPGGQVMAKIVQEASEDLTNAFMQEVRLKISARLRD"
+     polyA_site      2785
+                     /gene="eral1"
+                     /experiment="COORDINATES: polyA evidence [ECO:0006239]"
+ORIGIN      
+        1 ccgcagtaac atggctgcgc cctgaacaca cgccgtcaac aaacaccgaa ggctcgtcct
+       61 gctcgcttac cacccagcag ctccctcctc tcgccgtcag gactggctgt cagtaacgga
+      121 tggctcttcg tgtgtgcgag gcgtttttga ggagatgtct cccgtcgcct ggtcgcgtct
+      181 ttctgctgga aagcgcgtct ccgcgccccc gagcagcctt tcaacccata gcacgaagca
+      241 gaggtggatt tcttctgact tcagccagtt atgtgtcctc cagtgtgttt ctggacaagc
+      301 tgctgaaggg caaagtggct ggcgtggatc agagaccctg ccggccagcc atacttaccg
+      361 atggagctga gcagctttct ctgttactga gggctccaga tcaaccagaa aacccaaagt
+      421 gtctgagagt ggctgtaatt ggggctccaa atgcagggaa gtcaacactg tccaaccagc
+      481 tccttggcaa gaagctgttt gcagtctcca aaaaagtgca tacaacaagg tcacgtgcac
+      541 tcggagtgct cacagagaac gagacccaga ttattctgct ggatacccct ggtcttacta
+      601 ctccctccaa agttaaaaga catcacctgg aaaagtctct tcttgaggat ccactgcagt
+      661 cattaagaga agcagatcta gtggtggtgt tggtggacat ctctgacaag tggacccgca
+      721 gcaggctgga ctttgaggtg ctgaagtgtt tggctctgaa tccacatatc cctgctatac
+      781 tagtcctcaa taaggtggac ctcctgaagg acaaaacctt gctgctggac ttcacagccg
+      841 ggcttacaga gggcattgtg aacggtgaga gactgaaggt cagcagtgtg gtgaagccgt
+      901 cccagaaaga atttgatgag aggcaagtcc agcagaaagc tgcccaagag gcccaggctg
+      961 gagaggagca gttctcaggt acaggagcac aggccaagag aggcctaagc tcagagcagc
+     1021 tgaggggcct gaagagccgc aaaggttggc ctcacttcaa ggacgtgttc atgctgtgtg
+     1081 ctacagacat ggaagacgtg aatacactaa agagatatct gatggtggct gcaaagccag
+     1141 gcccgtggca ttaccacagt gacgtcctga cagatcagag cccagaggac gtctgcatca
+     1201 atgcgatccg ggagagactt cttgaatatc tccctcagga ggtgccttac accatatctc
+     1261 cgcacatcga gctctggaga gaggatgagg atggcaggtt ggacatatct gtcaaactac
+     1321 atgtgagaaa gaacagccat atgtctatgg tgattggtcc tgggggtcaa gttatggcca
+     1381 agatagtcca ggaggcaagt gaggacctca cgaacgcttt catgcaagag gtgcgactga
+     1441 aaatatccgc ccgtctgagg gactgaagtg aacggttctg ctgaagaggg ataaagcgtc
+     1501 ggtccaagtg ttttgctaga atgtgtgtga acaggaaatt gggactctaa aggatgcatt
+     1561 tggacgccat tgctcaaccc tcaacaaatg attgaattcc tttctgaacg gtcaaataat
+     1621 ttttccaatc accttcccct tttctgaaaa aaaaaaaact gagctgtgga gcagtagaac
+     1681 tgtcttctct ggcatgatgg atggtgctcc atcacttttt agatgagttg gggagttggt
+     1741 ggatgaggta gggtggtgat catccaacat cctgaactca ctaatgctgt tgtcgatatc
+     1801 aaatcctcac agcaacgctc caaaatctag tagaaagtct tccctggaca gtggagacaa
+     1861 ttactcaaac aatagcagga aaaactcaaa tacccttgat tacagaaaaa acattgaaag
+     1921 agcaggtgtc ccaatacttt tgtctgtata gtgtacagta aaaccagcca ctgcatcttt
+     1981 tcaaactgac gctacacctc tggagagatt gacatgtttg gagaatacga atagccagtt
+     2041 ctgttgagtc atctaacaga agcccatgtt gctagcatta gtctgagtga tgagggaggg
+     2101 ctaaatgggg ggaccaatta tgctttctca gacatctggc cagggatggc tgtgtcatcg
+     2161 ccaaggattg agcttgctgt ctcccaataa taggtccaat gcaccactcg gaagtccaga
+     2221 tttctaatca ttgttgattg gaaacctgat gatctgtgag gaaggaagac atctccttgt
+     2281 ttgcactttt tcgaagtgtc ttgtagcctc tacagcagtt gtagagctac gatagcttca
+     2341 tcattagtaa agcagaggga tacattgtga ctgcgtcagc agtgttccag tggcctcatt
+     2401 aagaatggct gaagaggtga gcgttttgaa tggactgact tcaatcacag gtcttttcct
+     2461 acaagtcaga acaagtcttg agtctgttga gtatgtagat cgtccacagt cttgttcatt
+     2521 aattgtctgt atcaatgatt gcaggttttg ttgggtttct gtagaagctt gacttgtata
+     2581 gaaccatttt ttttagaagg tttgtaaaaa aaaaaaaaaa acctatacaa ccttctgaca
+     2641 agcgaagatc tgtttaaaca tccatcagtc tttcaatcat catggttctg tatgtaaaca
+     2701 ctgtctttgc taaagaatcc ttggagaacc cttgataaaa gtaatggttt gatgaaaaaa
+     2761 taaatgtcaa caatttttat tttaa
+//
+
+LOCUS       PV814451                 684 bp    DNA     linear   VRT 29-SEP-2025
+DEFINITION  Brycon petrosus voucher STRI-4451 12S ribosomal RNA gene, partial
+            sequence; mitochondrial.
+ACCESSION   PV814451
+VERSION     PV814451.1
+KEYWORDS    .
+SOURCE      mitochondrion Brycon petrosus
+  ORGANISM  Brycon petrosus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 684)
+  AUTHORS   Saltonstall,K., Collin,R., Aguilar,C., Alda,F., Baldrich-Mora,L.M.,
+            Bravo,V., Castillo,M.F., Castro,S., De Leon,L.F., Diaz-Ferguson,E.,
+            Garces,H.A., Gomez,E., Gonzalez,R.G., Gonzalez-Torres,M.A.,
+            Guzman,H.M., Hiller,A., Ibanez,R., Jaramillo,C., Kaiser,K.L.,
+            Kam,Y., Lemus Peralta,M., Lopez,O.G., Madrid,M.E., Miller,M.J.,
+            Ossa-Hernandez,N., Reina,R.G., Robertson,D.R.,
+            Romero-Gonzalez,T.E., Sandoval,M., Sanjur,O., Schloeder,C.,
+            Sharpe,A.E., Sharpe,D., Siepmann,J., Strasiewsky,D., Torchin,M.E.,
+            Tumbaco,M., Vargas,M., Venegas-Anaya,M., Victor,B.C. and
+            Castellanos-Galindo,G.
+  TITLE     A DNA Barcode Dataset for the Aquatic Fauna of the Panama Canal:
+            Novel Resources for Detecting Faunal Change in the Neotropics
+  JOURNAL   Data (Basel) 10 (7), 108 (2025)
+  REMARK    DOI: 10.3390/data10070108
+REFERENCE   2  (bases 1 to 684)
+  AUTHORS   Saltonstall,K., Castellanos,G. and Robertson,D.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JUN-2025) Naos, Smithsonian Tropical Research
+            Institute, Apartado 0843-03092, Balboa, Ancon, Panama City, Panama
+            0, Panama
+FEATURES             Location/Qualifiers
+     source          1..684
+                     /organism="Brycon petrosus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="STRI-4451"
+                     /db_xref="BOLD:PCIF195-24.12S"
+                     /db_xref="taxon:190791"
+                     /geo_loc_name="Panama: Colon, 10-CH, Panama, Colon, RIO
+                     AGUA SALUD (PIPELINE ROAD), ATLANTIC; RIO CHAGRES"
+                     /collection_date="16-Mar-1996"
+                     /PCR_primers="fwd_seq: gycggtaaaaytcgtgccag, rev_seq:
+                     yccaagygcaccttccggta"
+     rRNA            <1..>684
+                     /product="12S ribosomal RNA"
+ORIGIN      
+        1 ccaccgcggt tatacgagag accctagttg atagctacgg cgtaaagagt ggttaaggat
+       61 tttcaacaaa taaagtcaaa gatctcctta gccgttgcac gcatctccga agacacgaag
+      121 cccaatcacg aaagtaactt tattattaac ctgactccac gaaagctaag aaacaaactg
+      181 ggattagata ccccactatg cttagctgta aacctagatg ttcaaaatac aagcaacatc
+      241 cgccagggta ctacgagcgc tagcttaaaa cccaaaggac ttgacggtgt ctcagaccca
+      301 cctagaggag cctgttctag aaccgataat ccccgttaaa cctcaccacc tctagttctc
+      361 tcagcctata taccgccgtc gcaagcttac cctgtgaagg ttctacagta agcaaaatgg
+      421 gtaaaaccca gaacgtcagg tcgaggtgta gcttacgagg tgggaagaaa tgggctacat
+      481 tttctataac agaatattac gaacggcact atgaaactag tgcccgaagg tggatttaga
+      541 agtaaaaaat aaatagagag tctttttgaa ccaggctctg ggacgcgtac acaccgcccg
+      601 tcactctccc catcatttat tcaacccaag taaataacaa aacaaatcaa caaagcgggg
+      661 aggcaagtcg taacatggta agtg
+//
+
+LOCUS       PV814448                 682 bp    DNA     linear   VRT 29-SEP-2025
+DEFINITION  Brycon behreae voucher STRI-631 12S ribosomal RNA gene, partial
+            sequence; mitochondrial.
+ACCESSION   PV814448
+VERSION     PV814448.1
+KEYWORDS    .
+SOURCE      mitochondrion Brycon behreae
+  ORGANISM  Brycon behreae
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 682)
+  AUTHORS   Saltonstall,K., Castellanos,G. and Robertson,Dr.
+  TITLE     A DNA barcode dataset for the aquatic fauna of the Panama Canal: a
+            novel resource for detecting faunal change in the Neotropics
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 682)
+  AUTHORS   Saltonstall,K., Castellanos,G. and Robertson,D.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JUN-2025) Naos, Smithsonian Tropical Research
+            Institute, Apartado 0843-03092, Balboa, Ancon, Panama City, Panama
+            0, Panama
+FEATURES             Location/Qualifiers
+     source          1..682
+                     /organism="Brycon behreae"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="STRI-631"
+                     /db_xref="BOLD:PCIF205-24.12S"
+                     /db_xref="taxon:190792"
+                     /geo_loc_name="Panama: Veraguas, 4-SP, Panama, Veraguas,
+                     RIO SAN PABLO, PACIFIC; RIO SAN PABLO"
+                     /collection_date="19-Aug-1993"
+                     /PCR_primers="fwd_seq: gycggtaaaaytcgtgccag, rev_seq:
+                     yccaagygcaccttccggta"
+     rRNA            <1..>682
+                     /product="12S ribosomal RNA"
+ORIGIN      
+        1 ccaccgcggt tatacgagag actccagttg atagctacgg cgtaaagagt ggttaaggat
+       61 caccaacaaa taaagtcaaa gatctcccaa gctgttgcac gcatccacgg agacacgaag
+      121 ccctaacacg aaagtaactt tattattacc ctgattccac gaaagctaag aaacaaactg
+      181 ggattagata ccccactatg cttagcctta aacttagatg ttttaaatac aagcaacatc
+      241 cgccagggta ctacgagcgc tagcttgaaa cccaaaggac ttgacggtgt ctcagaccca
+      301 cctagaggag cctgtcctag aaccgataat ccccgttaaa cctcaccacc cctagccttt
+      361 tccgcctata taccgccgtc gcaagcttac cctgtgaagg gtcaacagta agcaaaatgg
+      421 gtaataccca aaacgtcagg tcgaggtgta gcttacgagg tgggaagaga tgggctacat
+      481 tttctacaac agaatattac gaatggcact atgaaattag tacctgaagg tggatttagt
+      541 agtaaaaaac aagcagagag tctttttgaa ccaggctctg agacgcgtac acaccgcccg
+      601 tcactctccc tactactctt taattcaagt aagtaaccaa acaaaccaaa aaacggggag
+      661 gcaagtcgta acatggtaag tg
+//
+
+LOCUS       PV814450                 682 bp    DNA     linear   VRT 29-SEP-2025
+DEFINITION  Brycon guatemalensis voucher STRI-1274 12S ribosomal RNA gene,
+            partial sequence; mitochondrial.
+ACCESSION   PV814450
+VERSION     PV814450.1
+KEYWORDS    .
+SOURCE      mitochondrion Brycon guatemalensis (machaca)
+  ORGANISM  Brycon guatemalensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 682)
+  AUTHORS   Saltonstall,K., Castellanos,G. and Robertson,Dr.
+  TITLE     A DNA barcode dataset for the aquatic fauna of the Panama Canal: a
+            novel resource for detecting faunal change in the Neotropics
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 682)
+  AUTHORS   Saltonstall,K., Castellanos,G. and Robertson,D.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JUN-2025) Naos, Smithsonian Tropical Research
+            Institute, Apartado 0843-03092, Balboa, Ancon, Panama City, Panama
+            0, Panama
+FEATURES             Location/Qualifiers
+     source          1..682
+                     /organism="Brycon guatemalensis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="STRI-1274"
+                     /db_xref="BOLD:PCIF146-24.12S"
+                     /db_xref="taxon:190794"
+                     /geo_loc_name="Costa Rica: MATINA, Costa Rica, Limon, RIO
+                     MATINA DRAINAGE, ATLANTIC; RIO MATINA"
+                     /collection_date="21-Jan-1994"
+                     /collected_by="Eldredge Bermingham"
+                     /PCR_primers="fwd_seq: gycggtaaaaytcgtgccag, rev_seq:
+                     yccaagygcaccttccggta"
+     rRNA            <1..>682
+                     /product="12S ribosomal RNA"
+ORIGIN      
+        1 ccaccgcggt tatacgagag actccagttg atagctacgg cgtaaagagt ggttaaggat
+       61 catcaacaaa taaagtcaaa gatctcccaa gctgttgcac gcatccacgg agccacgaag
+      121 ccctaacacg aaagtaactt tattattacc ctgattccac gaaagctaag aaacaaactg
+      181 ggattagata ccccactatg cttagcctta aacttagatg ttttaaatac aagcaacatc
+      241 cgccagggta ctacgagcgc tagcttgaaa cccaaaggac ttgacggtgt ctcagaccca
+      301 cctagaggag cctgtcctag aaccgataat ccccgttaaa cctcaccacc cctagccttt
+      361 tccgcctata taccgccgtc gcaagcttac cctgtgaagg atcaacagta agcaaaatgg
+      421 gtaataccca aaacgtcagg tcgaggtgta gcttacgagg tgggaagaga tgggctacat
+      481 tttctacaac agaatattac gaatggcact atgaaattag tacctgaagg tggatttagt
+      541 agtaaaaaac aagcagagag tctttttgaa ccaggctctg agacgcgtac acaccgcccg
+      601 tcactctccc tactactctt taattcaagt aagtaaccaa acaaaccaaa aaacggggag
+      661 gcaagtcgta acatggtaag tg
+//
+
+LOCUS       PV814449                 682 bp    DNA     linear   VRT 29-SEP-2025
+DEFINITION  Brycon chagrensis voucher STRI-7274 12S ribosomal RNA gene, partial
+            sequence; mitochondrial.
+ACCESSION   PV814449
+VERSION     PV814449.1
+KEYWORDS    .
+SOURCE      mitochondrion Brycon chagrensis
+  ORGANISM  Brycon chagrensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 682)
+  AUTHORS   Saltonstall,K., Collin,R., Aguilar,C., Alda,F., Baldrich-Mora,L.M.,
+            Bravo,V., Castillo,M.F., Castro,S., De Leon,L.F., Diaz-Ferguson,E.,
+            Garces,H.A., Gomez,E., Gonzalez,R.G., Gonzalez-Torres,M.A.,
+            Guzman,H.M., Hiller,A., Ibanez,R., Jaramillo,C., Kaiser,K.L.,
+            Kam,Y., Lemus Peralta,M., Lopez,O.G., Madrid,M.E., Miller,M.J.,
+            Ossa-Hernandez,N., Reina,R.G., Robertson,D.R.,
+            Romero-Gonzalez,T.E., Sandoval,M., Sanjur,O., Schloeder,C.,
+            Sharpe,A.E., Sharpe,D., Siepmann,J., Strasiewsky,D., Torchin,M.E.,
+            Tumbaco,M., Vargas,M., Venegas-Anaya,M., Victor,B.C. and
+            Castellanos-Galindo,G.
+  TITLE     A DNA Barcode Dataset for the Aquatic Fauna of the Panama Canal:
+            Novel Resources for Detecting Faunal Change in the Neotropics
+  JOURNAL   Data (Basel) 10 (7), 108 (2025)
+  REMARK    DOI: 10.3390/data10070108
+REFERENCE   2  (bases 1 to 682)
+  AUTHORS   Saltonstall,K., Castellanos,G. and Robertson,D.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JUN-2025) Naos, Smithsonian Tropical Research
+            Institute, Apartado 0843-03092, Balboa, Ancon, Panama City, Panama
+            0, Panama
+FEATURES             Location/Qualifiers
+     source          1..682
+                     /organism="Brycon chagrensis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="STRI-7274"
+                     /db_xref="BOLD:PCIF211-24.12S"
+                     /db_xref="taxon:190793"
+                     /geo_loc_name="Panama: 3-RG, Panama, RIO COCOLI, PACIFIC;
+                     RIO GRANDE"
+                     /collection_date="17-Jan-1998"
+                     /PCR_primers="fwd_seq: gycggtaaaaytcgtgccag, rev_seq:
+                     yccaagygcaccttccggta"
+     rRNA            <1..>682
+                     /product="12S ribosomal RNA"
+ORIGIN      
+        1 ccaccgcggt tatacgagag actccagttg atagctacgg cgtaaagagt ggttaaggat
+       61 catcaacaaa taaagtcaaa gatctcccaa gctgttgcac gcatccacgg agacacgaag
+      121 ccctaacacg aaagtaactt tattattacc ctgattccac gaaagctaag aaacaaactg
+      181 ggattagata ccccactatg cttagcctta aacttagatg ttttaaatac aagcaacatc
+      241 cgccagggta ctacgagcgc tagcttgaaa cccaaaggac ttgacggtgt ctcagaccca
+      301 cctagaggag cctgtcctag aaccgataat ccccgttaaa cctcaccacc cctagccttt
+      361 tccgcctata taccgccgtc gcaagcttac cctgtgaagg gtcaacagta agcaaaatgg
+      421 gtaataccca aaacgtcagg tcgaggtgta gcttacgagg tgggaagaga tgggctacat
+      481 tttctacaac agaatattac gaatggcact atgaaattag tacctgaagg tggatttagt
+      541 agtaaaaaac aagcagagag tctttttgaa ccaggctctg agacgcgtac acaccgcccg
+      601 tcactctccc tactactctt taattcaagt aagtaaccaa acaaaccaaa aaacggggag
+      661 gcaagtcgta acatggtaag tg
+//
+
+LOCUS       PV814452                 681 bp    DNA     linear   VRT 29-SEP-2025
+DEFINITION  Brycon striatulus voucher STRI-11270 12S ribosomal RNA gene,
+            partial sequence; mitochondrial.
+ACCESSION   PV814452
+VERSION     PV814452.1
+KEYWORDS    .
+SOURCE      mitochondrion Brycon striatulus
+  ORGANISM  Brycon striatulus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 681)
+  AUTHORS   Saltonstall,K., Castellanos,G. and Robertson,Dr.
+  TITLE     A DNA barcode dataset for the aquatic fauna of the Panama Canal: a
+            novel resource for detecting faunal change in the Neotropics
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 681)
+  AUTHORS   Saltonstall,K., Castellanos,G. and Robertson,D.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JUN-2025) Naos, Smithsonian Tropical Research
+            Institute, Apartado 0843-03092, Balboa, Ancon, Panama City, Panama
+            0, Panama
+FEATURES             Location/Qualifiers
+     source          1..681
+                     /organism="Brycon striatulus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="STRI-11270"
+                     /db_xref="BOLD:PCIF136-24.12S"
+                     /db_xref="taxon:190795"
+                     /geo_loc_name="Panama: Panama, RIO CHARARE (QUEBRADA
+                     ENTERING RIO MAMONI)., PACIFIC; RIO BAYANO"
+                     /collection_date="07-Apr-1999"
+                     /collected_by="Eldredge Bermingham"
+                     /PCR_primers="fwd_seq: gycggtaaaaytcgtgccag, rev_seq:
+                     yccaagygcaccttccggta"
+     rRNA            <1..>681
+                     /product="12S ribosomal RNA"
+ORIGIN      
+        1 ccaccgcggt tatacgagag actccagttg atagctacgg cgtaaagagt ggttaaggat
+       61 catcaacaaa taaagtcaaa gatctcccaa gctgttgcac gcatcccgga gacacgaagt
+      121 cctaacacga aagtaacttt attattaccc tgattccacg aaagctaaga aacaaactgg
+      181 gattagatac cccactatgc ttagccttaa acttagatgt tttaaataca agcaacatcc
+      241 gccagggtac tacgagcgct agcttgaaac ccaaaggact tgacggtgtc tcagacccac
+      301 ctagaggagc ctgtcctaga accgataatc cccgttaaac ctcaccaccc ctagcctttt
+      361 ccgcctatat accgccgtcg caagcttacc ctgtgaagga tcaacagtaa gcaaaatggg
+      421 taatacccaa aacgtcaggt cgaggtgtag cttacgaggt gggaagagat gggctacatt
+      481 ttctacaaca gaatattacg aatggcacta tgaaattagt acctgaaggt ggatttagta
+      541 gtaaaaaaca agcagagagt ctttttgaac caggctctga gacgcgtaca caccgcccgt
+      601 cactctccct actactcttt aattcaagta agtaaccaaa caatccaaaa aacggggagg
+      661 caagtcgtaa catggtaagt g
+//
+
+LOCUS       PX415661                 665 bp    DNA     linear   VRT 07-JAN-2026
+DEFINITION  Brycon falcatus voucher Fl-15-010 small subunit ribosomal RNA gene,
+            partial sequence; mitochondrial.
+ACCESSION   PX415661
+VERSION     PX415661.1
+DBLINK      BioProject: PRJNA1399107
+KEYWORDS    .
+SOURCE      mitochondrion Brycon falcatus
+  ORGANISM  Brycon falcatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 665)
+  AUTHORS   Brosse,S., Cuenot,Y., Condachou,C., Coutant,O., Covain,R.,
+            Quartarollo,G., Le Reun,S., Vigouroux,R. and Murienne,J.
+  TITLE     Near complete 12S DNA reference library for the freshwater fish of
+            French Guiana, northern Amazonian region
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 665)
+  AUTHORS   Brosse,S., Cuenot,Y., Condachou,C., Coutant,O., Covain,R.,
+            Quartarollo,G., Le Reun,S., Vigouroux,R. and Murienne,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-SEP-2025) CRBE, Toulouse III University, 118 route de
+            Narbonne, Toulouse 31500, France
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..665
+                     /organism="Brycon falcatus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="Fl-15-010"
+                     /db_xref="taxon:1529838"
+                     /lab_host="UPS"
+                     /geo_loc_name="French Guiana: Maroni"
+                     /collection_date="2015"
+     rRNA            <1..>665
+                     /product="small subunit ribosomal RNA"
+ORIGIN      
+        1 gcggttatac gaggggccct agttgatgga tctcggcgta aagggtggtt aagggtaact
+       61 accgaataaa gccaaagacc tcccaacctg ttatacggtc cggaggcacg aagtcccaac
+      121 acgaaagtag ctttatcaca tccccgaccc cacgaaagct aagaaacaaa ctgggattag
+      181 ataccccact atgcttagcc ttaaacccag atgtcaaata tacaagtaac atccgccagg
+      241 gaactacgag cgctagcttg aaacccaaag gacttgacgg tgtctcagac ccacctagag
+      301 gagcctgttc tagaaccgat aatccacgtt aaacctcacc accccttgtt ccatccagcc
+      361 tgtataccgc cgtcgtaagc ttaccctgtg aaggtcccat agtaagcaaa atgggtatct
+      421 cccaaaacgt caggtcgagg tgcagctcat ggagtgggaa gaaatgggct acattttcta
+      481 caacagaaca ttacgaatca taccatgaaa ctggtatttg aaggtggatt tagtagtaaa
+      541 aaacaaacag agagtctttt tgaaccaggc tctgagacgc gtacacaccg cccgtcaccc
+      601 tccccattaa ttactaacaa aagtaaataa ccagaaaaac tcaaaagcgg ggaggcaagt
+      661 cgtaa
+//
+
+LOCUS       PX415662                 665 bp    DNA     linear   VRT 07-JAN-2026
+DEFINITION  Brycon falcatus voucher Fl-15-063 small subunit ribosomal RNA gene,
+            partial sequence; mitochondrial.
+ACCESSION   PX415662
+VERSION     PX415662.1
+DBLINK      BioProject: PRJNA1399107
+KEYWORDS    .
+SOURCE      mitochondrion Brycon falcatus
+  ORGANISM  Brycon falcatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 665)
+  AUTHORS   Brosse,S., Cuenot,Y., Condachou,C., Coutant,O., Covain,R.,
+            Quartarollo,G., Le Reun,S., Vigouroux,R. and Murienne,J.
+  TITLE     Near complete 12S DNA reference library for the freshwater fish of
+            French Guiana, northern Amazonian region
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 665)
+  AUTHORS   Brosse,S., Cuenot,Y., Condachou,C., Coutant,O., Covain,R.,
+            Quartarollo,G., Le Reun,S., Vigouroux,R. and Murienne,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-SEP-2025) CRBE, Toulouse III University, 118 route de
+            Narbonne, Toulouse 31500, France
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..665
+                     /organism="Brycon falcatus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="Fl-15-063"
+                     /db_xref="taxon:1529838"
+                     /lab_host="UPS"
+                     /geo_loc_name="French Guiana: Maroni"
+                     /collection_date="2015"
+     rRNA            <1..>665
+                     /product="small subunit ribosomal RNA"
+ORIGIN      
+        1 gcggttatac gaggggccct agttgatgga tctcggcgta aagggtggtt aagggtaact
+       61 accgaataaa gccaaagacc tcccaacctg ttatacggtc cggaggcacg aagtcccaac
+      121 acgaaagtag ctttatcaca tccccgaccc cacgaaagct aagaaacaaa ctgggattag
+      181 ataccccact atgcttagcc ttaaacccag atgtcaaata tacaagtaac atccgccagg
+      241 gaactacgag cgctagcttg aaacccaaag gacttgacgg tgtctcagac ccacctagag
+      301 gagcctgttc tagaaccgat aatccacgtt aaacctcacc accccttgtt ccatccagcc
+      361 tgtataccgc cgtcgtaagc ttaccctgtg aaggtcccat agtaagcaaa atgggtatct
+      421 cccaaaacgt caggtcgagg tgcagctcat ggagtgggaa gaaatgggct acattttcta
+      481 caacagaaca ttacgaatca taccatgaaa ctggtatttg aaggtggatt tagtagtaaa
+      541 aaacaaacag agagtctttt tgaaccaggc tctgagacgc gtacacaccg cccgtcaccc
+      601 tccccattaa ttactaacaa aagtaaataa ccagaaaaac tcaaaagcgg ggaggcaagt
+      661 cgtaa
+//
+
+LOCUS       PX415663                 665 bp    DNA     linear   VRT 07-JAN-2026
+DEFINITION  Brycon falcatus voucher Fl-15-134 small subunit ribosomal RNA gene,
+            partial sequence; mitochondrial.
+ACCESSION   PX415663
+VERSION     PX415663.1
+DBLINK      BioProject: PRJNA1399107
+KEYWORDS    .
+SOURCE      mitochondrion Brycon falcatus
+  ORGANISM  Brycon falcatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 665)
+  AUTHORS   Brosse,S., Cuenot,Y., Condachou,C., Coutant,O., Covain,R.,
+            Quartarollo,G., Le Reun,S., Vigouroux,R. and Murienne,J.
+  TITLE     Near complete 12S DNA reference library for the freshwater fish of
+            French Guiana, northern Amazonian region
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 665)
+  AUTHORS   Brosse,S., Cuenot,Y., Condachou,C., Coutant,O., Covain,R.,
+            Quartarollo,G., Le Reun,S., Vigouroux,R. and Murienne,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-SEP-2025) CRBE, Toulouse III University, 118 route de
+            Narbonne, Toulouse 31500, France
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..665
+                     /organism="Brycon falcatus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="Fl-15-134"
+                     /db_xref="taxon:1529838"
+                     /lab_host="UPS"
+                     /geo_loc_name="French Guiana: Maroni"
+                     /collection_date="2015"
+     rRNA            <1..>665
+                     /product="small subunit ribosomal RNA"
+ORIGIN      
+        1 gcggttatac gaggggccct agttgatgga tctcggcgta aagggtggtt aagggtaact
+       61 accgaataaa gccaaagacc tcccaacctg ttatacggtc cggaggcacg aagtcccaac
+      121 acgaaagtag ctttatcaca tccccgaccc cacgaaagct aagaaacaaa ctgggattag
+      181 ataccccact atgcttagcc ttaaacccag atgtcaaata tacaagtaac atccgccagg
+      241 gaactacgag cgctagcttg aaacccaaag gacttgacgg tgtctcagac ccacctagag
+      301 gagcctgttc tagaaccgat aatccacgtt aaacctcacc accccttgtt ccatccagcc
+      361 tgtataccgc cgtcgtaagc ttaccctgtg aaggtcccat agtaagcaaa atgggtatct
+      421 cccaaaacgt caggtcgagg tgcagctcat ggagtgggaa gaaatgggct acattttcta
+      481 caacagaaca ttacgaatca taccatgaaa ctggtatttg aaggtggatt tagtagtaaa
+      541 aaacaaacag agagtctttt tgaaccaggc tctgagacgc gtacacaccg cccgtcaccc
+      601 tccccattaa ttactaacaa aagtaaataa ccagaaaaac tcaaaagcgg ggaggcaagt
+      661 cgtaa
+//
+
+LOCUS       PX415664                 660 bp    DNA     linear   VRT 07-JAN-2026
+DEFINITION  Brycon pesu voucher Fl-15-018 small subunit ribosomal RNA gene,
+            partial sequence; mitochondrial.
+ACCESSION   PX415664
+VERSION     PX415664.1
+DBLINK      BioProject: PRJNA1399107
+KEYWORDS    .
+SOURCE      mitochondrion Brycon pesu
+  ORGANISM  Brycon pesu
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 660)
+  AUTHORS   Brosse,S., Cuenot,Y., Condachou,C., Coutant,O., Covain,R.,
+            Quartarollo,G., Le Reun,S., Vigouroux,R. and Murienne,J.
+  TITLE     Near complete 12S DNA reference library for the freshwater fish of
+            French Guiana, northern Amazonian region
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 660)
+  AUTHORS   Brosse,S., Cuenot,Y., Condachou,C., Coutant,O., Covain,R.,
+            Quartarollo,G., Le Reun,S., Vigouroux,R. and Murienne,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-SEP-2025) CRBE, Toulouse III University, 118 route de
+            Narbonne, Toulouse 31500, France
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..660
+                     /organism="Brycon pesu"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="Fl-15-018"
+                     /db_xref="taxon:387479"
+                     /lab_host="UPS"
+                     /geo_loc_name="French Guiana: Maroni"
+                     /collection_date="2015"
+     rRNA            <1..>660
+                     /product="small subunit ribosomal RNA"
+ORIGIN      
+        1 gcggttatac gagagaccct agttgataga cacggcgtaa agggtggtta aggtaaaata
+       61 ccaactaaag ccaaagacct ctttagctgt tgtaagcttc cagaggcgcg aagcccgatc
+      121 acgaaagtag ctttatcaca cctgacccca cgaaagctaa ggaacaaact gagattagat
+      181 accccactat gcttagccct aaacctagat gtaaactaca ctaatacatc cgcctgggaa
+      241 ctacgagcgc aagcttgaaa cccaaaggac ttgacggtgt ctcagaccca cctagaggag
+      301 cctgttctag aaccgataat ccacgttaaa cctcaccatc cctcgcctaa accagcctgt
+      361 ataccgccgt cgcaagctta ccctgtgaag gttcaacagt aagcaaaatg agtatatccc
+      421 agaacgtcag gtcgaggtgc agctcacggg atgggaagaa atgggctaca ttttctgtaa
+      481 cagaaaatac gaatggtatc atgaaactga tatctgaagg cggatttagt agtaaaaaac
+      541 aagcagagag tatttttgaa ataggctctg agacgcgtac acaccgcccg tcaccctccc
+      601 catcgactat catccaagta aataactaaa cgaaacaaga aacggggagg caagtcgtaa
+//
+
+LOCUS       PX415666                 660 bp    DNA     linear   VRT 07-JAN-2026
+DEFINITION  Brycon pesu voucher Fl-15-020 small subunit ribosomal RNA gene,
+            partial sequence; mitochondrial.
+ACCESSION   PX415666
+VERSION     PX415666.1
+DBLINK      BioProject: PRJNA1399107
+KEYWORDS    .
+SOURCE      mitochondrion Brycon pesu
+  ORGANISM  Brycon pesu
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 660)
+  AUTHORS   Brosse,S., Cuenot,Y., Condachou,C., Coutant,O., Covain,R.,
+            Quartarollo,G., Le Reun,S., Vigouroux,R. and Murienne,J.
+  TITLE     Near complete 12S DNA reference library for the freshwater fish of
+            French Guiana, northern Amazonian region
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 660)
+  AUTHORS   Brosse,S., Cuenot,Y., Condachou,C., Coutant,O., Covain,R.,
+            Quartarollo,G., Le Reun,S., Vigouroux,R. and Murienne,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-SEP-2025) CRBE, Toulouse III University, 118 route de
+            Narbonne, Toulouse 31500, France
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..660
+                     /organism="Brycon pesu"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="Fl-15-020"
+                     /db_xref="taxon:387479"
+                     /lab_host="UPS"
+                     /geo_loc_name="French Guiana: Maroni"
+                     /collection_date="2015"
+     rRNA            <1..>660
+                     /product="small subunit ribosomal RNA"
+ORIGIN      
+        1 gcggttatac gagagaccct agttgataga cacggcgtaa agggtggtta aggtaaaata
+       61 ccaactaaag ccaaagacct ctttagctgt tgtaagcttc cagaggcgcg aagcccgatc
+      121 acgaaagtag ctttatcaca cctgacccca cgaaagctaa ggaacaaact gagattagat
+      181 accccactat gcttagccct aaacctagat gtaaactaca ctaatacatc cgcctgggaa
+      241 ctacgagcgc aagcttgaaa cccaaaggac ttgacggtgt ctcagaccca cctagaggag
+      301 cctgttctag aaccgataat ccacgttaaa cctcaccatc cctcgcctaa accagcctgt
+      361 ataccgccgt cgcaagctta ccctgtgaag gttcaacagt aagcaaaatg agtatatccc
+      421 agaacgtcag gtcgaggtgc agctcacggg atgggaagaa atgggctaca ttttctgtaa
+      481 cagaaaatac gaatggtatc atgaaactga tatctgaagg cggatttagt agtaaaaaac
+      541 aagcagagag tatttttgaa ataggctctg agacgcgtac acaccgcccg tcaccctccc
+      601 catcgactat catccaagta aataactaaa cgaaacaaga aacggggagg caagtcgtaa
+//
+
+LOCUS       PX415665                 627 bp    DNA     linear   VRT 07-JAN-2026
+DEFINITION  Brycon pesu voucher FL-15-019 small subunit ribosomal RNA gene,
+            partial sequence; mitochondrial.
+ACCESSION   PX415665
+VERSION     PX415665.1
+DBLINK      BioProject: PRJNA1399107
+KEYWORDS    .
+SOURCE      mitochondrion Brycon pesu
+  ORGANISM  Brycon pesu
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 627)
+  AUTHORS   Brosse,S., Cuenot,Y., Condachou,C., Coutant,O., Covain,R.,
+            Quartarollo,G., Le Reun,S., Vigouroux,R. and Murienne,J.
+  TITLE     Near complete 12S DNA reference library for the freshwater fish of
+            French Guiana, northern Amazonian region
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 627)
+  AUTHORS   Brosse,S., Cuenot,Y., Condachou,C., Coutant,O., Covain,R.,
+            Quartarollo,G., Le Reun,S., Vigouroux,R. and Murienne,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-SEP-2025) CRBE, Toulouse III University, 118 route de
+            Narbonne, Toulouse 31500, France
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..627
+                     /organism="Brycon pesu"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="FL-15-019"
+                     /db_xref="taxon:387479"
+                     /lab_host="UPS"
+                     /geo_loc_name="French Guiana: Maroni"
+                     /collection_date="2015"
+     rRNA            <1..>627
+                     /product="small subunit ribosomal RNA"
+ORIGIN      
+        1 cggcgtaagg gtggttaagg taaaatacca actaaagcca aagacctctt tagctgttgt
+       61 aagcttccag aggcgcgaag cccgatcacg aaagtagctt tatcacacct gaccccacga
+      121 aagctaagga acaaactgag attagatacc ccactatgct tagccctaaa cctagatgta
+      181 aactacacta atacatccgc ctgggaacta cgagcgcaag cttgaaaccc aaaggacttg
+      241 acggtgtctc agacccacct agaggagcct gttctagaac cgataatcca cgttaaacct
+      301 caccatccct cgcctaaacc agcctgtata ccgccgtcgc aagcttaccc tgtgaaggtt
+      361 caacagtaag caaaatgagt atatcccaga acgtcaggtc gaggtgcagc tcacgggatg
+      421 ggaagaaatg ggctacattt tctgtaacag aaaatacgaa tggtatcatg aaactgatat
+      481 ctgaaggcgg atttagtagt aaaaaacaag cagagagtat ttttgaaata ggctctgaga
+      541 cgcgtacaca ccgcccgtca ccctccccat cgactatcat ccaagtaaat aactaaacga
+      601 aacaagaaac ggggaggcaa gtcgtaa
+//
+
+LOCUS       PX415667                 627 bp    DNA     linear   VRT 07-JAN-2026
+DEFINITION  Brycon pesu voucher HYD15-215 small subunit ribosomal RNA gene,
+            partial sequence; mitochondrial.
+ACCESSION   PX415667
+VERSION     PX415667.1
+DBLINK      BioProject: PRJNA1399107
+KEYWORDS    .
+SOURCE      mitochondrion Brycon pesu
+  ORGANISM  Brycon pesu
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 627)
+  AUTHORS   Brosse,S., Cuenot,Y., Condachou,C., Coutant,O., Covain,R.,
+            Quartarollo,G., Le Reun,S., Vigouroux,R. and Murienne,J.
+  TITLE     Near complete 12S DNA reference library for the freshwater fish of
+            French Guiana, northern Amazonian region
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 627)
+  AUTHORS   Brosse,S., Cuenot,Y., Condachou,C., Coutant,O., Covain,R.,
+            Quartarollo,G., Le Reun,S., Vigouroux,R. and Murienne,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-SEP-2025) CRBE, Toulouse III University, 118 route de
+            Narbonne, Toulouse 31500, France
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..627
+                     /organism="Brycon pesu"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="HYD15-215"
+                     /db_xref="taxon:387479"
+                     /lab_host="UPS"
+                     /geo_loc_name="French Guiana: Mana"
+                     /collection_date="2015"
+     rRNA            <1..>627
+                     /product="small subunit ribosomal RNA"
+ORIGIN      
+        1 cggcgtaagg gtggttaagg taaaatacca actaaagcca aagacctctt tagctgttgt
+       61 aagcttccag aggcgcgaag cccgatcacg aaagtagctt tatcacacct gaccccacga
+      121 aagctaagga acaaactgag attagatacc ccactatgct tagccctaaa cctagatgta
+      181 aactacacta atacatccgc ctgggaacta cgagcgcaag cttgaaaccc aaaggacttg
+      241 acggtgtctc agacccacct agaggagcct gttctagaac cgataatcca cgttaaacct
+      301 caccatccct cgcctaaacc agcctgtata ccgccgtcgc aagcttaccc tgtgaaggtt
+      361 caacagtaag caaaatgagt atatcccaga acgtcaggtc gaggtgcagc tcacgggatg
+      421 ggaagaaatg ggctacattt tctgtaacag aaaatacgaa tggtatcatg aaactgatat
+      481 ctgaaggcgg atttagtagt aaaaaacaag cagagagtat ttttgaaata ggctctgaga
+      541 cgcgtacaca ccgcccgtca ccctccccat cgactatcat ccaagtaaat aactaaacga
+      601 aacaagaaac ggggaggcaa gtcgtaa
+//
+
+LOCUS       PX415668                 615 bp    DNA     linear   VRT 07-JAN-2026
+DEFINITION  Brycon pesu voucher HYD15-217 small subunit ribosomal RNA gene,
+            partial sequence; mitochondrial.
+ACCESSION   PX415668
+VERSION     PX415668.1
+DBLINK      BioProject: PRJNA1399107
+KEYWORDS    .
+SOURCE      mitochondrion Brycon pesu
+  ORGANISM  Brycon pesu
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 615)
+  AUTHORS   Brosse,S., Cuenot,Y., Condachou,C., Coutant,O., Covain,R.,
+            Quartarollo,G., Le Reun,S., Vigouroux,R. and Murienne,J.
+  TITLE     Near complete 12S DNA reference library for the freshwater fish of
+            French Guiana, northern Amazonian region
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 615)
+  AUTHORS   Brosse,S., Cuenot,Y., Condachou,C., Coutant,O., Covain,R.,
+            Quartarollo,G., Le Reun,S., Vigouroux,R. and Murienne,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-SEP-2025) CRBE, Toulouse III University, 118 route de
+            Narbonne, Toulouse 31500, France
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..615
+                     /organism="Brycon pesu"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="HYD15-217"
+                     /db_xref="taxon:387479"
+                     /lab_host="UPS"
+                     /geo_loc_name="French Guiana: Mana"
+                     /collection_date="2015"
+     rRNA            <1..>615
+                     /product="small subunit ribosomal RNA"
+ORIGIN      
+        1 ggttaaggta aaataccaac taaagccaaa gacctcttta gctgttgtaa gcttccagag
+       61 gcgcgaagcc cgatcacgaa agtagcttta tcacacctga ccccacgaaa gctaaggaac
+      121 aaactgagat tagatacccc actatgctta gccctaaacc tagatgtaaa ctacactaat
+      181 acatccgcct gggaactacg agcgcaagct tgaaacccaa aggacttgac ggtgtctcag
+      241 acccacctag aggagcctgt tctagaaccg ataatccacg ttaaacctca ccatccctcg
+      301 cctaaaccag cctgtatacc gccgtcgcaa gcttaccctg tgaaggttca acagtaagca
+      361 aaatgagtat atcccagaac gtcaggtcga ggtgcagctc acgggatggg aagaaatggg
+      421 ctacattttc tgtaacagaa aatacgaatg gtatcatgaa actgatatct gaaggcggat
+      481 ttagtagtaa aaaacaagca gagagtattt ttgaaatagg ctctgagacg cgtacacacc
+      541 gcccgtcacc ctccccatcg actatcatcc aagtaaataa ctaaacgaaa caagaaacgg
+      601 ggaggcaagt cgtaa
+//
+
+LOCUS       MG755518                 533 bp    DNA     linear   VRT 14-JUL-2019
+DEFINITION  Brycon orthotaenia isolate LGC1005 small subunit ribosomal RNA
+            gene, partial sequence; mitochondrial.
+ACCESSION   MG755518
+VERSION     MG755518.1
+KEYWORDS    .
+SOURCE      mitochondrion Brycon orthotaenia
+  ORGANISM  Brycon orthotaenia
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 533)
+  AUTHORS   Damasceno,J.S., Milan,D.T., Teixeira,D.F. and Carvalho,D.C.
+  TITLE     Environmental DNA 12S and COI markers for the Sao Francisco River
+            Basin (Brazil)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 533)
+  AUTHORS   Damasceno,J.S., Milan,D.T., Teixeira,D.F. and Carvalho,D.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-JAN-2018) Laboratorio de Genetica da Conservacao -
+            Programa de Pos-Graduacao em Biologia de Vertebrados, Pontificia
+            Universidade Catolica de Minas Gerais - PUC Minas, Av. Dom Jose
+            Gaspar 500 - Predio 41 - Coracao Eucaristico, Belo Horizonte, Minas
+            Gerais 30535-610, Brazil
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Geneious v. 4.8.5
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..533
+                     /organism="Brycon orthotaenia"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LGC1005"
+                     /db_xref="taxon:387480"
+     rRNA            <1..>533
+                     /product="small subunit ribosomal RNA"
+ORIGIN      
+        1 taaagccgaa gacctccaag tccgtcatac gatctcggag gcacgaagcc ccaacacgaa
+       61 agtagcttta ttaaccccga ccccacgaaa gctaagaaac aaactgggat tagatacccc
+      121 actatgctta gccttaaacc tagatgtcaa acatacaagt aacatccgcc agggaactac
+      181 gagcgctagc ttaaaaccca aaggacttga cggtgtctca gacccaccta gaggagcctg
+      241 ttctagaacc gataatccac gttaaacctc accacccctt gtccaatcca gcctgtatac
+      301 cgccgtcgca agcttaccct gtgaaggtcc catagtaagc aagatgggta aatcccaaaa
+      361 cgtcaggtcg aggtgcagct cacggagtgg gaagaaatgg gctacatttt ctacaacaga
+      421 atattacgaa taacaccatg aaactggtgt ttgaaggtgg atttagtagt aaaaaacaag
+      481 cagagagtct ttttgaacca ggctctgaga cgcgtacaca ccgcccgtca ccc
+//
+
+LOCUS       MG755519                 533 bp    DNA     linear   VRT 14-JUL-2019
+DEFINITION  Brycon orthotaenia isolate LGC1037 small subunit ribosomal RNA
+            gene, partial sequence; mitochondrial.
+ACCESSION   MG755519
+VERSION     MG755519.1
+KEYWORDS    .
+SOURCE      mitochondrion Brycon orthotaenia
+  ORGANISM  Brycon orthotaenia
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 533)
+  AUTHORS   Damasceno,J.S., Milan,D.T., Teixeira,D.F. and Carvalho,D.C.
+  TITLE     Environmental DNA 12S and COI markers for the Sao Francisco River
+            Basin (Brazil)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 533)
+  AUTHORS   Damasceno,J.S., Milan,D.T., Teixeira,D.F. and Carvalho,D.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-JAN-2018) Laboratorio de Genetica da Conservacao -
+            Programa de Pos-Graduacao em Biologia de Vertebrados, Pontificia
+            Universidade Catolica de Minas Gerais - PUC Minas, Av. Dom Jose
+            Gaspar 500 - Predio 41 - Coracao Eucaristico, Belo Horizonte, Minas
+            Gerais 30535-610, Brazil
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Geneious v. 4.8.5
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..533
+                     /organism="Brycon orthotaenia"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="LGC1037"
+                     /db_xref="taxon:387480"
+     rRNA            <1..>533
+                     /product="small subunit ribosomal RNA"
+ORIGIN      
+        1 taaagccgaa gacctccaag tccgtcatac gatctcggag gcacgaagcc ccaacacgaa
+       61 agtagcttta ttaaccccga ccccacgaaa gctaagaaac aaactgggat tagatacccc
+      121 actatgctta gccttaaacc tagatgtcaa acatacaagt aacatccgcc agggaactac
+      181 gagcgctagc ttaaaaccca aaggacttga cggtgtctca gacccaccta gaggagcctg
+      241 ttctagaacc gataatccac gttaaacctc accacccctt gtccaatcca gcctgtatac
+      301 cgccgtcgca agcttaccct gtgaaggtcc catagtaagc aagatgggta aatcccaaaa
+      361 cgtcaggtcg aggtgcagct cacggagtgg gaagaaatgg gctacatttt ctacaacaga
+      421 atattacgaa taacaccatg aaactggtgt ttgaaggtgg atttagtagt aaaaaacaag
+      481 cagagagtct ttttgaacca ggctctgaga cgcgtacaca ccgcccgtca ccc
+//
+
+LOCUS       KF209538                 419 bp    DNA     linear   VRT 25-SEP-2020
+DEFINITION  Brycon sp. UFRGS11377 isolate S164 12S ribosomal RNA gene, partial
+            sequence; mitochondrial.
+ACCESSION   KF209538
+VERSION     KF209538.1
+KEYWORDS    .
+SOURCE      mitochondrion Brycon sp. UFRGS11377
+  ORGANISM  Brycon sp. UFRGS11377
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 419)
+  AUTHORS   Thomaz,A., Arcila,D., Malabarba,L.R. and Orti,G.
+  TITLE     Molecular Phylogeny of the Subfamily Stevardiinae Gill, 1858
+            (Characiformes: Characidae) Major Clades and the Evolution of
+            Reproductive Traits
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 419)
+  AUTHORS   Thomaz,A., Arcila,D., Malabarba,L.R. and Orti,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-JUN-2013) Department of Biological Sciences, The
+            George Washington University, 2023 G St NW suite 304, Washington,
+            DC 20052, USA
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..419
+                     /organism="Brycon sp. UFRGS11377"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="S164"
+                     /specimen_voucher="UFRGS:11377"
+                     /db_xref="taxon:1463242"
+     rRNA            <1..>419
+                     /product="12S ribosomal RNA"
+ORIGIN      
+        1 gggattagat accccactat gcttagcctt aaacttagat gtcaaacata caaatacatc
+       61 cgccagggaa ctacgagcgc tagcttgaaa cccaaaggac ttgacggtgt ctcagaccca
+      121 cctagaggag cctgttctag aaccgataat ccacgttaaa cctcaccacc ccttgttcaa
+      181 tcagcctgta taccgccgtc gtaagcttac cctgtgaagg tcccatagta agcgaaatgg
+      241 gtaattccca agacgtcagg tcgaggtgca gctcacggag tgggaagaaa tgggctacat
+      301 tttctacaac agaatattac gaataatact atgaaactgg tatttgaagg tggatttagt
+      361 agtaaaaaat aaacagagag tttttttgaa ccaggctctg agacgcgcac acaccgccc
+//
+
+LOCUS       FJ998288                 328 bp    DNA     linear   VRT 21-MAY-2010
+DEFINITION  Brycon melanopterus voucher N162 12S ribosomal RNA gene, partial
+            sequence; mitochondrial.
+ACCESSION   FJ998288
+VERSION     FJ998288.1
+KEYWORDS    .
+SOURCE      mitochondrion Brycon melanopterus
+  ORGANISM  Brycon melanopterus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 328)
+  AUTHORS   Ardura,A., Linde,A.R., Moreira,J.C. and Garcia-Vazquez,E.
+  TITLE     DNA barcoding for conservation and management of Amazonian
+            commercial fish
+  JOURNAL   Biol. Conserv. 143, 1438-1443 (2010)
+REFERENCE   2  (bases 1 to 328)
+  AUTHORS   Ardura,A., Linde,A.R., Pola,I.G. and Garcia-Vazquez,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-MAY-2009) Biologia Funcional, Area de Genetica,
+            Universidad de Oviedo, C/ Julian Claveria, s/n, Oviedo, Asturias
+            33006, Spain
+FEATURES             Location/Qualifiers
+     source          1..328
+                     /organism="Brycon melanopterus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="N162"
+                     /db_xref="taxon:686976"
+     rRNA            <1..>328
+                     /product="12S ribosomal RNA"
+ORIGIN      
+        1 atccgccagg gaactacgag cgctagctta aaacccaaag gacttgacgg tgtctcagac
+       61 ccacctagag gagcctgttc tagaaccgat aatccacgtt aaacctcacc accccttgct
+      121 caatccagcc tgtataccgc cgtcgcaagc ttaccctgtg aaggccccat agtaagcaaa
+      181 atgggtaaat cccaaaacgt caggtcgagg tgcagctcac ggagtgggaa gaaatgggct
+      241 acattttcta caacagaata ttacgaataa caccatgaaa ttggtgcttg aaggtggatt
+      301 tagtagtaaa aaacaagcag agagtctt
+//
+
+LOCUS       LC036723                 170 bp    DNA     linear   VRT 03-NOV-2023
+DEFINITION  Salminus cf. brasiliensis CBM:ZF:12574 mitochondrial gene for 12S
+            rRNA, partial sequence, specimen_voucher: CBM:ZF:12574.
+ACCESSION   LC036723
+VERSION     LC036723.1
+KEYWORDS    .
+SOURCE      mitochondrion Salminus cf. brasiliensis CBM:ZF:12574
+  ORGANISM  Salminus cf. brasiliensis CBM:ZF:12574
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Salmininae; Salminus.
+REFERENCE   1
+  AUTHORS   Miya,M. and Sado,T.
+  TITLE     Reference data for MiFish metabarcoding analysis
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 170)
+  AUTHORS   Miya,M. and Sado,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-MAR-2015) Contact:Masaki Miya Natural History Museum
+            & Institute, Chiba, Department of Zoology; 955-2 Aoba-cho, Chuo-ku,
+            Chiba, Chiba 260-8682, Japan
+FEATURES             Location/Qualifiers
+     source          1..170
+                     /organism="Salminus cf. brasiliensis CBM:ZF:12574"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="CBM:ZF:12574"
+                     /db_xref="taxon:1633422"
+     rRNA            <1..>170
+                     /product="12S ribosomal RNA"
+ORIGIN      
+        1 caccgcggtt atacgagagg cccgagttga tagatgacgg cgtaaagggt ggttaggggt
+       61 taacattaat taaagccaaa gacctaccga gctgtcatac gcacccgaag gcacgaagcc
+      121 caaatacgaa agcagcttta tctccccccg accccacgaa agctaaggaa
+//
+
+LOCUS       OR884336                 170 bp    DNA     linear   VRT 06-DEC-2023
+DEFINITION  Brycon sp. USNM FISH 448396 isolate SU18-376 small subunit
+            ribosomal RNA gene, partial sequence; mitochondrial.
+ACCESSION   OR884336
+VERSION     OR884336.1
+DBLINK      BioProject: PRJNA1046070
+KEYWORDS    .
+SOURCE      mitochondrion Brycon sp. USNM FISH 448396
+  ORGANISM  Brycon sp. USNM FISH 448396
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 170)
+  AUTHORS   de Santana,C.D., Covain,R., Steier,J., Pitassy,D. and Redmond,N.
+  TITLE     12S barcodes of Guianese fishes
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 170)
+  AUTHORS   de Santana,C.D., Covain,R., Steier,J., Pitassy,D. and Redmond,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-NOV-2023) Smithsonian Institution Barcode Network,
+            Smithsonian Institution, 10th St. & Constitution Ave. NW,
+            Washington, DC 20560, USA
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..170
+                     /organism="Brycon sp. USNM FISH 448396"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="SU18-376"
+                     /specimen_voucher="USNM:FISH:448396"
+                     /db_xref="taxon:3101989"
+                     /geo_loc_name="Suriname: Sipaliwini, Gran Tibiti, fleuve
+                     rapide [Gran Tibiti; fast river]."
+                     /lat_lon="4.86513 N 56.1174 W"
+                     /collection_date="2018-11-02"
+                     /collected_by="Covain R., Santana C. D., Eon Ch.-H., Wan
+                     Tong You K., Warlelsteiner P., Peixoto L. & Donato Gianeti
+                     M."
+                     /PCR_primers="fwd_name: MiFish-U-F-n, fwd_seq:
+                     tcgtcggcagcgtcagatgtgtataagagacaggtcggtaaaactcgtgccagc,
+                     rev_name: MiFish-U-R-n, rev_seq:
+                     gtctcgtgggctcggagatgtgtataagagacagcatagtggggtatctaatcccagt
+                     ttg"
+     rRNA            <1..>170
+                     /product="small subunit ribosomal RNA"
+ORIGIN      
+        1 caccgcggtt atacgagggg ccctagttga tggatctcgg cgtaaagggt ggttaagggt
+       61 aactaccgaa taaagccaaa gacctcccaa cctgttatac ggtccggagg cacgaagtcc
+      121 caacacgaaa gtagctttat cacatccccg accccacgaa agctaagaaa
+//
+
+LOCUS       OR884337                 170 bp    DNA     linear   VRT 06-DEC-2023
+DEFINITION  Brycon sp. USNM FISH 448674 isolate SU18-655 small subunit
+            ribosomal RNA gene, partial sequence; mitochondrial.
+ACCESSION   OR884337
+VERSION     OR884337.1
+DBLINK      BioProject: PRJNA1046070
+KEYWORDS    .
+SOURCE      mitochondrion Brycon sp. USNM FISH 448674
+  ORGANISM  Brycon sp. USNM FISH 448674
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 170)
+  AUTHORS   de Santana,C.D., Covain,R., Steier,J., Pitassy,D. and Redmond,N.
+  TITLE     12S barcodes of Guianese fishes
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 170)
+  AUTHORS   de Santana,C.D., Covain,R., Steier,J., Pitassy,D. and Redmond,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-NOV-2023) Smithsonian Institution Barcode Network,
+            Smithsonian Institution, 10th St. & Constitution Ave. NW,
+            Washington, DC 20560, USA
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..170
+                     /organism="Brycon sp. USNM FISH 448674"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="SU18-655"
+                     /specimen_voucher="USNM:FISH:448674"
+                     /db_xref="taxon:3101990"
+                     /geo_loc_name="Suriname: Sipaliwini, Gran Tibiti, fleuve
+                     rapide [Gran Tibiti; fast river]."
+                     /collection_date="2018"
+                     /PCR_primers="fwd_name: MiFish-U-F, fwd_seq:
+                     gtcggtaaaactcgtgccagc, rev_name: MiFish-U-R, rev_seq:
+                     catagtggggtatctaatcccagtttg"
+     rRNA            <1..>170
+                     /product="small subunit ribosomal RNA"
+ORIGIN      
+        1 caccgcggtt atacgagggg ccctagttga tggatctcgg cgtaaagggt ggttaagggt
+       61 aactaccgaa taaagccaaa gacctcccaa cctgttatac ggtccggagg cacgaagtcc
+      121 caacacgaaa gtagctttat cacatccccg accccacgaa agctaagaaa
+//
+
+LOCUS       OR884338                 170 bp    DNA     linear   VRT 06-DEC-2023
+DEFINITION  Brycon sp. USNM FISH 448969 isolate SU18-951 small subunit
+            ribosomal RNA gene, partial sequence; mitochondrial.
+ACCESSION   OR884338
+VERSION     OR884338.1
+DBLINK      BioProject: PRJNA1046070
+KEYWORDS    .
+SOURCE      mitochondrion Brycon sp. USNM FISH 448969
+  ORGANISM  Brycon sp. USNM FISH 448969
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 170)
+  AUTHORS   de Santana,C.D., Covain,R., Steier,J., Pitassy,D. and Redmond,N.
+  TITLE     12S barcodes of Guianese fishes
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 170)
+  AUTHORS   de Santana,C.D., Covain,R., Steier,J., Pitassy,D. and Redmond,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-NOV-2023) Smithsonian Institution Barcode Network,
+            Smithsonian Institution, 10th St. & Constitution Ave. NW,
+            Washington, DC 20560, USA
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..170
+                     /organism="Brycon sp. USNM FISH 448969"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="SU18-951"
+                     /specimen_voucher="USNM:FISH:448969"
+                     /db_xref="taxon:3101991"
+                     /geo_loc_name="Suriname: Sipaliwini, Gran Tibiti, fleuve
+                     rapide [Gran Tibiti; fast river]."
+                     /lat_lon="4.86513 N 56.1174 W"
+                     /collection_date="2018-11-06"
+                     /collected_by="Covain R., Santana C. D., Eon Ch.-H., Wan
+                     Tong You K., Warlelsteiner P., Peixoto L. & Donato Gianeti
+                     M."
+                     /PCR_primers="fwd_name: MiFish-U-F-n, fwd_seq:
+                     tcgtcggcagcgtcagatgtgtataagagacaggtcggtaaaactcgtgccagc,
+                     rev_name: MiFish-U-R-n, rev_seq:
+                     gtctcgtgggctcggagatgtgtataagagacagcatagtggggtatctaatcccagt
+                     ttg"
+     rRNA            <1..>170
+                     /product="small subunit ribosomal RNA"
+ORIGIN      
+        1 caccgcggtt atacgagggg ccctagttga tggatctcgg cgtaaagggt ggttaagggt
+       61 aactaccgaa taaagccaaa gacctcccaa cctgttatac ggtccggagg cacgaagtcc
+      121 caacacgaaa gtagctttat cacatccccg accccacgaa agctaagaaa
+//
+
+LOCUS       OR884339                 170 bp    DNA     linear   VRT 06-DEC-2023
+DEFINITION  Brycon sp. USNM FISH 449120 isolate SU18-1102 small subunit
+            ribosomal RNA gene, partial sequence; mitochondrial.
+ACCESSION   OR884339
+VERSION     OR884339.1
+DBLINK      BioProject: PRJNA1046070
+KEYWORDS    .
+SOURCE      mitochondrion Brycon sp. USNM FISH 449120
+  ORGANISM  Brycon sp. USNM FISH 449120
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 170)
+  AUTHORS   de Santana,C.D., Covain,R., Steier,J., Pitassy,D. and Redmond,N.
+  TITLE     12S barcodes of Guianese fishes
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 170)
+  AUTHORS   de Santana,C.D., Covain,R., Steier,J., Pitassy,D. and Redmond,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-NOV-2023) Smithsonian Institution Barcode Network,
+            Smithsonian Institution, 10th St. & Constitution Ave. NW,
+            Washington, DC 20560, USA
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..170
+                     /organism="Brycon sp. USNM FISH 449120"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /isolate="SU18-1102"
+                     /specimen_voucher="USNM:FISH:449120"
+                     /db_xref="taxon:3101992"
+                     /geo_loc_name="Suriname: Sipaliwini, Cow Falls."
+                     /lat_lon="5.0 N 57.6333 W"
+                     /collection_date="2018-11-13"
+                     /collected_by="Covain R., Santana C. D., Eon Ch.-H., Wan
+                     Tong You K., Warlelsteiner P., Peixoto L. & Donato Gianeti
+                     M."
+                     /PCR_primers="fwd_name: MiFish-U-F-n, fwd_seq:
+                     tcgtcggcagcgtcagatgtgtataagagacaggtcggtaaaactcgtgccagc,
+                     rev_name: MiFish-U-R-n, rev_seq:
+                     gtctcgtgggctcggagatgtgtataagagacagcatagtggggtatctaatcccagt
+                     ttg"
+     rRNA            <1..>170
+                     /product="small subunit ribosomal RNA"
+ORIGIN      
+        1 caccgcggtt atacgagggg ccctagttga tagatctcgg cgtaaagggt ggttaagggt
+       61 aactaccgaa taaagccaaa gacctcccaa cctgttatac ggtccggagg cacgaagtcc
+      121 caacacgaaa gtagctttat cacatccccg accccacgaa agctaagaaa
+//
+
+LOCUS       HM637757                 116 bp    DNA     linear   VRT 11-JAN-2011
+DEFINITION  Brycon melanopterus voucher N162 12S ribosomal RNA gene, partial
+            sequence; mitochondrial.
+ACCESSION   HM637757
+VERSION     HM637757.1
+KEYWORDS    .
+SOURCE      mitochondrion Brycon melanopterus
+  ORGANISM  Brycon melanopterus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 116)
+  AUTHORS   Ardura,A., Pola,I.G., Linde,A.R. and Garcia-Vazquez,E.
+  TITLE     DNA-based methods for species authentication of Amazonian
+            commercial fish
+  JOURNAL   Food Res. Int. 43 (9), 2295-2302 (2010)
+REFERENCE   2  (bases 1 to 116)
+  AUTHORS   Ardura,A., Pola,I.G., Linde,A.R. and Garcia-Vazquez,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUL-2010) Biologia Funcional, Area de Genetica,
+            Universidad de Oviedo, C/ Julian Claveria, s/n, Oviedo, Asturias
+            33006, Spain
+FEATURES             Location/Qualifiers
+     source          1..116
+                     /organism="Brycon melanopterus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="N162"
+                     /db_xref="taxon:686976"
+                     /geo_loc_name="Brazil: Manaus"
+                     /lat_lon="3.1000 S 60.0167 W"
+                     /collection_date="Jan-2009"
+                     /collected_by="Eva Garcia Vazquez and Alba Ardura
+                     Gutierrez"
+                     /identified_by="Eva Garcia Vazquez and Alba Ardura
+                     Gutierrez"
+                     /PCR_primers="fwd_name: FINS-F, fwd_seq:
+                     cmgyctatataccgccgtcg, rev_name: FINS-R, rev_seq:
+                     aatgtagcccatttcttyc"
+     rRNA            <1..>116
+                     /product="12S ribosomal RNA"
+ORIGIN      
+        1 ctatataccg ccgtcgcaag cttaccctgt gaaggcccca tagtaagcaa aatgggtaaa
+       61 tcccaaaacg tcaggtcgag gtgcagctca cggagtggga agaaatgggc tacatt
+//
+LOCUS       KY825190                 947 bp    DNA     linear   VRT 24-MAR-2026
+DEFINITION  Salminus brasiliensis mitochondrion, complete genome.
+ACCESSION   KY825190 REGION: 69..1015
+VERSION     KY825190.1
+KEYWORDS    .
+SOURCE      mitochondrion Salminus brasiliensis (dorado)
+  ORGANISM  Salminus brasiliensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Salmininae; Salminus.
+REFERENCE   1  (bases 1 to 947)
+  AUTHORS   Graciano,R.C.D., Oliveira,R.S., Santos,I.M. and Yazbeck,G.M.
+  TITLE     Genomic Resources for Salminus brasiliensis
+  JOURNAL   Front Genet 13, 855718 (2022)
+   PUBMED   35419039
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 947)
+  AUTHORS   Ribeiro,J.M., Oliveira,R.S., Carmo,F.M.S. and Yazbeck,G.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-MAR-2017) Departamento de Ciencia da computacao,
+            Universidade Federal de Sao Joao del Rei, Pca. Frei Orlando, 170,
+            Sao Joao Del-Rei, MG 36307-352, Brasil
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Mitobim v. 1.8; Mira v. 4.0.2
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..947
+                     /organism="Salminus brasiliensis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:930266"
+     rRNA            1..947
+                     /product="12S ribosomal RNA"
+ORIGIN      
+        1 caaaggcctg gtcccgactt tactatcagc ttcgacccaa attatacatg caagtatccg
+       61 cacacctgtg agaatgccct caatcccccg cccggggatg aggagctggc atcaggcaca
+      121 caatgtagcc caagacgcct tgctacgcca cacccccaag ggaactcagc agtaataaac
+      181 attaagacat aagtgaaaac ttgacttaat taaggttaac ttagggccgg taaaactcgt
+      241 gccagccacc gcggttatac gagaggcccg agttgataga tgacggcgta aagggtggtt
+      301 aggggttaac attaattaaa gccaaagacc taccgagctg tcatacgcac ccgaaggcac
+      361 gaagcccaaa tacgaaagca gctttatctc cccccgaccc cacgaaagct aaggaacaaa
+      421 ctgggattag ataccccact atgcttagcc ttaaacttag atgttgaatt tacgagtaac
+      481 atccgccagg gaactacgag cgctagcttg aaacccaaag gacttgacgg tgtctcagac
+      541 ccacctagag gagcctgttc tagaaccgat aatccacgtt aaacctcacc accccttgtt
+      601 cattcagcct gtataccgcc gtcgcaagct taccctgtga aggcttaaca gtaagcaaaa
+      661 tgggaatatc ccaagacgtc aggtcgaggt gcagcctacg gagtgggaag aaatgggcta
+      721 cattttctgt aacagaatac tacgaattac accatgaaat tggtgtttga aggtggattt
+      781 agcagtaaaa aacaaataga gagtcttttt gaacatggct ctgagacgcg tacacaccgc
+      841 ccgtcgccct ccccgtaaac acacatacta gtaaataacc aaattaaaca aaaaagggga
+      901 ggtaagtcgt aacatggtaa gtgtaccgga aggtgcactt ggaacat
+//
+
+LOCUS       KP027535                 953 bp    DNA     linear   VRT 29-MAR-2015
+DEFINITION  Brycon henni voucher Bhen-UNAL-001 mitochondrion, complete genome.
+ACCESSION   KP027535 REGION: 11481..12433
+VERSION     KP027535.1
+KEYWORDS    .
+SOURCE      mitochondrion Brycon henni
+  ORGANISM  Brycon henni
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 953)
+  AUTHORS   Landinez-Garcia,R.M., Alzate,J.F. and Marquez,E.J.
+  TITLE     Complete mitogenome of the Neotropical fish Brycon henni, Eigenmann
+            1913 (Characiformes, Bryconidae)
+  JOURNAL   Mitochondrial DNA, 1-2 (2014) In press
+   PUBMED   25423503
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 953)
+  AUTHORS   Landinez-Garcia,R.M., Alzate,J.F. and Marquez,E.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-OCT-2014) Sede de Investigacion Universitaria,
+            Universidad de Antioquia, Cra 53 #61-30. Centro Nacional de
+            Secuenciacion Genomica-SIU, Medellin, Antioquia 0000, Colombia
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Newbler v. v2.9
+            Coverage              :: 562X
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..953
+                     /organism="Brycon henni"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="Bhen-UNAL-001"
+                     /db_xref="taxon:387485"
+     rRNA            1..953
+                     /product="12S ribosomal RNA"
+ORIGIN      
+        1 caaaggcctg gtcccgactt tactatcggc tttaacccaa tttatacatg caagtatccg
+       61 cacccctgtg agaatgccct caattccccg cccgggaata aggagctggc atcaggcaca
+      121 cttatttagc ccaagacgcc ttgcttcagc cacaccccca agggaactca gcagtgataa
+      181 atattaagcc ataagtgaaa acttgactta gttagggtta acttagggtc ggtaaaactc
+      241 gtgccagcca ccgcggttat acgagagacc ccagttgata gctacggcgt aaagagtggt
+      301 taaggatttt caacaaataa agtcaaagat ctccctagct gtcgcacgca cccccggaga
+      361 cacgaagccc caacacgaaa gtaactttat tatcaccccg accccacgaa agctaagaaa
+      421 caaactggga ttagataccc cactatgctt agccttaaac ctagatgttt taaatacaag
+      481 caacatccgc cagggtacta cgagcgctag cttaaaaccc aaaggacttg acggtgtctc
+      541 agacccgcct agaggagcct gttctagaac cgataatccc cgttaaacct caccacccct
+      601 agtcttttcc gcctatatac cgccgtcgca agcttaccct gtgaaggtcc tatagtaagc
+      661 aaaatgggta aaacccaaaa cgtcaggtcg aggtgtagct tacgaggtgg gaagaaatgg
+      721 gctacatttt ctatagcaga atactacgaa cggcactatg aaactagtgc ccgaaggtgg
+      781 atttagaagt aaaaaacaaa tagagagtct ttttgaacca ggctctgaga cgcgtacaca
+      841 ccgcccgtca ctctccccat taccccttaa cttaagtaaa taaccagaca aaccaaaaag
+      901 cggggaggca agtcgtaaca tggtaagtgt accggaaggt gtacttggaa cat
+//
+
+LOCUS       MT428073                 955 bp    DNA     linear   VRT 23-AUG-2020
+DEFINITION  Brycon nattereri voucher LAGEEVO_3928 mitochondrion, complete
+            genome.
+ACCESSION   MT428073 REGION: 69..1023
+VERSION     MT428073.1
+KEYWORDS    .
+SOURCE      mitochondrion Brycon nattereri
+  ORGANISM  Brycon nattereri
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 955)
+  AUTHORS   Resende,S.V., Pasa,R., Menegidio,F.B., Heslop-Harrison,J.S.,
+            Schwarzacher,T. and Kavalco,K.F.
+  TITLE     Draft genome of the endangered species Brycon nattereri
+            (Characiformes, Characidae)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 955)
+  AUTHORS   Resende,S.V., Pasa,R., Menegidio,F.B., Heslop-Harrison,J.S.,
+            Schwarzacher,T. and Kavalco,K.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-MAY-2020) Institute of Biological and Health Sciences
+            - Laboratory of Ecological and Evolutionary Genetics, Federal
+            University of Vicosa, campus Rio Paranaiba, Brazil, Km 7 - Zona
+            Rural, MG-230, Rio Paranaiba, Minas Gerais 38810000, Brasil
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Novoplasty v. v3.7
+            Assembly Name         :: Draft genome of the endangered species
+                                     Brycon nattereri (Characiformes,
+                                     Characidae)
+            Coverage              :: 10x
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..955
+                     /organism="Brycon nattereri"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /specimen_voucher="LAGEEVO_3928"
+                     /db_xref="taxon:387484"
+                     /sex="male"
+                     /tissue_type="liver and heart"
+                     /geo_loc_name="Brazil: Parana river basin"
+                     /lat_lon="19.46525 S 46.23256 W"
+     rRNA            1..955
+                     /product="12S ribosomal RNA"
+ORIGIN      
+        1 caaaagtttg gtcccggctt tactatcagc ttcaacccaa gttatacatg caagtatccg
+       61 cacacccgtg aaaatgccct taatccccct tgcccgggga cgaggagcta gcatcaggca
+      121 cactttaatc tttagcccaa gacgctttgc gaagccacac ccccaaggga actcagcagt
+      181 aataaacatt aagccataag tgaaaacttg acttagttaa ggttaatcag ggccggtaaa
+      241 actcgtgcca gctgccgcgg ttaaacgaga ggccctagtt gaaagtgtac ggcgtaaagg
+      301 gtggttaggg atgactatta actaaagcca aagacctccc aagctgtcgt acgatccgga
+      361 ggcacgaagt cccaccacga aagtagcttt attacccctt gaccccacga aagctaagaa
+      421 acaaactggg attagatacc ccactatgct tagccttaaa cttagatgtc aaacatacaa
+      481 atacatccgc cagggaacta cgagcgctag cttgaaaccc aaaggacttg acggtgtctc
+      541 agacccacct agaggagcct gttctagaac cgataatcca cgttaaacct caccacccct
+      601 tgctcaatca gcctgtatac cgccgtcgta agcttaccct gtgaaggtcc catagtaagc
+      661 aaaatgggta attcccaaga cgtcaggtcg aggtgcagct cacggagtgg gaagaaatgg
+      721 gctacatttt ctacaacaga acattacgaa taatactatg aaactggtat ttgaaggtgg
+      781 atttagtagt aaaaaataaa cagagagttt ttttgaacca ggctctgaga cgcgcacaca
+      841 ccgcccgtca ccctccccat caattattaa caaaaaagta aataaccaga aaaatctaga
+      901 agcggggagg caagtcgtaa catggtaagt gtaccggaag gtgcacttgg aacat
+//
+
+LOCUS       KY825192                 952 bp    DNA     linear   VRT 24-MAR-2026
+DEFINITION  Brycon orbignyanus mitochondrion, complete genome.
+ACCESSION   KY825192 REGION: 69..1020
+VERSION     KY825192.1
+KEYWORDS    .
+SOURCE      mitochondrion Brycon orbignyanus
+  ORGANISM  Brycon orbignyanus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 952)
+  AUTHORS   Yazbeck,G.M., Oliveira,R.S., Ribeiro,J.M., Graciano,R.D.,
+            Santos,R.P., Carmo,F.M.S. and Lavenier,D.
+  TITLE     A broad genomic panel of microsatellite loci from Brycon
+            orbignyanus (Characiformes: Bryconidae) an endangered migratory
+            Neotropical fish
+  JOURNAL   Sci Rep 8 (1), 8511 (2018)
+   PUBMED   29855493
+  REMARK    Erratum:[Sci Rep. 2020 Apr 30;10(1):7584. doi:
+            10.1038/s41598-020-64336-2. PMID: 32350396]
+            Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 952)
+  AUTHORS   Ribeiro,J.M., Oliveira,R.S., Carmo,F.M.S. and Yazbeck,G.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-MAR-2017) Departamento de Ciencia da computacao,
+            Universidade Federal de Sao Joao del Rei, Pca. Frei Orlando, 170,
+            Sao Joao Del-Rei, MG 36307-352, Brasil
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Mira v. 4.0.2; Mitobim v. 1.8
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..952
+                     /organism="Brycon orbignyanus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:126315"
+     rRNA            1..952
+                     /product="12S ribosomal RNA"
+ORIGIN      
+        1 caaaggcatg gtcccgactt tactatcagc tttaacccaa attatacatg caagtatccg
+       61 cacacctgtg agaatgccct caatcccccg cccggggacg aggagctggc atcaggcaca
+      121 cccctaatcc tagcccaaga cgccttgcta cgccacaccc ccaagggaac tcagcagtaa
+      181 taaatattaa gccataagtg aaaacttgac ttagttaagg ttaatcaggg ccggtaaaac
+      241 tcgtgccagc caccgcggtt atacgagagg ccctagttga tggacacggc gtaaagggtg
+      301 gttagggata actatcaatt aaagccgaag acctccaagt ctgtcatacg atctcggagg
+      361 cacgaagccc caacacgaaa gtagctttat tacccccgac cccacgaaag ctaagaaaca
+      421 aactgggatt agatacccca ctatgcttag ccttaaacct agatgtcaaa catacaagta
+      481 acatccgcca gggaactaca agcgctagct taaaacccaa aggacttgac ggtgtctcag
+      541 acccacctag aggagcctgt tctagaaccg ataatccacg ttaaacctca ccaccccttg
+      601 ttcaatccag cctgtatacc gccgtcgcaa gcttaccctg tgaaggtccc atagtaagca
+      661 aaatgggtag atcccaaaac gtcaggtcga ggtgcagctc acggagtggg aagaaatggg
+      721 ctacattttc tacaacagaa tattacgaat aacaccatga aactggtgtt tgaaggtgga
+      781 tttagtagta aaaaacaagc agagagtctt tttgaaccag gctctgagac gcgtacacac
+      841 cgcccgtcac cctccccatc aattattaac aaaagtaaat aaccaaacag aaccagaagc
+      901 ggggaggcaa gtcgtaacat ggtaagtgta ccggaaggtg tacttggaac at
+//
+
+LOCUS       BK075990                 954 bp    DNA     linear   VRT 12-JUN-2026
+DEFINITION  TPA_asm: Brycon falcatus mitochondrion, complete genome.
+ACCESSION   BK075990 REGION: 63..1016
+VERSION     BK075990.1
+KEYWORDS    Third Party Data; TPA; TPA:assembly.
+SOURCE      mitochondrion Brycon falcatus
+  ORGANISM  Brycon falcatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Characiformes; Characoidei; Bryconinae; Brycon.
+REFERENCE   1  (bases 1 to 954)
+  AUTHORS   Cordova,W.W., Corvalan,L.C.J., Romao,H.A.A., Carvalho,L.R.,
+            Dias,R.O., Paula-Souza,L.B., Dias,M.S., Teresa,F.B.,
+            Diniz-Filho,J.A.F., Telles,M.P.C., Braga-Ferreira,R.S. and Nunes,R.
+  TITLE     Assembly and annotation of fish mitochondrial genomes from the
+            Tocantins-Araguaia river basin using public sequencing data:
+            evolutionary insights and potential resources for biodiversity
+            monitoring by environmental DNA
+  JOURNAL   Sci Rep (2026) In press
+REFERENCE   2  (bases 1 to 954)
+  AUTHORS   Cordova,W.W., Corvalan,L.C.J., Romao,H.A.A., Dias,R.O.,
+            Paula-Souza,L.B., Dias,M.S., Teresa,F.B., Diniz-Filho,J.A.F.,
+            Telles,M.P.C., Braga-Ferreira,R.S. and Nunes,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-MAR-2026) Laboratorio de Genetica e Biodiversidade
+            (LGBio), Universidade Federal de Goias, Avenida Esperanca, Goiania,
+            Goias 74001-970, Brasil
+COMMENT     THIRD PARTY DATABASE: This TPA record uses data from
+            DDBJ/EMBL/GenBank entry SRR10079810
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: NOVOplasty v. 4.3.1
+            Assembly Name         :: Brycon falcatus
+            Coverage              :: 43
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..954
+                     /organism="Brycon falcatus"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:1529838"
+     rRNA            1..954
+                     /product="12S ribosomal RNA"
+     tRNA            >954
+                     /product="tRNA-Val"
+ORIGIN      
+        1 caaaagcttg gtcccgactt tactatcagc tttaacccaa gttatacatg caagtatccg
+       61 cgtacccgtg agaatgccct taatccccca cccggggacg aggagctagc atcaggcaca
+      121 cctacaaccc tagcccaaga cgctttgcta cgccacaccc ccaagggaac tcagcagtaa
+      181 taaatattaa gccataagtg aaaacttgac ttagttaagg ttaatcaggg ccggtaaaac
+      241 tcgtgccagc caccgcggtt atacgagggg ccctagttga tggatctcgg cgtaaagggt
+      301 ggttaagggt aattaccaaa taaagccaaa gacctcccaa cctgttatac ggcccggagg
+      361 catgaagccc caatacgaaa gtagctttat tacatcccga ccccacgaaa gctaagaaac
+      421 aaactgggat tagatacccc actatgctta gccttaaacc cagatgtcaa atatacaagt
+      481 aacatccgcc agggaactac gagcgctagc ttgaaaccca aaggacttga cggtgtctca
+      541 gacccaccta gaggagcctg ttctagaacc gataatccac gttaaacctc accacccctt
+      601 gttccaccca gcctgtatac cgccgtcgta agcttaccct gtgaaggccc catagtaagc
+      661 aaaatgggta tctcccaaaa cgtcaggtcg aggtgcagct catggagtgg gaagaaatgg
+      721 gctacatttt ctacaacaga acattacgaa tcataccatg aaactggtat ttgaaggtgg
+      781 atttagtagt aaaaaacaaa tagagagtct ttttgaacca ggctctgaga cgcgtacaca
+      841 ccgcccgtca ccctccccat taattactaa caaaagtaaa taaccagaaa aattcaaaag
+      901 cggggaggca agtcgtaaca tggtaagtgt accggaaggt gtacttggaa catc
+//
+
+
