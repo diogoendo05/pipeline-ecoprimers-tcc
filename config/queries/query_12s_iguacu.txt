@@ -1,22 +1,14 @@
 QUERY GENBANK - 12s_iguacu
 =======================================
-target_id  : 12s_iguacu
-marker     : 12S
-root_taxid :
-min_len    :
-max_len    :
 
 Arquivo de saida esperado: data/raw/12s_iguacu.gb
-
 
 QUERY BOOLEANA
 --------------
 
-
+((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((("Ancistrus abilhoai") OR "Ancistrus agostinhoi") OR "Ancistrus mullerae") OR "Apareiodon vittatus") OR "Apteronotus ellisi") OR "Astyanax altiparanae") OR "Astyanax dissimilis") OR "Astyanax eremus") OR "Astyanax gymnodontus") OR "Astyanax gymnogenys") OR "Astyanax jordanensis") OR "Astyanax lacustris") OR "Astyanax longirhinus") OR "Astyanax minor") OR "Astyanax serratus") OR "Astyanax sp. 2") OR "Astyanax totae") OR "Astyanax varzeae") OR "Psalidodon bifasciatus") OR "Australoheros angiru") OR "Australoheros kaaygua") OR "Austrolebias araucarianus") OR "Austrolebias carvalhoi") OR "Brycon hilarii") OR "Brycon orbignyanus") OR "Bryconamericus ikaa") OR "Bryconamericus pyahu") OR "Bryconamericus sp.") OR "Callichthys callichthys") OR "Cambeva crassicaudata") OR "Cambeva naipi") OR "Cambeva plumbea") OR "Cambeva sp. 2") OR "Cambeva stawiarski") OR "Cambeva taroba") OR "Cambeva castroi”) OR “Trichomycterus castroi") OR "Cambeva davisi”) OR Trichomycterus davisi") OR "Cambeva igobi”) OR “Trichomycterus igobi") OR "Cambeva mboycy”) OR “Trichomycterus mboycy") OR "Cambeva papilliferus”) OR “Trichomycterus papilliferus") OR "Characidium travassosi") OR "Charax stenopterus") OR "Cichla kelberi") OR "Cichlasoma paranaense") OR "Clarias gariepinus") OR "Cnesterodon carnegiei") OR "Cnesterodon omorgmatos") OR "Coptodon rendalli") OR "Corydoras carlae") OR "Corydoras longipinnis") OR "Corydoras ehrhardti") OR "Corydoras paleatus") OR "Crenicichla iguassuensis") OR "Crenicichla tapii") OR "Crenicichla tesay") OR "Crenicichla tuca") OR "Crenicichla yaha") OR "Ctenopharyngodon idella") OR "Cyanocharax alburnus”) OR “Diapoma alburnus") OR "Cyphocharax santacatarinae") OR "Cyprinus carpio") OR "Geophagus iporangensis") OR "Glandulocauda caerulea") OR "Glanidium ribeiroi") OR "Gymnogeophagus taroba") OR "Gymnotus inaequilabiatus") OR "Gymnotus sylvius") OR "Hasemania maxillaris") OR "Hasemania melanura") OR "Heptapterus sp") OR "Heptapterus stewarti") OR "Hisonotus yasi") OR "Hoplias malabaricus") OR "Hoplias intermedius") OR "Hoplias misionera") OR "Hoplosternum littorale") OR "Hyphessobrycon bifasciatus") OR "Hyphessobrycon griemi") OR "Hyphessobrycon reticulatus") OR "Hyphessobrycon taurocephalus") OR "Hypophthalmichthys molitrix") OR "Hypophthalmichthys nobilis") OR "Hypostomus agna") OR "Hypostomus albopunctatus") OR "Hypostomus commersoni") OR "Hypostomus derbyi") OR "Hypostomus myersI") OR "Hypostomus nigropunctatus") OR "Ictalurus punctatus") OR "Imparfinis holland") OR "Jenynsia diphyes") OR "Jenynsia eigenmanni") OR "Leporinus amae") OR "Leporinus elongatus") OR "Leporinus friderici") OR "Leporinus octofasciatus") OR "Loricariichthys melanocheilus") OR "Loricariichthys cf. rostratus") OR "Megaleporinus macrocephalus") OR "Megaleporinus obtusidens") OR "Megaleporinus piavussu") OR Micropterus salmoides") OR "Mimagoniates microlepis") OR "Misgurnus anguillicaudatus") OR "Odontesthes bonariensis") OR "Oligosarcus longirostris") OR "Otothyropsis biamnicus") OR "Pareiorhaphis parmula") OR "Phalloceros harpagos") OR "Phalloceros spiloura") OR "Piaractus mesopotamicus") OR "Pimelodus britskii") OR "Pimelodus ortmanni") OR "Poecilia reticulata") OR "Prochilodus lineatus") OR "Psalidodon gymnodontus") OR "Pseudoplatystoma corruscans") OR "Pseudoplatystoma reticulatum") OR "Rhamdia branneri") OR "Rhamdia voulezi") OR "Rhamdiopsis moreirai") OR "Rineloricaria langei") OR "Rineloricaria maacki") OR "Roeboides descalvadensis") OR "Salminus brasiliensis") OR "Schizodon borellii") OR "Steindachneridion melanodermatum") OR "Steindachneridion scriptum") OR "Steindachnerina brevipinna") OR "Synbranchus marmoratus") OR "Tatia jaracatia") OR "Xiphophorus hellerii") AND "12S") AND "chordates"[porgn:__txid7711]) AND "ray-finned fishes"[porgn:__txid7898]
 
 REGISTRO
 --------
-Data do download   :
-Sequencias obtidas :
-Filtros aplicados  :
+Sequencias obtidas : 143
 Observacoes        :
