@@ -1,0 +1,32 @@
+# --- dados brutos, taxonomia e bancos ---
+data/raw/*
+data/taxdump/*
+data/processed/*
+!data/raw/.gitkeep
+!data/taxdump/.gitkeep
+!data/processed/*/
+!data/processed/*/.gitkeep
+
+*.dmp
+taxdump.tar.gz
+
+*.gb
+*.gbk
+*.fasta
+*.fa
+*.fna
+*.ecopcr/
+*.adx
+*.ndx
+*.rdx
+*.tdx
+
+# --- resultados: descomente se NAO quiser versionar os CSV ---
+# results/*/*.csv
+
+# --- ambiente / SO ---
+.env
+.DS_Store
+Thumbs.db
+__pycache__/
+*.log

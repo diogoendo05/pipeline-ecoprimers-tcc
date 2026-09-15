@@ -1,0 +1,22 @@
+QUERY GENBANK - 16s_pimelodidae
+=======================================
+target_id  : 16s_pimelodidae
+marker     : 16S
+root_taxid :
+min_len    :
+max_len    :
+
+Arquivo de saida esperado: data/raw/16s_pimelodidae.gb
+
+
+QUERY BOOLEANA
+--------------
+
+
+
+REGISTRO
+--------
+Data do download   :
+Sequencias obtidas :
+Filtros aplicados  :
+Observacoes        :

@@ -1,0 +1,22 @@
+QUERY GENBANK - 12s_pimelodidae
+=======================================
+target_id  : 12s_pimelodidae
+marker     : 12S
+root_taxid :
+min_len    :
+max_len    :
+
+Arquivo de saida esperado: data/raw/12s_pimelodidae.gb
+
+
+QUERY BOOLEANA
+--------------
+
+
+
+REGISTRO
+--------
+Data do download   :
+Sequencias obtidas :
+Filtros aplicados  :
+Observacoes        :

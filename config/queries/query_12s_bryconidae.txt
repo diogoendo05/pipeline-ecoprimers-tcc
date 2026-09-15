@@ -1,0 +1,22 @@
+QUERY GENBANK - 12s_bryconidae
+=======================================
+target_id  : 12s_bryconidae
+marker     : 12S
+root_taxid :
+min_len    :
+max_len    :
+
+Arquivo de saida esperado: data/raw/12s_bryconidae.gb
+
+
+QUERY BOOLEANA
+--------------
+
+
+
+REGISTRO
+--------
+Data do download   :
+Sequencias obtidas :
+Filtros aplicados  :
+Observacoes        :
