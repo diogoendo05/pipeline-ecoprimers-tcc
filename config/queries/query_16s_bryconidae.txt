@@ -1,22 +1,14 @@
 QUERY GENBANK - 16s_bryconidae
 =======================================
-target_id  : 16s_bryconidae
-marker     : 16S
-root_taxid :
-min_len    :
-max_len    :
 
 Arquivo de saida esperado: data/raw/16s_bryconidae.gb
-
 
 QUERY BOOLEANA
 --------------
 
-
+((((((((((((((((((((((((((((((((((((((((((((((((((((Brycon alburnus) OR Brycon amazonicus) OR Brycon argenteus) OR Brycon atrocaudatus) OR Brycon behreae) OR Brycon bicolor) OR Brycon cephalus) OR Brycon chagrensis) OR Brycon coquenani) OR Brycon costaricensis) OR Brycon coxeyi) OR Brycon dentex) OR Brycon devillei) OR Brycon dulcis) OR Brycon falcatus) OR Brycon ferox) OR Brycon fowleri) OR Brycon gouldingi) OR Brycon guatemalensis) OR Brycon henni) OR Brycon hilarii) OR Brycon howesi) OR Brycon insignis) OR Brycon labiatus) OR Brycon medemi) OR Brycon meeki) OR Brycon melanopterus) OR Brycon moorei) OR Brycon nattereri) OR Brycon obscurus) OR Brycon oligolepis) OR Brycon opalinus) OR Brycon orbignyanus) OR Brycon orthotaenia) OR Brycon pesu) OR Brycon petrosus) OR Brycon polylepis) OR Brycon posadae) OR Brycon rubricauda) OR Brycon sinuensis) OR Brycon stolzmanni) OR Brycon striatulus) OR Brycon unicolor) OR Brycon vermelha) OR Salminus affinis) OR Salminus brasiliensis) OR Salminus franciscanus) OR Salminus hilarii) OR Salminus iquitensis) OR Chilobrycon deuterodon) OR Henochilus wheatlandii) AND 16S) AND "chordates"[porgn:__txid7711]) AND "ray-finned fishes"[porgn:__txid7898]
 
 REGISTRO
 --------
-Data do download   :
-Sequencias obtidas :
-Filtros aplicados  :
+Sequencias obtidas : 84
 Observacoes        :
