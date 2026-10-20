@@ -1,7 +1,15 @@
-name:
+# Conda environment used to run the pipeline (inside WSL / Ubuntu).
+# OBITools 1.2.13 requires Python 2.7.
+# Create with:  conda env create -f environment.yml
+name: ecoprimers_env
 
 channels:
-  -
+  - conda-forge
+  - bioconda
 
 dependencies:
-  -
+  - python=2.7
+  - obitools=1.2.13   # obiconvert
+  - ecopcr            # ecoPCRFormat.py
+  - ecoprimers        # ecoPrimers
+  - wget

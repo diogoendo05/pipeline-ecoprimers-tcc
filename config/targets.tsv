@@ -1,9 +1,9 @@
-target_id	marker	root_taxid	min_len	max_len
-12s_pimelodidae	12S			
-16s_pimelodidae	16S			
-12s_bryconidae	12S			
-16s_bryconidae	16S			
-12s_tibagi	12S			
-16s_tibagi	16S			
-12s_iguacu	12S			
-16s_iguacu	16S			
+target_id	marker	reference_set	root_taxid	root_species	min_len	max_len	excluded_taxids
+12s_pimelodidae	12S	Pimelodidae (family)	1000982	Steindachneridion melanodermatum	150	300	
+16s_pimelodidae	16S	Pimelodidae (family)	1000982	Steindachneridion melanodermatum	150	300	
+12s_bryconidae	12S	Bryconidae (family)	932087	Salminus hilarii	150	300	
+16s_bryconidae	16S	Bryconidae (family)	932087	Salminus hilarii	150	300	
+12s_tibagi	12S	Tibagi River basin (ichthyofauna)	932087	Salminus hilarii	150	300	
+16s_tibagi	16S	Tibagi River basin (ichthyofauna)	932087	Salminus hilarii	150	300	
+12s_iguacu	12S	Iguacu River basin (ichthyofauna)	1000982	Steindachneridion melanodermatum	150	300	
+16s_iguacu	16S	Iguacu River basin (ichthyofauna)	1000982	Steindachneridion melanodermatum	150	300	1550064,2590590

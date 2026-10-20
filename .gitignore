@@ -1,4 +1,6 @@
-# --- dados brutos, taxonomia e bancos ---
+# --- raw data, taxonomy and databases ---
+# (the .gb, .fasta and taxid files already in the repository were added
+#  on purpose with "git add -f"; new ones stay untracked)
 data/raw/*
 data/taxdump/*
 data/processed/*
@@ -19,12 +21,13 @@ taxdump.tar.gz
 *.adx
 *.ndx
 *.rdx
+*.sdx
 *.tdx
 
-# --- resultados: descomente se NAO quiser versionar os CSV ---
+# --- results: uncomment if you do NOT want to version the CSV files ---
 # results/*/*.csv
 
-# --- ambiente / SO ---
+# --- environment / OS ---
 .env
 .DS_Store
 Thumbs.db
