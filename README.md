@@ -50,6 +50,7 @@ workflows/<target>/       commands as originally run + notes (record only)
 | Step | Script | Tool | What it does |
 |------|--------|------|--------------|
 | 0 | (manual) | NCBI GenBank | Run the boolean query in `config/queries/` and export the records as `data/raw/<target>.gb` |
+| 0 | `00_check_data.sh` | `awk`, `grep` | Check the downloaded data before running the pipeline (see below) |
 | 1 | `01_convert_genbank.sh` | `obiconvert` | Convert GenBank to FASTA, adding `organism=` and `taxid=` to each header |
 | 2 | `02_extract_taxids.sh` | `grep`, `cut`, `sort`, `uniq` | List the unique taxids in the FASTA file, minus any `excluded_taxids` |
 | 3 | `03_format_ecopcr_db.sh` | `ecoPCRFormat.py` | Build the binary ecoPCR database used by ecoPrimers |
@@ -113,6 +114,10 @@ The pipeline was run on Ubuntu under WSL (Windows Subsystem for Linux) with:
 All scripts are run from the repository root.
 
 ```bash
+# check the input data first (all targets, or the ones given)
+bash scripts/00_check_data.sh
+bash scripts/00_check_data.sh 12s_tibagi
+
 # all 8 targets, steps 01 to 04, with a summary table at the end
 bash scripts/run_all_targets.sh
 
@@ -127,6 +132,20 @@ bash scripts/04_run_ecoprimers.sh 12s_pimelodidae
 ```
 
 The tool executables can be replaced through the environment variables `OBICONVERT`, `ECOPCRFORMAT`, `PYTHON` and `ECOPRIMERS`.
+
+### Data check
+
+`scripts/00_check_data.sh` only reads files and reports, for each target, `OK`, `WARN` (check by hand) or `FAIL` (the pipeline cannot run or the results would not be valid). It checks that:
+
+- the GenBank query uses the marker of the target (12S or 16S);
+- the number of `.gb` records matches the number logged in the query file;
+- at least 80% of the `.gb` records mention the expected marker in the definition line or in an rRNA `/product`, and how many records are nuclear/predicted mRNA;
+- every FASTA record comes from the target's `.gb` file;
+- the target species (`root_taxid`) has at least one sequence;
+- the taxid list matches the FASTA file (minus `excluded_taxids`);
+- the 12S set of a reference set is not mostly the same records as its 16S set.
+
+The exit code is 1 when there is any `FAIL`. The script does not run as part of `run_all_targets.sh`.
 
 
 ## Parameters
