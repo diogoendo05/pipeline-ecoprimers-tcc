@@ -39,7 +39,10 @@ data/raw/                 .gb files exported from NCBI GenBank
 data/processed/<target>/  FASTA, taxid list and ecoPCR database
 scripts/                  steps 01-04 + main runner
 results/<target>/         ecoPrimers output, one file per primer length
+workflows/<target>/       commands as originally run + notes (record only)
 ```
+
+`scripts/` is the reproducible pipeline; `workflows/` is the record of the commands as they were originally run for each test (see [`workflows/README.md`](workflows/README.md)).
 
 
 ## Workflow
