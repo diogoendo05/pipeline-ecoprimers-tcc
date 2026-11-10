@@ -24,7 +24,7 @@ cd "$(dirname "$0")/.."
 
 TARGETS="config/targets.tsv"
 MIN_MARKER_SHARE=80   # % of .gb records that must mention the expected marker
-MAX_OVERLAP_SHARE=50  # % of accessions a 12S set may share with its 16S pair
+MAX_OVERLAP_SHARE=50  # % of 12S-only accessions a 12S set may share with its 16S pair
 
 TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
@@ -194,11 +194,20 @@ for target in "${TARGET_LIST[@]}"; do
     [[ -f "$a" && -f "$b" ]] || continue
     n_a=$(wc -l < "$a")
     n_shared=$(comm -12 "$a" "$b" | wc -l)
-    share=$(( n_a > 0 ? 100 * n_shared / n_a : 0 ))
+    # Shared accessions are expected when the 12S record is a region cut
+    # from a mitogenome ("ACCESSION ... REGION:") or also covers the 16S
+    # (e.g. 12S-tRNA-Val-16S fragments). Only the other shared records count.
+    awk 'BEGIN { RS = "\n//\n" }
+         match($0, /ACCESSION +[A-Z_0-9]+/) {
+             acc = substr($0, RSTART, RLENGTH); sub(/ACCESSION +/, "", acc)
+             if ($0 !~ /ACCESSION +[A-Z_0-9]+ REGION:/ && $0 !~ /16S|large subunit|l-rRNA/) print acc
+         }' "data/raw/${target}.gb" | sort -u > "$TMP/only12s_${target}"
+    n_unexp=$(comm -12 "$a" "$b" | comm -12 - "$TMP/only12s_${target}" | wc -l)
+    share=$(( n_a > 0 ? 100 * n_unexp / n_a : 0 ))
     if (( share > MAX_OVERLAP_SHARE )); then
-        fail "${target}: ${n_shared}/${n_a} accessions (${share}%) also in ${pair}"
+        fail "${target}: ${n_unexp}/${n_a} 12S-only accessions (${share}%) also in ${pair}"
     else
-        ok "${target}: ${n_shared}/${n_a} accessions shared with ${pair} (complete mitogenomes are expected)"
+        ok "${target}: ${n_shared}/${n_a} accessions shared with ${pair}, ${n_unexp} of them 12S-only (mitogenome regions and 12S+16S records are expected)"
     fi
 done
 

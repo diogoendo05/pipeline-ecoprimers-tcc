@@ -207,7 +207,7 @@ Number of primer pairs found by ecoPrimers in each run (the `Total good pair cou
 
 | target_id | 20 bp | 21 bp | 22 bp | 23 bp | 24 bp | 25 bp | Dataset |
 |-----------|------:|------:|------:|------:|------:|------:|---------|
-| 12s_pimelodidae | 8167 | 8642 | 9238 | 9685 | 10132 | 10430 | original |
+| 12s_pimelodidae | 7573 | 8195 | 8642 | 9089 | 9685 | 10132 | updated Nov 2026 |
 | 16s_pimelodidae | 14818 | 16763 | 18058 | 19338 | 20603 | 21852 | updated Nov 2026 |
 | 12s_bryconidae | 0 | 0 | 0 | 0 | 0 | 0 | updated Nov 2026 |
 | 16s_bryconidae | 16979 | 18789 | 20582 | 21499 | 22717 | 23530 | original |
@@ -220,12 +220,14 @@ Number of primer pairs found by ecoPrimers in each run (the `Total good pair cou
 
 **16S Pimelodidae: values changed in November 2026.** The earlier values (19936-27766) came from a dataset built with the 12S query. The new dataset was downloaded with the 16S query, with species names in quotes.
 
+**12S Pimelodidae: values changed in November 2026.** The original query had unquoted species names and retrieved unrelated taxa (52 of its 188 records). The dataset was downloaded again with the names quoted and the same marker and taxonomic terms as the other 12S queries: 130 records, 52 species, with the 23 complete mitogenomes reduced to their NCBI-annotated 12S region. The output files produced in WSL and in an independent run are identical.
+
 **16S Iguacu: values changed in November 2026.** In the original dataset the target species entered as its complete mitochondrial genome (16,527 bp), so the primers could come from any gene; that explains the earlier ~135,000 pairs. The new dataset (929 records, 69 species with the NCBI taxonomy) has the target with its NCBI-annotated 16S region, like `16s_pimelodidae`. The output files produced in WSL and in an independent run are identical.
 
 ### Known issues
 
 - **All four 12S queries** use the term "12S" and do not retrieve 12S records annotated as "small subunit ribosomal RNA". In November 2026 these were 134 records for Tibagi, 37 for Bryconidae, 35 for Pimelodidae and 29 for Iguacu. Only MZ778840, the target species' reference, was added by hand.
-- **`12s_pimelodidae`**: the query has unquoted species names, so it also retrieves unrelated taxa (*Silurus*, *Bothus pantherinus* and others; 52 of the 188 records).
+- **`12s_pimelodidae`**: because of the term above, the congener *Steindachneridion amblyurum* (3 records annotated as "small subunit ribosomal RNA") is not among the counterexamples. It was left out to keep the same query pattern as the other 12S designs.
 
 
 ## References
