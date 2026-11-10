@@ -1,0 +1,49 @@
+target_id	primer_length	total_pairs	dif3_0	dif3_0_and_GG	in_silico_pcr
+12s_pimelodidae	20	7573	22	0	not tested: no pair passed dif3=0 and GG
+12s_pimelodidae	21	8195	36	0	not tested: no pair passed dif3=0 and GG
+12s_pimelodidae	22	8642	49	0	not tested: no pair passed dif3=0 and GG
+12s_pimelodidae	23	9089	43	0	not tested: no pair passed dif3=0 and GG
+12s_pimelodidae	24	9685	34	0	not tested: no pair passed dif3=0 and GG
+12s_pimelodidae	25	10132	38	0	not tested: no pair passed dif3=0 and GG
+16s_pimelodidae	20	14818	75	1	yes
+16s_pimelodidae	21	16763	79	0	not tested: no pair passed dif3=0 and GG
+16s_pimelodidae	22	18058	71	0	not tested: no pair passed dif3=0 and GG
+16s_pimelodidae	23	19338	79	0	not tested: no pair passed dif3=0 and GG
+16s_pimelodidae	24	20603	80	0	not tested: no pair passed dif3=0 and GG
+16s_pimelodidae	25	21852	105	0	not tested: no pair passed dif3=0 and GG
+12s_bryconidae	20	0	0	0	not tested: no pair passed dif3=0 and GG
+12s_bryconidae	21	0	0	0	not tested: no pair passed dif3=0 and GG
+12s_bryconidae	22	0	0	0	not tested: no pair passed dif3=0 and GG
+12s_bryconidae	23	0	0	0	not tested: no pair passed dif3=0 and GG
+12s_bryconidae	24	0	0	0	not tested: no pair passed dif3=0 and GG
+12s_bryconidae	25	0	0	0	not tested: no pair passed dif3=0 and GG
+16s_bryconidae	20	16979	42	0	not tested: no pair passed dif3=0 and GG
+16s_bryconidae	21	18789	65	4	yes
+16s_bryconidae	22	20582	50	5	yes
+16s_bryconidae	23	21499	65	10	yes
+16s_bryconidae	24	22717	58	17	yes
+16s_bryconidae	25	23530	69	21	yes
+12s_tibagi	20	0	0	0	not tested: no pair passed dif3=0 and GG
+12s_tibagi	21	0	0	0	not tested: no pair passed dif3=0 and GG
+12s_tibagi	22	0	0	0	not tested: no pair passed dif3=0 and GG
+12s_tibagi	23	0	0	0	not tested: no pair passed dif3=0 and GG
+12s_tibagi	24	0	0	0	not tested: no pair passed dif3=0 and GG
+12s_tibagi	25	0	0	0	not tested: no pair passed dif3=0 and GG
+16s_tibagi	20	27346	60	18	yes
+16s_tibagi	21	29271	90	22	yes
+16s_tibagi	22	31046	75	19	yes
+16s_tibagi	23	32418	86	26	yes
+16s_tibagi	24	33128	73	32	yes
+16s_tibagi	25	33966	94	30	yes
+12s_iguacu	20	63845	284	47	yes
+12s_iguacu	21	66689	296	64	yes
+12s_iguacu	22	69351	322	84	yes
+12s_iguacu	23	71989	347	94	yes
+12s_iguacu	24	74058	359	80	yes
+12s_iguacu	25	75593	345	88	yes
+16s_iguacu	20	92936	487	152	yes
+16s_iguacu	21	97011	525	168	yes
+16s_iguacu	22	100116	561	200	yes
+16s_iguacu	23	103252	625	232	yes
+16s_iguacu	24	106217	607	230	yes
+16s_iguacu	25	109125	580	222	yes

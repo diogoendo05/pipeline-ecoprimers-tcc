@@ -55,6 +55,7 @@ workflows/<target>/       commands as originally run + notes (record only)
 | 2 | `02_extract_taxids.sh` | `grep`, `cut`, `sort`, `uniq` | List the unique taxids in the FASTA file, minus any `excluded_taxids` |
 | 3 | `03_format_ecopcr_db.sh` | `ecoPCRFormat.py` | Build the binary ecoPCR database used by ecoPrimers |
 | 4 | `04_run_ecoprimers.sh` | `ecoPrimers` | Remove the target species from the taxid list, pass the remaining taxids as counterexamples and run ecoPrimers for primer lengths 20 to 25 bp |
+| 5 | `05_select_pairs.sh` | `awk` | Keep the pairs with dif 3 = 0 and class GG and decide which runs go to the in silico PCR (see below) |
 
 ### Data curation (between steps 0 and 1)
 
@@ -189,6 +190,34 @@ The amplicon range of 150-300 bp was used for all targets. Manual exclusions are
 | `-e`, `-q`, `-s` | not set | Mismatches per primer and quorums are left at the ecoPrimers defaults |
 
 The ecoPrimers default for `-e` is 3 mismatches per primer, but since `-3` is equal to the primer length, a primer only counts as matching a sequence when the whole primer matches it strictly.
+
+### Pair selection for the in silico PCR (step 05)
+
+Only pairs that pass both filters below are tested with ecoPCR. These are the same filters used in the spreadsheets (column J = 0 and column M = GG):
+
+| Filter | Columns of the ecoPrimers output | Rule |
+|--------|----------------------------------|------|
+| dif 3 | 5 (minimum Tm of the forward primer) and 7 (minimum Tm of the reverse primer) | equal (difference = 0) |
+| class | 10 | `GG` |
+
+**A run (target and primer length, for example `16s_pimelodidae` 21 bp) with no pair passing both filters is not tested with ecoPCR.** It is recorded as "not tested: no pair passed dif3=0 and GG".
+
+`scripts/05_select_pairs.sh` writes `results/insilico_selection.tsv` (one line per run) and `results/insilico_selected_pairs.tsv` (the pairs that passed):
+
+| target_id | 20 bp | 21 bp | 22 bp | 23 bp | 24 bp | 25 bp |
+|-----------|------:|------:|------:|------:|------:|------:|
+| 12s_pimelodidae | 0 | 0 | 0 | 0 | 0 | 0 |
+| 16s_pimelodidae | 1 | 0 | 0 | 0 | 0 | 0 |
+| 12s_bryconidae | 0 | 0 | 0 | 0 | 0 | 0 |
+| 16s_bryconidae | 0 | 4 | 5 | 10 | 17 | 21 |
+| 12s_tibagi | 0 | 0 | 0 | 0 | 0 | 0 |
+| 16s_tibagi | 18 | 22 | 19 | 26 | 32 | 30 |
+| 12s_iguacu | 47 | 64 | 84 | 94 | 80 | 88 |
+| 16s_iguacu | 152 | 168 | 200 | 232 | 230 | 222 |
+
+Pairs with dif 3 = 0 and class GG; 0 = not tested. In total, 24 of the 48 runs are tested, with 1866 pairs.
+
+For `12s_iguacu`, `16s_bryconidae` and `16s_tibagi` (original datasets), the output files in `results/` were produced again from the FASTA files in `data/processed/`. They are identical, row by row (serial number, primers, minimum Tm and class), to the spreadsheets made from the original runs, and the counts above match the spreadsheets with the dif 3 = 0 and GG filters applied.
 
 ### ecoPCR
 
