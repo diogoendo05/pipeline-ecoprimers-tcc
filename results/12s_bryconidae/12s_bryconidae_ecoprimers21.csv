@@ -1,0 +1,35 @@
+#
+# ecoPrimer version 0.3
+# Rank level optimisation : species
+# max error count by oligonucleotide : 3
+#
+# Restricted to taxon:
+#     932087 : Salminus hilarii (species)
+#
+# Ignore  taxa:
+#     126315 : Brycon orbignyanus (species)
+#     1529838 : Brycon falcatus (species)
+#     190791 : Brycon petrosus (species)
+#     190792 : Brycon behreae (species)
+#     190793 : Brycon chagrensis (species)
+#     190794 : Brycon guatemalensis (species)
+#     190795 : Brycon striatulus (species)
+#     387479 : Brycon pesu (species)
+#     387480 : Brycon orthotaenia (species)
+#     387484 : Brycon nattereri (species)
+#     387485 : Brycon henni (species)
+#     686976 : Brycon melanopterus (species)
+#     930266 : Salminus brasiliensis (species)
+#
+# strict primer quorum  : 0.70
+# example quorum        : 0.90
+# counterexample quorum : 0.10
+#
+# database : banco_12s_bryconidae
+# Database is constituted of     1 examples        corresponding to     1 species
+#                        and    29 counterexamples corresponding to    13 species
+#
+# amplifiat length between [150,300] bp
+# DB sequences are considered as linear
+# Pairs having specificity less than 0.60 will be ignored
+#

@@ -10,5 +10,14 @@ BOOLEAN QUERY
 
 LOG
 ---
-Sequences retrieved : 454
-Notes               : 
+Sequences retrieved : 353 (final file, after curation)
+Notes               : Downloaded again in early November 2026 with the query above (GenBank full);
+                      the earlier file in this repository contained 16S records. Curation:
+                      (1) complete mitochondrial genomes reduced to the NCBI-annotated 12S region
+                      (GenBank subrange, "ACCESSION ... REGION: start..end"), including KX371345
+                      (Pimelodus maculatus, 69..1023); (2) 13 nuclear mRNA records removed (genes
+                      whose names contain "12S", e.g. mettl15); (3) records KU980144 and OP218849,
+                      which had been merged by a copy/paste error, restored from their own GenBank
+                      files; (4) MZ778840 (Salminus hilarii, 219 bp, annotated as "small subunit
+                      ribosomal RNA" and therefore not retrieved by the term "12S") added manually,
+                      since it is the only 12S reference of the target species in GenBank.

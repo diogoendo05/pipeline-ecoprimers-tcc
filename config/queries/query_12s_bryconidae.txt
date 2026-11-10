@@ -6,9 +6,16 @@ Expected output file: data/raw/12s_bryconidae.gb
 BOOLEAN QUERY
 -------------
 
-((((((((((((((((((((((((((((((((((((((((((((((((((((Brycon alburnus) OR Brycon amazonicus) OR Brycon argenteus) OR Brycon atrocaudatus) OR Brycon behreae) OR Brycon bicolor) OR Brycon cephalus) OR Brycon chagrensis) OR Brycon coquenani) OR Brycon costaricensis) OR Brycon coxeyi) OR Brycon dentex) OR Brycon devillei) OR Brycon dulcis) OR Brycon falcatus) OR Brycon ferox) OR Brycon fowleri) OR Brycon gouldingi) OR Brycon guatemalensis) OR Brycon henni) OR Brycon hilarii) OR Brycon howesi) OR Brycon insignis) OR Brycon labiatus) OR Brycon medemi) OR Brycon meeki) OR Brycon melanopterus) OR Brycon moorei) OR Brycon nattereri) OR Brycon obscurus) OR Brycon oligolepis) OR Brycon opalinus) OR Brycon orbignyanus) OR Brycon orthotaenia) OR Brycon pesu) OR Brycon petrosus) OR Brycon polylepis) OR Brycon posadae) OR Brycon rubricauda) OR Brycon sinuensis) OR Brycon stolzmanni) OR Brycon striatulus) OR Brycon unicolor) OR Brycon vermelha) OR Salminus affinis) OR Salminus brasiliensis) OR Salminus franciscanus) OR Salminus hilarii) OR Salminus iquitensis) OR Chilobrycon deuterodon) OR Henochilus wheatlandii) AND 12S) AND "chordates"[porgn:__txid7711]) AND "ray-finned fishes"[porgn:__txid7898]
+("Brycon alburnus" OR "Brycon amazonicus" OR "Brycon argenteus" OR "Brycon atrocaudatus" OR "Brycon behreae" OR "Brycon bicolor" OR "Brycon cephalus" OR "Brycon chagrensis" OR "Brycon coquenani" OR "Brycon costaricensis" OR "Brycon coxeyi" OR "Brycon dentex" OR "Brycon devillei" OR "Brycon dulcis" OR "Brycon falcatus" OR "Brycon ferox" OR "Brycon fowleri" OR "Brycon gouldingi" OR "Brycon guatemalensis" OR "Brycon henni" OR "Brycon hilarii" OR "Brycon howesi" OR "Brycon insignis" OR "Brycon labiatus" OR "Brycon medemi" OR "Brycon meeki" OR "Brycon melanopterus" OR "Brycon moorei" OR "Brycon nattereri" OR "Brycon obscurus" OR "Brycon oligolepis" OR "Brycon opalinus" OR "Brycon orbignyanus" OR "Brycon orthotaenia" OR "Brycon pesu" OR "Brycon petrosus" OR "Brycon polylepis" OR "Brycon posadae" OR "Brycon rubricauda" OR "Brycon sinuensis" OR "Brycon stolzmanni" OR "Brycon striatulus" OR "Brycon unicolor" OR "Brycon vermelha" OR "Salminus affinis" OR "Salminus brasiliensis" OR "Salminus franciscanus" OR "Salminus hilarii" OR "Salminus iquitensis" OR "Chilobrycon deuterodon" OR "Henochilus wheatlandii") AND 12S AND "chordates"[porgn:__txid7711] AND "ray-finned fishes"[porgn:__txid7898]
 
 LOG
 ---
-Sequences retrieved : 84
-Notes               : 
+Sequences retrieved : 30 (final file, after curation; the query returned 33 records on 2026-11-03)
+Notes               : Species names quoted so that each name is searched as a phrase. Curation:
+                      (1) 12 complete mitochondrial genomes reduced to the NCBI-annotated 12S region
+                      (GenBank subrange, "ACCESSION ... REGION: start..end"); (2) 2 nuclear mRNA
+                      records and 2 nuclear chromosomes of Salminus brasiliensis (NC_132878,
+                      NC_132902) removed, as they were retrieved only because gene names contain
+                      "12S"; (3) MZ778840 (Salminus hilarii, 219 bp, annotated as "small subunit
+                      ribosomal RNA" and therefore not retrieved by the term "12S") added manually,
+                      since it is the only 12S reference of the target species in GenBank.
