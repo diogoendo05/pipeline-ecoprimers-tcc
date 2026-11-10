@@ -14,7 +14,7 @@
 
 ## Results
 
-Value recorded in the workflow notes for each ecoPrimers run.
+Value recorded in the workflow notes for each ecoPrimers run (original dataset, now replaced; see the update below).
 
 | Primer length | Output file | Recorded value |
 |---|---|---:|
@@ -31,3 +31,10 @@ Value recorded in the workflow notes for each ecoPrimers run.
 - The step 1 note says the sequences went to `16s_tibagi.fasta`; this looks like a copy from another document, since the command writes `16s_pimelodidae.fasta`.
 - In the step 4 command a space is missing between `python` and the script path, as recorded.
 - The query notes say the 12S of complete mitogenomes was downloaded for some species, but the species were not recorded ("??").
+
+## Update (November 2026)
+
+- The original dataset was built from the 12S search: all 184 records were returned by the 12S query and only 82 by the 16S one; only the target species entered with its 16S region (1096..2276 of ON408064). Running ecoPrimers on that dataset reproduces the values above exactly.
+- The dataset was downloaded again with the 16S query and the species names quoted (111 records, 52 species, only Pimelodidae genera). The 23 complete mitogenomes were reduced to the 16S region as annotated by NCBI. For the target species (ON408064 and its RefSeq copy NC_065247) the annotation covers 1096..2276 (1181 bp), although the gene extends to the tRNA-Leu at 2777; the NCBI annotation was kept, as in the original analysis.
+- New ecoPrimers results (same parameters): 14818, 16763, 18058, 19338, 20603 and 21852 primer pairs for 20 to 25 bp. The output files produced in WSL and in an independent run are identical byte for byte.
+- ecoPCR check of six 21-bp pairs (serial numbers 7090, 7091, 7130, 7131, 7140, 7141; `-k -e 3 -l 50 -L 300`): all six amplify the target with no mismatch, and also *Steindachneridion scriptum* and *Megalonema amaxanthum* with 1 mismatch, *Sorubimichthys planiceps* and *Leiarius pictus* with 2. The results in WSL and in the independent run are identical.

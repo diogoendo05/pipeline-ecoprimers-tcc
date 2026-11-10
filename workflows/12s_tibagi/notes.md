@@ -14,7 +14,7 @@
 
 ## Results
 
-Value recorded in the workflow notes for each ecoPrimers run.
+Value recorded in the workflow notes for each ecoPrimers run (original dataset, now replaced; see the update below).
 
 | Primer length | Output file | Recorded value |
 |---|---|---:|
@@ -27,5 +27,12 @@ Value recorded in the workflow notes for each ecoPrimers run.
 
 ## Notes
 
-- The step 1 note says the sequences went to `16s_tibagi.fasta`; this looks like a copy from the 16S document, since the command writes `12s_tibagi.fasta`.
+- The step 1 note says the sequences went to `16s_tibagi.fasta`. This was later found to be accurate: the original `12s_tibagi.gb` had been exported from the 16S search (372 of its 454 records mentioned only 16S, and all 454 were also in `16s_tibagi`). The results above were therefore produced with 16S data.
 - The query notes say the 12S of complete mitogenomes was downloaded for some species, but the species were not recorded ("??").
+
+## Update (November 2026)
+
+- The dataset was downloaded again with the same query and curated (see `config/queries/query_12s_tibagi.txt`): complete mitogenomes reduced to the NCBI-annotated 12S region (including KX371345), 13 nuclear mRNA records removed, and records KU980144 and OP218849, merged by a copy/paste error in the downloaded file, restored from their own GenBank files. Final file: 353 records, 94 species.
+- The new dataset had no sequence of the target species. The only 12S reference of *Salminus hilarii* in GenBank, MZ778840 (219 bp), is annotated as "small subunit ribosomal RNA" and is not retrieved by the term "12S". It was added by hand. Without it, ecoPrimers stopped with a segmentation fault ("0 examples").
+- ecoPrimers was run with the same parameters as the other targets (`-l 150 -L 300 -r 932087 -3 N -U -O N`, N = 20 to 25). It found **0 primer pairs** for every primer length. The amplicon of at least 150 bp only fits if the primers sit at the ends of the 219-bp reference, which are the conserved MiFish primer sites (for example, `AAACTCGTGCCAGCCACCGC` matches 99 non-target sequences and `AAACTGGGATTAGATACCCC` 264). Primers specific to the target exist only in the middle of the sequence, where no 150-bp amplicon fits.
+- Output files: `results/12s_tibagi/12s_tibagi_ecoprimers20.csv` to `25.csv`.

@@ -22,10 +22,10 @@ The GenBank queries are not repeated here; each `notes.md` links to its file in 
 | Test | Target species | Notes |
 |------|----------------|-------|
 | [12s_pimelodidae](12s_pimelodidae/notes.md) | *Steindachneridion melanodermatum* | |
-| [16s_pimelodidae](16s_pimelodidae/notes.md) | *Steindachneridion melanodermatum* | query uses the term 12S |
-| [12s_bryconidae](12s_bryconidae/notes.md) | *Salminus hilarii* | results to be checked |
+| [16s_pimelodidae](16s_pimelodidae/notes.md) | *Steindachneridion melanodermatum* | original dataset was 12S; redone Nov 2026 |
+| [12s_bryconidae](12s_bryconidae/notes.md) | *Salminus hilarii* | redone Nov 2026: 0 primer pairs |
 | [16s_bryconidae](16s_bryconidae/notes.md) | *Salminus hilarii* | GenBank download in two batches |
-| [12s_tibagi](12s_tibagi/notes.md) | *Salminus hilarii* | |
+| [12s_tibagi](12s_tibagi/notes.md) | *Salminus hilarii* | original dataset was 16S; redone Nov 2026: 0 primer pairs |
 | [16s_tibagi](16s_tibagi/notes.md) | *Salminus hilarii* | |
 | [12s_iguacu](12s_iguacu/notes.md) | *Steindachneridion melanodermatum* | |
 | [16s_iguacu](16s_iguacu/notes.md) | *Steindachneridion melanodermatum* | first run replaced; 2 taxids removed |
