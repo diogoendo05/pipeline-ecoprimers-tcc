@@ -28,4 +28,4 @@ The GenBank queries are not repeated here; each `notes.md` links to its file in 
 | [12s_tibagi](12s_tibagi/notes.md) | *Salminus hilarii* | original dataset was 16S; redone Nov 2026: 0 primer pairs |
 | [16s_tibagi](16s_tibagi/notes.md) | *Salminus hilarii* | |
 | [12s_iguacu](12s_iguacu/notes.md) | *Steindachneridion melanodermatum* | |
-| [16s_iguacu](16s_iguacu/notes.md) | *Steindachneridion melanodermatum* | first run replaced; 2 taxids removed |
+| [16s_iguacu](16s_iguacu/notes.md) | *Steindachneridion melanodermatum* | target entered as whole mitogenome; redone Nov 2026 |

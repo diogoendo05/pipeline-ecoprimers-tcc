@@ -14,7 +14,7 @@
 
 ## Results
 
-Value recorded in the workflow notes for each ecoPrimers run.
+Value recorded in the workflow notes for each ecoPrimers run (original dataset, now replaced; see the update below).
 
 | Primer length | Output file | Recorded value |
 |---|---|---:|
@@ -30,3 +30,10 @@ Value recorded in the workflow notes for each ecoPrimers run.
 - Steps 2 and 4 read `16s_iguacu_definitivo.fasta` instead of the `16s_iguacu.fasta` written in step 1. How the final FASTA was produced was not recorded.
 - A first ecoPrimers run (20 bp) included taxids 1550064 and 2590590 as counterexamples; its note says "155 sequencias". These two taxids were removed for the six final runs (`excluded_taxids` in `config/targets.tsv`).
 - The taxid list was saved as `16s_taxids.txt`, and the ecoPrimers outputs were saved without the `.csv` extension.
+
+## Update (November 2026)
+
+- In the original dataset the target species (ON408064 and NC_065247) entered as its complete mitochondrial genome (16,527 bp), so ecoPrimers designed primers on the whole mitogenome and not only on 16S; that explains the ~135,000 pairs above. The `.gb` in the repository (12 records) was also not the file the FASTA (212 records) came from.
+- The dataset was downloaded again with the same species list, with the query punctuation fixed (11 curly quotes and 2 names without the opening quote), and curated (see `config/queries/query_16s_iguacu.txt`): 306 complete mitogenomes reduced to the NCBI-annotated 16S region (target: 1096..2276), nuclear mRNA records and chromosomes removed. Final file: 929 records.
+- The two taxids excluded in the original run (1550064, 2590590) are *Misgurnus* hybrids. The same rule was applied to the 16 hybrid taxa of the new dataset. Taxid 3738817 (*Garcialebias araucarianus*, MH594620) was also excluded: it is newer than the taxonomy dump used, so `ecoPCRFormat.py` drops the record and ecoPrimers crashed (segmentation fault) when it was in the `-i` list.
+- New ecoPrimers results (`-l 150 -L 300 -r 1000982`, 85 counterexample taxids, 68 counterexample species with the NCBI taxonomy): 92936, 97011, 100116, 103252, 106217 and 109125 primer pairs for 20 to 25 bp. The output files produced in WSL and in an independent run are identical (MD5).
