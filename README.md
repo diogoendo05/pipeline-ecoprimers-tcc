@@ -239,6 +239,7 @@ The selected pairs were run on 13 November 2026 with `scripts/06_run_ecopcr.sh`.
 | `results/ecopcr/ecopcr_pairs.tsv` | One line per pair: target amplified (and how many of its sequences), number of non-target species amplified by total mismatches (0 to 6), margin, closest species and their mismatches |
 | `results/ecopcr/ecopcr_hits.tsv` | One line per pair and amplified taxon (the best hit of each taxon): mismatches per primer, their positions counted from the 3' end, mismatches within the last 5 bases, amplicon length |
 | `results/ecopcr/ecopcr_designs.tsv` | One line per design and primer length: pairs, pairs that amplify the target, and pairs by margin |
+| `results/ecopcr/only_target_pairs.tsv` | The 242 pairs that amplify only the target species (margin "none"), with their Tm, target amplicon and the result of the same primer pair in the other design of the species, when it was also selected there |
 
 The **margin** of a pair is the smallest total number of mismatches (forward + reverse) with which a non-target species is amplified; "none" means no other species is amplified within 3 mismatches per primer and 50-300 bp. Hybrid taxa and taxids missing from the taxonomy (`excluded_taxids`) are listed but not counted as non-target species.
 
@@ -255,6 +256,8 @@ Checks made by the summary script (no problem found): the mismatches recounted f
 | 16s_iguacu | 1209 | 39 | 7 | 39 | 200 | 516 | 408 |
 
 In the Iguacu designs the closest species is the congener *Steindachneridion scriptum* in 1386 of the 1398 pairs that amplify another species (sometimes tied with *Pseudoplatystoma corruscans* and *P. reticulatum*); in the other 12 it is *Pseudoplatystoma*. The only `16s_pimelodidae` pair (20 bp, serial 7295) is also selected in `16s_iguacu` (20 bp, serial 45034) and amplifies no other species in either dataset.
+
+Of the 242 pairs that amplify only the target, 169 are distinct primer pairs: the 72 `16s_bryconidae` pairs are also selected in `16s_tibagi` and amplify only *S. hilarii* there too, and the `16s_pimelodidae` pair is the one shared with `16s_iguacu`. No 12S pair amplifies only the target.
 
 ## Results
 
