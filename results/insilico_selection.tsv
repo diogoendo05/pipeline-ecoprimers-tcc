@@ -17,12 +17,12 @@ target_id	primer_length	total_pairs	dif3_0	dif3_0_and_GG	in_silico_pcr
 12s_bryconidae	23	0	0	0	not tested: no pair passed dif3=0 and GG
 12s_bryconidae	24	0	0	0	not tested: no pair passed dif3=0 and GG
 12s_bryconidae	25	0	0	0	not tested: no pair passed dif3=0 and GG
-16s_bryconidae	20	16979	42	0	not tested: no pair passed dif3=0 and GG
-16s_bryconidae	21	18789	65	4	yes
-16s_bryconidae	22	20582	50	5	yes
-16s_bryconidae	23	21499	65	10	yes
-16s_bryconidae	24	22717	58	17	yes
-16s_bryconidae	25	23530	69	21	yes
+16s_bryconidae	20	17616	44	1	yes
+16s_bryconidae	21	19453	67	9	yes
+16s_bryconidae	22	21257	56	11	yes
+16s_bryconidae	23	22209	66	12	yes
+16s_bryconidae	24	23367	59	18	yes
+16s_bryconidae	25	24140	69	23	yes
 12s_tibagi	20	0	0	0	not tested: no pair passed dif3=0 and GG
 12s_tibagi	21	0	0	0	not tested: no pair passed dif3=0 and GG
 12s_tibagi	22	0	0	0	not tested: no pair passed dif3=0 and GG

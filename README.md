@@ -59,7 +59,7 @@ workflows/<target>/       commands as originally run + notes (record only)
 
 ### Data curation (between steps 0 and 1)
 
-The GenBank exports are curated by hand before conversion. Each target's query file in `config/queries/` logs what was done to its data. The rules, applied to the datasets updated in November 2026 (`16s_pimelodidae`, `16s_iguacu`, `12s_tibagi`, `12s_bryconidae`), are:
+The GenBank exports are curated by hand before conversion. Each target's query file in `config/queries/` logs what was done to its data. The rules, applied to the datasets updated in November 2026 (`12s_pimelodidae`, `16s_pimelodidae`, `12s_bryconidae`, `16s_bryconidae`, `12s_tibagi`, `16s_iguacu`), are:
 
 - **Complete mitochondrial genomes** are reduced to the region of the target gene (12S or 16S), using the coordinates of the gene as annotated by NCBI. The region is downloaded as a GenBank subrange, so the record keeps the line `ACCESSION <accession> REGION: <start>..<end>`.
 - **Records that are not mitochondrial sequences of the target gene** are removed: nuclear mRNA records and nuclear chromosomes that the query retrieves only because a gene name contains "12S" (for example *mettl15*, "12S rRNA N4-cytidine methyltransferase").
@@ -209,15 +209,15 @@ Only pairs that pass both filters below are tested with ecoPCR. These are the sa
 | 12s_pimelodidae | 0 | 0 | 0 | 0 | 0 | 0 |
 | 16s_pimelodidae | 1 | 0 | 0 | 0 | 0 | 0 |
 | 12s_bryconidae | 0 | 0 | 0 | 0 | 0 | 0 |
-| 16s_bryconidae | 0 | 4 | 5 | 10 | 17 | 21 |
+| 16s_bryconidae | 1 | 9 | 11 | 12 | 18 | 23 |
 | 12s_tibagi | 0 | 0 | 0 | 0 | 0 | 0 |
 | 16s_tibagi | 18 | 22 | 19 | 26 | 32 | 30 |
 | 12s_iguacu | 47 | 64 | 84 | 94 | 80 | 88 |
 | 16s_iguacu | 152 | 168 | 200 | 232 | 230 | 222 |
 
-Pairs with dif 3 = 0 and class GG; 0 = not tested. In total, 24 of the 48 runs are tested, with 1866 pairs.
+Pairs with dif 3 = 0 and class GG; 0 = not tested. In total, 25 of the 48 runs are tested, with 1883 pairs.
 
-For `12s_iguacu`, `16s_bryconidae` and `16s_tibagi` (original datasets), the output files in `results/` were produced again from the FASTA files in `data/processed/`. They are identical, row by row (serial number, primers, minimum Tm and class), to the spreadsheets made from the original runs, and the counts above match the spreadsheets with the dif 3 = 0 and GG filters applied.
+For `12s_iguacu` and `16s_tibagi` (original datasets), the output files in `results/` were produced again from the FASTA files in `data/processed/`. They are identical, row by row (serial number, primers, minimum Tm and class), to the spreadsheets made from the original runs, and the counts above match the spreadsheets with the dif 3 = 0 and GG filters applied.
 
 ### ecoPCR
 
@@ -239,7 +239,7 @@ Number of primer pairs found by ecoPrimers in each run (the `Total good pair cou
 | 12s_pimelodidae | 7573 | 8195 | 8642 | 9089 | 9685 | 10132 | updated Nov 2026 |
 | 16s_pimelodidae | 14818 | 16763 | 18058 | 19338 | 20603 | 21852 | updated Nov 2026 |
 | 12s_bryconidae | 0 | 0 | 0 | 0 | 0 | 0 | updated Nov 2026 |
-| 16s_bryconidae | 16979 | 18789 | 20582 | 21499 | 22717 | 23530 | original |
+| 16s_bryconidae | 17616 | 19453 | 21257 | 22209 | 23367 | 24140 | updated Nov 2026 |
 | 12s_tibagi | 0 | 0 | 0 | 0 | 0 | 0 | updated Nov 2026 |
 | 16s_tibagi | 27346 | 29271 | 31046 | 32418 | 33128 | 33966 | original |
 | 12s_iguacu | 63845 | 66689 | 69351 | 71989 | 74058 | 75593 | original |
@@ -250,6 +250,8 @@ Number of primer pairs found by ecoPrimers in each run (the `Total good pair cou
 **16S Pimelodidae: values changed in November 2026.** The earlier values (19936-27766) came from a dataset built with the 12S query. The new dataset was downloaded with the 16S query, with species names in quotes.
 
 **12S Pimelodidae: values changed in November 2026.** The original query had unquoted species names and retrieved unrelated taxa (52 of its 188 records). The dataset was downloaded again with the names quoted and the same marker and taxonomic terms as the other 12S queries: 130 records, 52 species, with the 23 complete mitogenomes reduced to their NCBI-annotated 12S region. The output files produced in WSL and in an independent run are identical.
+
+**16S Bryconidae: values changed in November 2026.** The original query had unquoted species names and retrieved 9 records of unidentified or synonymous taxa (*Brycon* sp., *B.* aff. *atrocaudatus*, *B.* cf. *falcatus*, *Salminus* sp., *Salminus maxillosus*). The dataset was downloaded again with the names quoted and the same terms as the other 16S queries: 75 records, 27 species, with the 12 complete mitogenomes reduced to their NCBI-annotated 16S region. The output files produced in WSL and in an independent run are identical.
 
 **16S Iguacu: values changed in November 2026.** In the original dataset the target species entered as its complete mitochondrial genome (16,527 bp), so the primers could come from any gene; that explains the earlier ~135,000 pairs. The new dataset (929 records, 69 species with the NCBI taxonomy) has the target with its NCBI-annotated 16S region, like `16s_pimelodidae`. The output files produced in WSL and in an independent run are identical.
 
