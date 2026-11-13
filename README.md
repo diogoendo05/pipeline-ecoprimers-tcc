@@ -242,7 +242,7 @@ The selected pairs were run on 13 November 2026 with `scripts/06_run_ecopcr.sh`.
 
 The **margin** of a pair is the smallest total number of mismatches (forward + reverse) with which a non-target species is amplified; "none" means no other species is amplified within 3 mismatches per primer and 50-300 bp. Hybrid taxa and taxids missing from the taxonomy (`excluded_taxids`) are listed but not counted as non-target species.
 
-Checks made by the summary script (no problem found): the mismatches recounted from each primer site equal the counts reported by ecoPCR; no hit has more than 3 mismatches per primer or an amplicon outside 50-300 bp; every header shows the expected database, primers and parameters; and, for every pair, the sequences amplified with no mismatch and an amplicon of 150-300 bp are exactly as many as ecoPrimers reported (target and non-target, columns 11 and 12 of its output).
+Checks made by the summary script (no problem found): the mismatches recounted from each primer site equal the counts reported by ecoPCR; no hit has more than 3 mismatches per primer or an amplicon outside 50-300 bp; every header shows the expected database, primers and parameters; and, for every pair, the sequences amplified with no mismatch and an amplicon of 150-300 bp are exactly as many as ecoPrimers reported (target and non-target, columns 11 and 12 of its output). The 1658 outputs produced in WSL are identical, byte for byte, to the ones in `results/ecopcr/raw/`.
 
 **Results.** All 1658 pairs amplify every sequence of the target species with no mismatch.
 
