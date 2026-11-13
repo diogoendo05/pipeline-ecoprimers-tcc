@@ -32,16 +32,22 @@
 #     137515 : Leporinus friderici (species)
 #     142828 : Astyanax altiparanae (species)
 #     1495914 : Imparfinis schubarti (species)
+#     1545849 : Sternopygus aequilabiatus (species)
+#     1566731 : Ancistrus sp. VRP-2014 (species)
 #     162147 : Rhamdia quelen (species)
 #     1633415 : Characidium sp. CBM:ZF:13696 (species)
 #     163993 : Hypostomus nigromaculatus (species)
 #     164007 : Hypostomus ancistroides (species)
 #     164015 : Hypostomus albopunctatus (species)
+#     1651834 : Ancistrus sp. 2b MNRJ42890 (species)
+#     1651835 : Ancistrus sp. 2a MNRJ42890 (species)
+#     1651836 : Ancistrus sp. 1a MNRJ42890 (species)
 #     1735002 : Cambeva davisi (species)
 #     1769435 : Pimelodella gracilis (species)
 #     181452 : Synbranchus marmoratus (species)
 #     1960596 : Gymnotus omarorum (species)
 #     2107549 : Piabarchus stramineus (species)
+#     2185382 : Eigenmannia limbata (species)
 #     223369 : Psalidodon fasciatus (species)
 #     2282847 : Metynnis maculatus (species)
 #     243927 : Astyanax sp. DM-2003 (species)
@@ -73,6 +79,7 @@
 #     3394343 : Hoplisoma paleatum (species)
 #     3465280 : Characidium sp. tigre Litany (species)
 #     380998 : Steindachneridion scriptum (species)
+#     387484 : Brycon nattereri (species)
 #     390469 : Pseudopimelodus mangurus (species)
 #     42516 : Serrasalmus spilopleura (species)
 #     42612 : Apareiodon affinis (species)
@@ -89,6 +96,7 @@
 #     681930 : Piabina argentea (species)
 #     714221 : Neoplecostomus selenae (species)
 #     749526 : Eigenmannia virescens (species)
+#     77839 : Eigenmannia humboldtii (species)
 #     77841 : Sternopygus macrurus (species)
 #     7988 : Megaleporinus elongatus (species)
 #     8081 : Poecilia reticulata (species)
@@ -107,7 +115,7 @@
 #
 # database : banco_12s_tibagi
 # Database is constituted of     1 examples        corresponding to     1 species
-#                        and   352 counterexamples corresponding to    93 species
+#                        and   402 counterexamples corresponding to   101 species
 #
 # amplifiat length between [150,300] bp
 # DB sequences are considered as linear

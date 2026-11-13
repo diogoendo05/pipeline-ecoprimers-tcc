@@ -10,5 +10,10 @@ BOOLEAN QUERY
 
 LOG
 ---
-Sequences retrieved : 75
-Notes               : Downloaded on 2026-11-12 (GenBank full). Species names quoted so that each name is searched as a phrase; marker and taxonomic terms are the same as in the other 16S queries. For the 12 complete mitochondrial genomes only the 16S region annotated by NCBI was kept (GenBank subrange, "ACCESSION ... REGION: start..end"). No mRNA records, nuclear chromosomes or hybrids were returned. 27 species. Compared with the original download (unquoted names, two batches), 9 records of unidentified or synonymous taxa are no longer retrieved: Brycon sp. (DC-2004, KTA-2014, UFRGS11377), Brycon aff. atrocaudatus KTA-2014, Brycon cf. falcatus KTA-2014, Salminus sp. KTA-2014 and Salminus maxillosus.
+Sequences retrieved : 75 (final file, after curation; the query returned 75 records on 2026-11-12)
+Notes               : Downloaded on 2026-11-12 (GenBank full) with the query above; the 8 designs use the same
+                      pattern: species names quoted, marker term, "chordates" and "ray-finned
+                      fishes". Curation (same rules for every design, see README): (1) 12
+                      complete mitochondrial genomes reduced to the NCBI-annotated 16S region;
+                      (2) no nuclear chromosome, mRNA, wrong-marker record or hybrid returned.
+                      27 species; target: KF780006.

@@ -28,3 +28,13 @@ Value recorded in the workflow notes for each ecoPrimers run.
 ## Notes
 
 - The query notes say the 16S of complete mitogenomes was downloaded for some species, but the species were not recorded ("??").
+
+## Redone on 12 November 2026
+
+All 8 designs were downloaded again on the same day, with the same query pattern and curation rules (see the README, "Data curation"), and ecoPrimers was run again with the same parameters.
+
+- Dataset: 464 records, 117 taxa (original dataset: 510-517 records). The 71 mitochondrial genomes now enter with their 16S region only (53 had entered as whole genomes); 33 records of other markers (32 *Clarias gariepinus* "small subunit" records and AF072139, *Sternopygus macrurus* 12S) and 5 mRNA records removed; *Brycon nattereri* added (misspelled "Brycon natterer" in the list); hybrid taxon 1630651 excluded from the counterexamples. See `config/queries/query_16s_tibagi.txt`.
+- Counterexample taxids (`-i`): 115.
+- ecoPrimers pairs, 20 to 25 bp: 27594, 28648, 30302, 31661, 32428, 33141.
+- Pairs with dif 3 = 0 and class GG (in silico PCR): 18, 22, 19, 26, 32, 29.
+- A second, independent run of the whole procedure produced the same output files byte for byte (WSL check pending).

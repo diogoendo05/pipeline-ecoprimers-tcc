@@ -19,6 +19,8 @@ The GenBank queries are not repeated here; each `notes.md` links to its file in 
 
 ## Tests
 
+All 8 tests were downloaded and run again on 12 November 2026 with the same query pattern, curation rules and parameters (see the "Redone on 12 November 2026" section of each `notes.md`).
+
 | Test | Target species | Notes |
 |------|----------------|-------|
 | [12s_pimelodidae](12s_pimelodidae/notes.md) | *Steindachneridion melanodermatum* | unquoted species names in the original query; redone Nov 2026 |
@@ -26,6 +28,6 @@ The GenBank queries are not repeated here; each `notes.md` links to its file in 
 | [12s_bryconidae](12s_bryconidae/notes.md) | *Salminus hilarii* | redone Nov 2026: 0 primer pairs |
 | [16s_bryconidae](16s_bryconidae/notes.md) | *Salminus hilarii* | GenBank download in two batches, unquoted species names; redone Nov 2026 |
 | [12s_tibagi](12s_tibagi/notes.md) | *Salminus hilarii* | original dataset was 16S; redone Nov 2026: 0 primer pairs |
-| [16s_tibagi](16s_tibagi/notes.md) | *Salminus hilarii* | |
-| [12s_iguacu](12s_iguacu/notes.md) | *Steindachneridion melanodermatum* | |
+| [16s_tibagi](16s_tibagi/notes.md) | *Salminus hilarii* | mitogenomes entered whole, records of other markers; redone Nov 2026 |
+| [12s_iguacu](12s_iguacu/notes.md) | *Steindachneridion melanodermatum* | query file with broken quotes; redone Nov 2026 |
 | [16s_iguacu](16s_iguacu/notes.md) | *Steindachneridion melanodermatum* | target entered as whole mitogenome; redone Nov 2026 |

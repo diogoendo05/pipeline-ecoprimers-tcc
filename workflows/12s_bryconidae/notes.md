@@ -37,3 +37,13 @@ Value recorded in the workflow notes for each ecoPrimers run (original dataset, 
 - The dataset was downloaded again with the species names quoted and curated (see `config/queries/query_12s_bryconidae.txt`): 12 complete mitogenomes reduced to the NCBI-annotated 12S region, 2 nuclear mRNA records and 2 nuclear chromosomes of *Salminus brasiliensis* removed, and MZ778840 (*S. hilarii*, 219 bp, the only 12S reference of the species) added by hand. Final file: 30 records, 14 species.
 - ecoPrimers was run with the same parameters as the other targets (`-l 150 -L 300 -r 932087 -3 N -U -O N`, N = 20 to 25). It found **0 primer pairs** for every primer length, for the same reason as in `12s_tibagi`: the 219-bp reference only fits a 150-bp amplicon with primers on its conserved ends.
 - Output files: `results/12s_bryconidae/12s_bryconidae_ecoprimers20.csv` to `25.csv`.
+
+## Redone on 12 November 2026
+
+All 8 designs were downloaded again on the same day, with the same query pattern and curation rules (see the README, "Data curation"), and ecoPrimers was run again with the same parameters.
+
+- Dataset: 30 records (with MZ778840), 14 taxa; identical, byte for byte, to the version redone on 3-4 November. See `config/queries/query_12s_bryconidae.txt`.
+- Counterexample taxids (`-i`): 13.
+- ecoPrimers pairs, 20 to 25 bp: 0 for every length.
+- Pairs with dif 3 = 0 and class GG (in silico PCR): 0 for every length.
+- A second, independent run of the whole procedure produced the same output files byte for byte (WSL check pending).

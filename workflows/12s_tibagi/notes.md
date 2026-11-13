@@ -36,3 +36,13 @@ Value recorded in the workflow notes for each ecoPrimers run (original dataset, 
 - The new dataset had no sequence of the target species. The only 12S reference of *Salminus hilarii* in GenBank, MZ778840 (219 bp), is annotated as "small subunit ribosomal RNA" and is not retrieved by the term "12S". It was added by hand. Without it, ecoPrimers stopped with a segmentation fault ("0 examples").
 - ecoPrimers was run with the same parameters as the other targets (`-l 150 -L 300 -r 932087 -3 N -U -O N`, N = 20 to 25). It found **0 primer pairs** for every primer length. The amplicon of at least 150 bp only fits if the primers sit at the ends of the 219-bp reference, which are the conserved MiFish primer sites (for example, `AAACTCGTGCCAGCCACCGC` matches 99 non-target sequences and `AAACTGGGATTAGATACCCC` 264). Primers specific to the target exist only in the middle of the sequence, where no 150-bp amplicon fits.
 - Output files: `results/12s_tibagi/12s_tibagi_ecoprimers20.csv` to `25.csv`.
+
+## Redone on 12 November 2026
+
+All 8 designs were downloaded again on the same day, with the same query pattern and curation rules (see the README, "Data curation"), and ecoPrimers was run again with the same parameters.
+
+- Dataset: 403 records (with MZ778840), 102 taxa. Compared with the version of early November: 51 more mitochondrial genomes of Tibagi species, entered with their 12S region; *Brycon nattereri* added (the list had the misspelling "Brycon natterer", which retrieves nothing); AF072153 (*Sternopygus macrurus* 16S) removed. See `config/queries/query_12s_tibagi.txt`.
+- Counterexample taxids (`-i`): 101.
+- ecoPrimers pairs, 20 to 25 bp: 0 for every length (MZ778840 is too short, see the README).
+- Pairs with dif 3 = 0 and class GG (in silico PCR): 0 for every length.
+- A second, independent run of the whole procedure produced the same output files byte for byte (WSL check pending).

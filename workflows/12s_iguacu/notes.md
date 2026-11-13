@@ -28,3 +28,13 @@ Value recorded in the workflow notes for each ecoPrimers run.
 ## Notes
 
 - The taxid list was saved as `12s_taxids.txt` (renamed `12s_iguacu_taxids.txt` in this repository).
+
+## Redone on 12 November 2026
+
+All 8 designs were downloaded again on the same day, with the same query pattern and curation rules (see the README, "Data curation"), and ecoPrimers was run again with the same parameters.
+
+- Dataset: 709 records, 88 taxa (original dataset: 143 records, from a query file with curly quotes and names without the opening quote). 306 mitochondrial genomes entered with their 12S region; 34 nuclear sequences longer than 30 kb, 35 mRNA records and 1 nuclear scaffold removed; 15 hybrid taxa excluded from the counterexamples. See `config/queries/query_12s_iguacu.txt`.
+- Counterexample taxids (`-i`): 72.
+- ecoPrimers pairs, 20 to 25 bp: 49246, 52922, 56285, 60094, 63158, 65849.
+- Pairs with dif 3 = 0 and class GG (in silico PCR): 17, 26, 46, 48, 38, 53.
+- A second, independent run of the whole procedure produced the same output files byte for byte (WSL check pending).

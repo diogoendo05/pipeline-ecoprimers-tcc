@@ -59,11 +59,14 @@ workflows/<target>/       commands as originally run + notes (record only)
 
 ### Data curation (between steps 0 and 1)
 
-The GenBank exports are curated by hand before conversion. Each target's query file in `config/queries/` logs what was done to its data. The rules, applied to the datasets updated in November 2026 (`12s_pimelodidae`, `16s_pimelodidae`, `12s_bryconidae`, `16s_bryconidae`, `12s_tibagi`, `16s_iguacu`), are:
+All 8 datasets were downloaded again on 12 November 2026 and curated with the same rules. Each target's query file in `config/queries/` logs the numbers for its data.
 
-- **Complete mitochondrial genomes** are reduced to the region of the target gene (12S or 16S), using the coordinates of the gene as annotated by NCBI. The region is downloaded as a GenBank subrange, so the record keeps the line `ACCESSION <accession> REGION: <start>..<end>`.
-- **Records that are not mitochondrial sequences of the target gene** are removed: nuclear mRNA records and nuclear chromosomes that the query retrieves only because a gene name contains "12S" (for example *mettl15*, "12S rRNA N4-cytidine methyltransferase").
-- **Hybrid taxa** (organism names with " x ") are excluded from the counterexamples through `excluded_taxids`.
+- **Query.** Every query has the same pattern: the species names in quotes, joined with `OR`, then `AND 12S` (or `AND 16S`) `AND "chordates"[porgn:__txid7711] AND "ray-finned fishes"[porgn:__txid7898]`. The Pimelodidae and Bryconidae lists are shared by the 12S and 16S designs, and so are the Iguacu and Tibagi lists.
+- **Complete or partial mitochondrial genomes** (records longer than 3000 bp) are reduced to the region of the target gene (12S or 16S), using the coordinates of the rRNA feature as annotated by NCBI. The region is downloaded as a GenBank subrange, so the record keeps the line `ACCESSION <accession> REGION: <start>..<end>`.
+- **Nuclear sequences** are removed: chromosomes and other records longer than 30 kb, nuclear mRNA records, and longer records that have no annotated 12S/16S feature. The query retrieves them only because a gene name contains "12S" or "16S" (for example *mettl15*, "12S rRNA N4-cytidine methyltransferase").
+- **Records of another marker** are removed: records that mention the target marker neither in the DEFINITION line nor in an rRNA, gene or misc feature. They are retrieved only because the title of a reference mentions the marker (for example cytochrome b, D-loop or "small subunit" records in a 16S dataset).
+- **Hybrid taxa** (organism names with " x ") stay in the database but are excluded from the counterexamples through `excluded_taxids` in `config/targets.tsv`.
+- **Taxids missing from the taxonomy** are also added to `excluded_taxids` (see Parameters).
 - **The 12S reference of *Salminus hilarii*** is added by hand. GenBank has a single 12S sequence of the species, MZ778840 (219 bp). It is annotated as "small subunit ribosomal RNA", not "12S", so the queries do not retrieve it. It is included in `12s_tibagi` and `12s_bryconidae`.
 
 Commands run in each step, for target `12s_iguacu`:
@@ -81,7 +84,7 @@ grep -i -o 'taxid=[0-9]*' data/processed/12s_iguacu/12s_iguacu.fasta | cut -d '=
 python ecoPCRFormat.py --fasta --taxonomy data/taxdump --name data/processed/12s_iguacu/12s_iguacu_db \
     data/processed/12s_iguacu/12s_iguacu.fasta
 
-# 4 (counterexamples = every taxid except the target species)
+# 4 (counterexamples = every taxid except the target species; the taxid list of step 2 no longer has the excluded_taxids)
 grep -v '1000982' data/processed/12s_iguacu/12s_iguacu_taxids.txt | awk '{printf "-i %s ", $1}'
 ecoPrimers -d data/processed/12s_iguacu/12s_iguacu_db -l 150 -L 300 -r 1000982 -i 1123850 -i 1123855 ... \
     -3 20 -U -O 20 > results/12s_iguacu/12s_iguacu_ecoprimers20.csv
@@ -172,7 +175,7 @@ The exit code is 1 when there is any `FAIL`. The script does not run as part of 
 | `min_len` / `max_len` | Minimum and maximum amplicon length in bp, excluding the primers (`-l` / `-L`) |
 | `excluded_taxids` | Optional, comma-separated. Taxids removed by hand from the taxid list in step 02, so they are neither examples nor counterexamples |
 
-The amplicon range of 150-300 bp was used for all targets. Manual exclusions are used only in `16s_iguacu`: the hybrid taxa (16 in the November 2026 dataset; the original run excluded the two *Misgurnus* hybrids, 1550064 and 2590590) and taxid 3738817, which is newer than the NCBI taxonomy dump used.
+The amplicon range of 150-300 bp was used for all targets. Exclusions (`excluded_taxids`) are needed in three targets: `16s_tibagi` (1 hybrid taxon), `12s_iguacu` (15 hybrid taxa) and `16s_iguacu` (16 hybrid taxa and taxid 3738817, which is newer than the NCBI taxonomy dump used). The original `16s_iguacu` run already excluded the two *Misgurnus* hybrids, 1550064 and 2590590.
 
 **Taxids missing from the taxonomy.** If a record's taxid does not exist in the taxonomy dump, `ecoPCRFormat.py` drops the record ("Skipped entry"), but the taxid still reaches the `-i` list, because the list is built from the FASTA file. ecoPrimers then counts the pairs and crashes with a segmentation fault while writing the output header. Such taxids must be added to `excluded_taxids`.
 
@@ -211,13 +214,11 @@ Only pairs that pass both filters below are tested with ecoPCR. These are the sa
 | 12s_bryconidae | 0 | 0 | 0 | 0 | 0 | 0 |
 | 16s_bryconidae | 1 | 9 | 11 | 12 | 18 | 23 |
 | 12s_tibagi | 0 | 0 | 0 | 0 | 0 | 0 |
-| 16s_tibagi | 18 | 22 | 19 | 26 | 32 | 30 |
-| 12s_iguacu | 47 | 64 | 84 | 94 | 80 | 88 |
-| 16s_iguacu | 152 | 168 | 200 | 232 | 230 | 222 |
+| 16s_tibagi | 18 | 22 | 19 | 26 | 32 | 29 |
+| 12s_iguacu | 17 | 26 | 46 | 48 | 38 | 53 |
+| 16s_iguacu | 151 | 169 | 200 | 233 | 231 | 225 |
 
-Pairs with dif 3 = 0 and class GG; 0 = not tested. In total, 25 of the 48 runs are tested, with 1883 pairs.
-
-For `12s_iguacu` and `16s_tibagi` (original datasets), the output files in `results/` were produced again from the FASTA files in `data/processed/`. They are identical, row by row (serial number, primers, minimum Tm and class), to the spreadsheets made from the original runs, and the counts above match the spreadsheets with the dif 3 = 0 and GG filters applied.
+Pairs with dif 3 = 0 and class GG; 0 = not tested. In total, 25 of the 48 runs are tested, with 1658 pairs.
 
 ### ecoPCR
 
@@ -236,28 +237,29 @@ Number of primer pairs found by ecoPrimers in each run (the `Total good pair cou
 
 | target_id | 20 bp | 21 bp | 22 bp | 23 bp | 24 bp | 25 bp | Dataset |
 |-----------|------:|------:|------:|------:|------:|------:|---------|
-| 12s_pimelodidae | 7573 | 8195 | 8642 | 9089 | 9685 | 10132 | updated Nov 2026 |
-| 16s_pimelodidae | 14818 | 16763 | 18058 | 19338 | 20603 | 21852 | updated Nov 2026 |
-| 12s_bryconidae | 0 | 0 | 0 | 0 | 0 | 0 | updated Nov 2026 |
-| 16s_bryconidae | 17616 | 19453 | 21257 | 22209 | 23367 | 24140 | updated Nov 2026 |
-| 12s_tibagi | 0 | 0 | 0 | 0 | 0 | 0 | updated Nov 2026 |
-| 16s_tibagi | 27346 | 29271 | 31046 | 32418 | 33128 | 33966 | original |
-| 12s_iguacu | 63845 | 66689 | 69351 | 71989 | 74058 | 75593 | original |
-| 16s_iguacu | 92936 | 97011 | 100116 | 103252 | 106217 | 109125 | updated Nov 2026 |
-
+| 12s_pimelodidae | 7573 | 8195 | 8642 | 9089 | 9685 | 10132 | 12 Nov 2026 |
+| 16s_pimelodidae | 14818 | 16763 | 18058 | 19338 | 20603 | 21852 | 12 Nov 2026 |
+| 12s_bryconidae | 0 | 0 | 0 | 0 | 0 | 0 | 12 Nov 2026 |
+| 16s_bryconidae | 17616 | 19453 | 21257 | 22209 | 23367 | 24140 | 12 Nov 2026 |
+| 12s_tibagi | 0 | 0 | 0 | 0 | 0 | 0 | 12 Nov 2026 |
+| 16s_tibagi | 27594 | 28648 | 30302 | 31661 | 32428 | 33141 | 12 Nov 2026 |
+| 12s_iguacu | 49246 | 52922 | 56285 | 60094 | 63158 | 65849 | 12 Nov 2026 |
+| 16s_iguacu | 92403 | 96628 | 99782 | 102884 | 105746 | 108653 | 12 Nov 2026 |
 **12S of *Salminus hilarii* (`12s_bryconidae`, `12s_tibagi`): no primer pair.** The only 12S reference of the target species, MZ778840, is 219 bp long and is a complete MiFish amplicon. With primers of 20 bp and amplicons of at least 150 bp, the primers would have to sit at the ends of that sequence, which are the conserved MiFish primer sites shared by dozens to hundreds of non-target sequences. The variable regions that could hold specific primers are in the middle of the sequence, where there is no room for an amplicon of 150-300 bp. So, with the parameters used for every other target, no species-specific 12S primers can be designed for *S. hilarii* from the public data.
 
-**16S Pimelodidae: values changed in November 2026.** The earlier values (19936-27766) came from a dataset built with the 12S query. The new dataset was downloaded with the 16S query, with species names in quotes.
+**All 8 datasets redone on 12 November 2026.** Every dataset was downloaded again on the same day, with the same query pattern and curation rules, and all 48 runs were repeated with the same parameters. A second, independent run of the whole procedure (the verification script sent for WSL) produced the same 48 output files, byte for byte; the WSL check is pending. Compared with the earlier versions:
 
-**12S Pimelodidae: values changed in November 2026.** The original query had unquoted species names and retrieved unrelated taxa (52 of its 188 records). The dataset was downloaded again with the names quoted and the same marker and taxonomic terms as the other 12S queries: 130 records, 52 species, with the 23 complete mitogenomes reduced to their NCBI-annotated 12S region. The output files produced in WSL and in an independent run are identical.
-
-**16S Bryconidae: values changed in November 2026.** The original query had unquoted species names and retrieved 9 records of unidentified or synonymous taxa (*Brycon* sp., *B.* aff. *atrocaudatus*, *B.* cf. *falcatus*, *Salminus* sp., *Salminus maxillosus*). The dataset was downloaded again with the names quoted and the same terms as the other 16S queries: 75 records, 27 species, with the 12 complete mitogenomes reduced to their NCBI-annotated 16S region. The output files produced in WSL and in an independent run are identical.
-
-**16S Iguacu: values changed in November 2026.** In the original dataset the target species entered as its complete mitochondrial genome (16,527 bp), so the primers could come from any gene; that explains the earlier ~135,000 pairs. The new dataset (929 records, 69 species with the NCBI taxonomy) has the target with its NCBI-annotated 16S region, like `16s_pimelodidae`. The output files produced in WSL and in an independent run are identical.
+- `12s_pimelodidae`, `16s_pimelodidae`, `12s_bryconidae` and `16s_bryconidae`: the downloads were identical, byte for byte, to the versions already redone earlier in November 2026, and so were the 24 output files.
+- `16s_iguacu`: same download as the version redone on 9-10 November; 40 records of other markers were removed (32 *Clarias gariepinus* "small subunit" records, 7 cytochrome b and 1 D-loop record).
+- `12s_iguacu` (original dataset: 143 records, from a query file with curly quotes and names without the opening quote): now 709 records, with the mitogenomes reduced to the 12S region, the mRNA records removed and the hybrid taxa excluded.
+- `16s_tibagi` (original dataset): the 71 mitogenomes now enter with their 16S region only (53 entered as whole genomes before), 33 records of other markers and 5 mRNA records were removed, and 1 hybrid taxon was excluded.
+- `12s_tibagi`: now 403 records; the mitogenomes of the Tibagi species are included with their 12S region, and 1 16S record was removed. It still gives no primer pair (see above).
+- `12s_tibagi` and `16s_tibagi`: "Brycon natterer" in the species list was corrected to *Brycon nattereri*; the misspelled name retrieves nothing, the correct one adds 3 (12S) and 7 (16S) records of this congener of the target's family.
+- Earlier values: `16s_pimelodidae` 19936-27766 (dataset built with the 12S query), `12s_pimelodidae` 8167-10430 (unquoted names), `16s_bryconidae` 16979-23530 (unquoted names), `16s_tibagi` 27346-33966, `12s_iguacu` 63845-75593, `16s_iguacu` about 135,000 (target entered as its whole mitogenome) and then 92936-109125.
 
 ### Known issues
 
-- **All four 12S queries** use the term "12S" and do not retrieve 12S records annotated as "small subunit ribosomal RNA". In November 2026 these were 134 records for Tibagi, 37 for Bryconidae, 35 for Pimelodidae and 29 for Iguacu. Only MZ778840, the target species' reference, was added by hand.
+- **All four 12S queries** use the term "12S" and do not retrieve 12S records annotated only as "small subunit ribosomal RNA". Only MZ778840, the target species' reference, was added by hand.
 - **`12s_pimelodidae`**: because of the term above, the congener *Steindachneridion amblyurum* (3 records annotated as "small subunit ribosomal RNA") is not among the counterexamples. It was left out to keep the same query pattern as the other 12S designs.
 
 

@@ -29,21 +29,21 @@ target_id	primer_length	total_pairs	dif3_0	dif3_0_and_GG	in_silico_pcr
 12s_tibagi	23	0	0	0	not tested: no pair passed dif3=0 and GG
 12s_tibagi	24	0	0	0	not tested: no pair passed dif3=0 and GG
 12s_tibagi	25	0	0	0	not tested: no pair passed dif3=0 and GG
-16s_tibagi	20	27346	60	18	yes
-16s_tibagi	21	29271	90	22	yes
-16s_tibagi	22	31046	75	19	yes
-16s_tibagi	23	32418	86	26	yes
-16s_tibagi	24	33128	73	32	yes
-16s_tibagi	25	33966	94	30	yes
-12s_iguacu	20	63845	284	47	yes
-12s_iguacu	21	66689	296	64	yes
-12s_iguacu	22	69351	322	84	yes
-12s_iguacu	23	71989	347	94	yes
-12s_iguacu	24	74058	359	80	yes
-12s_iguacu	25	75593	345	88	yes
-16s_iguacu	20	92936	487	152	yes
-16s_iguacu	21	97011	525	168	yes
-16s_iguacu	22	100116	561	200	yes
-16s_iguacu	23	103252	625	232	yes
-16s_iguacu	24	106217	607	230	yes
-16s_iguacu	25	109125	580	222	yes
+16s_tibagi	20	27594	57	18	yes
+16s_tibagi	21	28648	87	22	yes
+16s_tibagi	22	30302	73	19	yes
+16s_tibagi	23	31661	83	26	yes
+16s_tibagi	24	32428	73	32	yes
+16s_tibagi	25	33141	85	29	yes
+12s_iguacu	20	49246	205	17	yes
+12s_iguacu	21	52922	246	26	yes
+12s_iguacu	22	56285	274	46	yes
+12s_iguacu	23	60094	287	48	yes
+12s_iguacu	24	63158	309	38	yes
+12s_iguacu	25	65849	296	53	yes
+16s_iguacu	20	92403	482	151	yes
+16s_iguacu	21	96628	525	169	yes
+16s_iguacu	22	99782	561	200	yes
+16s_iguacu	23	102884	622	233	yes
+16s_iguacu	24	105746	602	231	yes
+16s_iguacu	25	108653	575	225	yes

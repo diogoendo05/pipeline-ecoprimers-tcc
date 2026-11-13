@@ -36,3 +36,13 @@ Value recorded in the workflow notes for each ecoPrimers run (original dataset, 
 - *Steindachneridion amblyurum* is not in the dataset: its 3 records are annotated as "small subunit ribosomal RNA" and are not returned by the term "12S". It was left out to keep the query pattern of the other 12S designs.
 - New ecoPrimers results (same parameters): 7573, 8195, 8642, 9089, 9685 and 10132 primer pairs for 20 to 25 bp. The output files produced in WSL and in an independent run are identical byte for byte.
 - Output files: `results/12s_pimelodidae/12s_pimelodidae_ecoprimers20.csv` to `25.csv`.
+
+## Redone on 12 November 2026
+
+All 8 designs were downloaded again on the same day, with the same query pattern and curation rules (see the README, "Data curation"), and ecoPrimers was run again with the same parameters.
+
+- Dataset: 130 records, 52 taxa; identical, byte for byte, to the version redone on 10 November. See `config/queries/query_12s_pimelodidae.txt`.
+- Counterexample taxids (`-i`): 51.
+- ecoPrimers pairs, 20 to 25 bp: 7573, 8195, 8642, 9089, 9685, 10132.
+- Pairs with dif 3 = 0 and class GG (in silico PCR): 0, 0, 0, 0, 0, 0.
+- A second, independent run of the whole procedure produced the same output files byte for byte (WSL check pending).

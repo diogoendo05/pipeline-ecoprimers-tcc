@@ -37,3 +37,13 @@ Value recorded in the workflow notes for each ecoPrimers run (original dataset, 
 - The dataset was downloaded again in a single batch with the species names quoted and the same marker and taxonomic terms as the other 16S queries (`AND 16S AND "chordates"[porgn:__txid7711] AND "ray-finned fishes"[porgn:__txid7898]`; see `config/queries/query_16s_bryconidae.txt`): 75 records, 27 species. The 12 complete mitogenomes were reduced to the 16S region as annotated by NCBI. No mRNA records, nuclear chromosomes or hybrids were returned, and every taxid is present in the taxonomy used, so the counterexample list is all 26 non-target species.
 - New ecoPrimers results (same parameters): 17616, 19453, 21257, 22209, 23367 and 24140 primer pairs for 20 to 25 bp. The output files produced in WSL and in an independent run are identical byte for byte.
 - Pairs with dif 3 = 0 and class GG: 1, 9, 11, 12, 18 and 23 for 20 to 25 bp (original dataset: 0, 4, 5, 10, 17 and 21).
+
+## Redone on 12 November 2026
+
+All 8 designs were downloaded again on the same day, with the same query pattern and curation rules (see the README, "Data curation"), and ecoPrimers was run again with the same parameters.
+
+- Dataset: 75 records, 27 taxa; identical, byte for byte, to the version redone on 12 November. See `config/queries/query_16s_bryconidae.txt`.
+- Counterexample taxids (`-i`): 26.
+- ecoPrimers pairs, 20 to 25 bp: 17616, 19453, 21257, 22209, 23367, 24140.
+- Pairs with dif 3 = 0 and class GG (in silico PCR): 1, 9, 11, 12, 18, 23.
+- A second, independent run of the whole procedure produced the same output files byte for byte (WSL check pending).
