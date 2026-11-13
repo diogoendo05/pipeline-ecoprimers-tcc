@@ -1,0 +1,49 @@
+target_id	target_species	reference_set	records_retrieved	records_after_curation	taxa	counterexample_taxa	primer_length	primer_pairs	dif3_0	dif3_0_and_GG	only_target_ecopcr
+12s_pimelodidae	Steindachneridion melanodermatum	Família Pimelodidae	130	130	52	51	20	7573	22	0	0
+12s_pimelodidae	Steindachneridion melanodermatum	Família Pimelodidae	130	130	52	51	21	8195	36	0	0
+12s_pimelodidae	Steindachneridion melanodermatum	Família Pimelodidae	130	130	52	51	22	8642	49	0	0
+12s_pimelodidae	Steindachneridion melanodermatum	Família Pimelodidae	130	130	52	51	23	9089	43	0	0
+12s_pimelodidae	Steindachneridion melanodermatum	Família Pimelodidae	130	130	52	51	24	9685	34	0	0
+12s_pimelodidae	Steindachneridion melanodermatum	Família Pimelodidae	130	130	52	51	25	10132	38	0	0
+16s_pimelodidae	Steindachneridion melanodermatum	Família Pimelodidae	111	111	52	51	20	14818	75	1	1
+16s_pimelodidae	Steindachneridion melanodermatum	Família Pimelodidae	111	111	52	51	21	16763	79	0	0
+16s_pimelodidae	Steindachneridion melanodermatum	Família Pimelodidae	111	111	52	51	22	18058	71	0	0
+16s_pimelodidae	Steindachneridion melanodermatum	Família Pimelodidae	111	111	52	51	23	19338	79	0	0
+16s_pimelodidae	Steindachneridion melanodermatum	Família Pimelodidae	111	111	52	51	24	20603	80	0	0
+16s_pimelodidae	Steindachneridion melanodermatum	Família Pimelodidae	111	111	52	51	25	21852	105	0	0
+12s_iguacu	Steindachneridion melanodermatum	Bacia do rio Iguaçu	779	709	88	72	20	49246	205	17	0
+12s_iguacu	Steindachneridion melanodermatum	Bacia do rio Iguaçu	779	709	88	72	21	52922	246	26	0
+12s_iguacu	Steindachneridion melanodermatum	Bacia do rio Iguaçu	779	709	88	72	22	56285	274	46	0
+12s_iguacu	Steindachneridion melanodermatum	Bacia do rio Iguaçu	779	709	88	72	23	60094	287	48	0
+12s_iguacu	Steindachneridion melanodermatum	Bacia do rio Iguaçu	779	709	88	72	24	63158	309	38	0
+12s_iguacu	Steindachneridion melanodermatum	Bacia do rio Iguaçu	779	709	88	72	25	65849	296	53	0
+16s_iguacu	Steindachneridion melanodermatum	Bacia do rio Iguaçu	953	889	103	85	20	92403	482	151	9
+16s_iguacu	Steindachneridion melanodermatum	Bacia do rio Iguaçu	953	889	103	85	21	96628	525	169	1
+16s_iguacu	Steindachneridion melanodermatum	Bacia do rio Iguaçu	953	889	103	85	22	99782	561	200	6
+16s_iguacu	Steindachneridion melanodermatum	Bacia do rio Iguaçu	953	889	103	85	23	102884	622	233	8
+16s_iguacu	Steindachneridion melanodermatum	Bacia do rio Iguaçu	953	889	103	85	24	105746	602	231	9
+16s_iguacu	Steindachneridion melanodermatum	Bacia do rio Iguaçu	953	889	103	85	25	108653	575	225	6
+12s_bryconidae	Salminus hilarii	Família Bryconidae	33	30	14	13	20	0	0	0	0
+12s_bryconidae	Salminus hilarii	Família Bryconidae	33	30	14	13	21	0	0	0	0
+12s_bryconidae	Salminus hilarii	Família Bryconidae	33	30	14	13	22	0	0	0	0
+12s_bryconidae	Salminus hilarii	Família Bryconidae	33	30	14	13	23	0	0	0	0
+12s_bryconidae	Salminus hilarii	Família Bryconidae	33	30	14	13	24	0	0	0	0
+12s_bryconidae	Salminus hilarii	Família Bryconidae	33	30	14	13	25	0	0	0	0
+16s_bryconidae	Salminus hilarii	Família Bryconidae	75	75	27	26	20	17616	44	1	1
+16s_bryconidae	Salminus hilarii	Família Bryconidae	75	75	27	26	21	19453	67	9	8
+16s_bryconidae	Salminus hilarii	Família Bryconidae	75	75	27	26	22	21257	56	11	10
+16s_bryconidae	Salminus hilarii	Família Bryconidae	75	75	27	26	23	22209	66	12	12
+16s_bryconidae	Salminus hilarii	Família Bryconidae	75	75	27	26	24	23367	59	18	18
+16s_bryconidae	Salminus hilarii	Família Bryconidae	75	75	27	26	25	24140	69	23	23
+12s_tibagi	Salminus hilarii	Bacia do rio Tibagi	434	403	102	101	20	0	0	0	0
+12s_tibagi	Salminus hilarii	Bacia do rio Tibagi	434	403	102	101	21	0	0	0	0
+12s_tibagi	Salminus hilarii	Bacia do rio Tibagi	434	403	102	101	22	0	0	0	0
+12s_tibagi	Salminus hilarii	Bacia do rio Tibagi	434	403	102	101	23	0	0	0	0
+12s_tibagi	Salminus hilarii	Bacia do rio Tibagi	434	403	102	101	24	0	0	0	0
+12s_tibagi	Salminus hilarii	Bacia do rio Tibagi	434	403	102	101	25	0	0	0	0
+16s_tibagi	Salminus hilarii	Bacia do rio Tibagi	502	464	117	115	20	27594	57	18	12
+16s_tibagi	Salminus hilarii	Bacia do rio Tibagi	502	464	117	115	21	28648	87	22	19
+16s_tibagi	Salminus hilarii	Bacia do rio Tibagi	502	464	117	115	22	30302	73	19	18
+16s_tibagi	Salminus hilarii	Bacia do rio Tibagi	502	464	117	115	23	31661	83	26	23
+16s_tibagi	Salminus hilarii	Bacia do rio Tibagi	502	464	117	115	24	32428	73	32	30
+16s_tibagi	Salminus hilarii	Bacia do rio Tibagi	502	464	117	115	25	33141	85	29	28
