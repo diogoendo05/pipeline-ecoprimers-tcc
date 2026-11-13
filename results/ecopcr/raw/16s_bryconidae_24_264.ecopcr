@@ -1,0 +1,14 @@
+#@ecopcr-v2
+#
+# ecoPCR version 0.2
+# direct  strand oligo1 : AAAAACATCGCCTCCCCGCAAACA         ; oligo2c :         TAACCACCACTGACTCTGCGCCTT
+# reverse strand oligo2 : AAGGCGCAGAGTCAGTGGTGGTTA         ; oligo1c :         TGTTTGCGGGGAGGCGATGTTTTT
+# max error count by oligonucleotide : 3
+# optimal Tm for primers 1 : 63.97
+# optimal Tm for primers 2 : 63.98
+# database : banco_16s_bryconidae
+# amplifiat length between [50,300] bp
+# output in kingdom mode
+# DB sequences are considered as linear
+#
+KF780006        |       592 |   932087 | species              |   932087 | Salminus hilarii               |    42583 | Salminus                       |    42530 | Bryconidae                     |    33208 | Metazoa                        | D | AAAAACATCGCCTCCCCGCAAACA         |  0 | 63.97 | AAGGCGCAGAGTCAGTGGTGGTTA         |  0 | 63.98 |   266 | CCGAAGTATAGGAAGCCCTACCCTGCCCAGTGATTATTATTTAACGGCCGCGGTATCCTGACCGTGCTAAGGTAGCGAAATCACTTGTCTTTTAAATGAAGACCTGTATGAATGGTGGAACGAGGGCTTAACTATATACTTTTTCAGGTCAGTGAAATTGATCTGCCCGTGCAGAAGCGGACATATACATACAAGACGAGAAGACCCTTTGGAGCTTAAGACTTAAAAGTCAACTGCGTTAAGAATTTTAATAAAAAAATTAAAAT | Salminus hilarii voucher LBP84-7615 16S ribosomal RNA gene, partial sequence mitochondrial

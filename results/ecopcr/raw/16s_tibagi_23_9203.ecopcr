@@ -1,0 +1,15 @@
+#@ecopcr-v2
+#
+# ecoPCR version 0.2
+# direct  strand oligo1 : TTAAGGGTTGTCCCATTCTGCGT          ; oligo2c :          AGGATACCGCGGCCGTTAAATAA
+# reverse strand oligo2 : TTATTTAACGGCCGCGGTATCCT          ; oligo1c :          ACGCAGAATGGGACAACCCTTAA
+# max error count by oligonucleotide : 3
+# optimal Tm for primers 1 : 60.48
+# optimal Tm for primers 2 : 60.47
+# database : banco_16s_tibagi
+# amplifiat length between [50,300] bp
+# output in kingdom mode
+# DB sequences are considered as linear
+#
+AY788080        |       588 |   304083 | species              |   304083 | Salminus maxillosus            |    42583 | Salminus                       |    42530 | Bryconidae                     |    33208 | Metazoa                        | R | TTAAGGGTTATCCCATTCTGCGT          |  1 | 54.09 | ATATTCAACGGCCGCGGTATCCT          |  2 | 53.18 |   266 | GGGGGCTTTGTTTCCCCCGCGGTCGCCCCAACCGAAGGCGCAGAGTCAGTGGTGGTTAATCTTAATTTTTTTAGTCAAAATTCTTAACGCAGTTGACTCTTAAGTCTTAAGCTCCAAAGGGTCTTCTCGTCTTGCATGTATATGTCCGCTTCTGCACGGGCAGATCAATTTCACTGACCTGAAAAAGGAGACAGTTAAGCCCTCGTTCCACCATTCATACAGGTCTTCATTTAAAAGACAAGTGATTTCGCTACCTTAGCACGGTC | Salminus maxillosus 16S large subunit ribosomal RNA gene, partial sequence mitochondrial
+KF780006        |       592 |   932087 | species              |   932087 | Salminus hilarii               |    42583 | Salminus                       |    42530 | Bryconidae                     |    33208 | Metazoa                        | R | TTAAGGGTTGTCCCATTCTGCGT          |  0 | 60.48 | TTATTTAACGGCCGCGGTATCCT          |  0 | 60.47 |   265 | GGGGGCTTTGTTTCCCCCGCGGTCGCCCCAACCGAAGGCGCAGAGTCAGTGGTGGTTAATTTTAATTTTTTTATTAAAATTCTTAACGCAGTTGACTTTTAAGTCTTAAGCTCCAAAGGGTCTTCTCGTCTTGTATGTATATGTCCGCTTCTGCACGGGCAGATCAATTTCACTGACCTGAAAAAGTATATAGTTAAGCCCTCGTTCCACCATTCATACAGGTCTTCATTTAAAAGACAAGTGATTTCGCTACCTTAGCACGGTC | Salminus hilarii voucher LBP84-7615 16S ribosomal RNA gene, partial sequence mitochondrial

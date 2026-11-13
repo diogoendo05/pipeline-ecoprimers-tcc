@@ -1,0 +1,16 @@
+#@ecopcr-v2
+#
+# ecoPCR version 0.2
+# direct  strand oligo1 : AATCCACCTTCAGGCATATTTTCA         ; oligo2c :         CGGGCGGATGTGTATGTAAATATA
+# reverse strand oligo2 : TATATTTACATACACATCCGCCCG         ; oligo1c :         TGAAAATATGCCTGAAGGTGGATT
+# max error count by oligonucleotide : 3
+# optimal Tm for primers 1 : 56.69
+# optimal Tm for primers 2 : 56.75
+# database : banco_12s_iguacu
+# amplifiat length between [50,300] bp
+# output in kingdom mode
+# DB sequences are considered as linear
+#
+NC_065247       |       955 |  1000982 | species              |  1000982 | Steindachneridion melanodermatum |   380997 | Steindachneridion              |    30998 | Pimelodidae                    |    33208 | Metazoa                        | R | AATCCACCTTCAGGCATATTTTCA         |  0 | 56.69 | TATATTTACATACACATCCGCCCG         |  0 | 56.75 |   265 | GAGTGCCATTCGTAGTATTCTGTTTATAGAAAATGTAGCCCATTTCTTCCCACTTCATTCGCTACACCTCGACCTGGCGTTTTTGGGTATACCAATTTTGCTTACTATTAGACCTTCATGGGGTAAGCTGACGACGGCGGTATATAGGCGGGAGAAACAAGAAGTGGTGAGGTTTAACGGGGTTTATCGGTTCTAGAACAGGCTCCTCTAGGTGGGTCTGAGACACCGCCAAGTCCTTTGGGTTTTAAGCTGTGCTTGTAGTACC | Steindachneridion melanodermatum voucher LGP11105 mitochondrion, complete genome
+ON408064        |       955 |  1000982 | species              |  1000982 | Steindachneridion melanodermatum |   380997 | Steindachneridion              |    30998 | Pimelodidae                    |    33208 | Metazoa                        | R | AATCCACCTTCAGGCATATTTTCA         |  0 | 56.69 | TATATTTACATACACATCCGCCCG         |  0 | 56.75 |   265 | GAGTGCCATTCGTAGTATTCTGTTTATAGAAAATGTAGCCCATTTCTTCCCACTTCATTCGCTACACCTCGACCTGGCGTTTTTGGGTATACCAATTTTGCTTACTATTAGACCTTCATGGGGTAAGCTGACGACGGCGGTATATAGGCGGGAGAAACAAGAAGTGGTGAGGTTTAACGGGGTTTATCGGTTCTAGAACAGGCTCCTCTAGGTGGGTCTGAGACACCGCCAAGTCCTTTGGGTTTTAAGCTGTGCTTGTAGTACC | Steindachneridion melanodermatum voucher LGP11105 mitochondrion, complete genome
+JF898645        |      2661 |   380998 | species              |   380998 | Steindachneridion scriptum     |   380997 | Steindachneridion              |    30998 | Pimelodidae                    |    33208 | Metazoa                        | R | AATCCACCTTCAGGCATATTTTCA         |  0 | 56.69 | TATATTTACATACACATCCGCCCG         |  0 | 56.75 |   265 | GGGTGCCATTCGTAGTATTCTGTTTATAGAAAATGTAGCCCATTTCTTCCCACTTCATTCGCTACACCTCGACCTGGCGTTTTTGGGTGTACCAATTTTGCTTACTATTAGACCTTCACGGGGTAAGCTGACGACGGCGGTATATAGGCGGGAGAAACAAGAAGTGGTGAGGTTTAACGGGGTTTATCGGTTCTAGAACAGGCTCCTCTAGGTGGGTCTGAGACACCGCCAAGTCCTTTGGGTTTTAAGCTGTGCTTGTAGTACC | Steindachneridion scriptum voucher MZUSP 78463 12S ribosomal RNA gene, partial sequence tRNA-Val gene, complete sequence and 16S ribosomal RNA gene, partial sequence mitochondrial

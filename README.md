@@ -56,6 +56,8 @@ workflows/<target>/       commands as originally run + notes (record only)
 | 3 | `03_format_ecopcr_db.sh` | `ecoPCRFormat.py` | Build the binary ecoPCR database used by ecoPrimers |
 | 4 | `04_run_ecoprimers.sh` | `ecoPrimers` | Remove the target species from the taxid list, pass the remaining taxids as counterexamples and run ecoPrimers for primer lengths 20 to 25 bp |
 | 5 | `05_select_pairs.sh` | `awk` | Keep the pairs with dif 3 = 0 and class GG and decide which runs go to the in silico PCR (see below) |
+| 6 | `06_run_ecopcr.sh` | `ecoPCR` | In silico PCR of every selected pair against the database of its design (see below) |
+| 7 | `07_summarize_ecopcr.py` | Python | Summarize the ecoPCR outputs per pair and per taxon, with consistency checks |
 
 ### Data curation (between steps 0 and 1)
 
@@ -230,6 +232,29 @@ ecoPCR -d data/processed/<target>/<target>_db -k -e 3 -l 50 -L 300 <forward prim
 
 `-e 3` allows up to 3 mismatches per primer, so non-target species that would be amplified with imperfect matches also appear. The `-k` flag is required with the NCBI taxonomy distributed since 2025, which replaced the rank "superkingdom" by "domain". Without it, ecoPCR stops with `Rank label not found` (ecorank.c line 43), because by default it looks up the superkingdom of each sequence. With `-k`, columns 11-12 of the output show the kingdom (Metazoa) instead; the amplified sequences and mismatches are the same.
 
+The selected pairs were run on 13 November 2026 with `scripts/06_run_ecopcr.sh`. The 1658 outputs are in `results/ecopcr/raw/` (`<target>_<length>_<serial>.ecopcr`); they were produced with the databases named `banco_<target>`, so the only difference from a run with the scripts is the database name in the header. `scripts/07_summarize_ecopcr.py` writes:
+
+| File | Content |
+|------|---------|
+| `results/ecopcr/ecopcr_pairs.tsv` | One line per pair: target amplified (and how many of its sequences), number of non-target species amplified by total mismatches (0 to 6), margin, closest species and their mismatches |
+| `results/ecopcr/ecopcr_hits.tsv` | One line per pair and amplified taxon (the best hit of each taxon): mismatches per primer, their positions counted from the 3' end, mismatches within the last 5 bases, amplicon length |
+| `results/ecopcr/ecopcr_designs.tsv` | One line per design and primer length: pairs, pairs that amplify the target, and pairs by margin |
+
+The **margin** of a pair is the smallest total number of mismatches (forward + reverse) with which a non-target species is amplified; "none" means no other species is amplified within 3 mismatches per primer and 50-300 bp. Hybrid taxa and taxids missing from the taxonomy (`excluded_taxids`) are listed but not counted as non-target species.
+
+Checks made by the summary script (no problem found): the mismatches recounted from each primer site equal the counts reported by ecoPCR; no hit has more than 3 mismatches per primer or an amplicon outside 50-300 bp; every header shows the expected database, primers and parameters; and, for every pair, the sequences amplified with no mismatch and an amplicon of 150-300 bp are exactly as many as ecoPrimers reported (target and non-target, columns 11 and 12 of its output).
+
+**Results.** All 1658 pairs amplify every sequence of the target species with no mismatch.
+
+| Design | Pairs | No other species | Margin 4-6 | Margin 3 | Margin 2 | Margin 1 | Margin 0 |
+|--------|------:|-----------------:|-----------:|---------:|---------:|---------:|---------:|
+| 16s_pimelodidae | 1 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 16s_bryconidae | 74 | 72 | 0 | 2 | 0 | 0 | 0 |
+| 16s_tibagi | 146 | 130 | 8 | 7 | 1 | 0 | 0 |
+| 12s_iguacu | 228 | 0 | 0 | 4 | 72 | 108 | 44 |
+| 16s_iguacu | 1209 | 39 | 7 | 39 | 200 | 516 | 408 |
+
+In the Iguacu designs the closest species is the congener *Steindachneridion scriptum* in 1386 of the 1398 pairs that amplify another species (sometimes tied with *Pseudoplatystoma corruscans* and *P. reticulatum*); in the other 12 it is *Pseudoplatystoma*. The only `16s_pimelodidae` pair (20 bp, serial 7295) is also selected in `16s_iguacu` (20 bp, serial 45034) and amplifies no other species in either dataset.
 
 ## Results
 

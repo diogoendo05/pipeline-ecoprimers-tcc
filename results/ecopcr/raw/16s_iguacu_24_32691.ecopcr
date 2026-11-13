@@ -1,0 +1,15 @@
+#@ecopcr-v2
+#
+# ecoPCR version 0.2
+# direct  strand oligo1 : CTTACCAGGAGGTTAAAGATTACA         ; oligo2c :         CAATTACCGAACCCAATTAAAAGA
+# reverse strand oligo2 : TCTTTTAATTGGGTTCGGTAATTG         ; oligo1c :         TGTAATCTTTAACCTCCTGGTAAG
+# max error count by oligonucleotide : 3
+# optimal Tm for primers 1 : 54.01
+# optimal Tm for primers 2 : 54.06
+# database : banco_16s_iguacu
+# amplifiat length between [50,300] bp
+# output in kingdom mode
+# DB sequences are considered as linear
+#
+NC_065247       |      1181 |  1000982 | species              |  1000982 | Steindachneridion melanodermatum |   380997 | Steindachneridion              |    30998 | Pimelodidae                    |    33208 | Metazoa                        | D | CTTACCAGGAGGTTAAAGATTACA         |  0 | 54.01 | TCTTTTAATTGGGTTCGGTAATTG         |  0 | 54.06 |   223 | TTAATCAAGATATACCGCTTCAGTGGGCCTAAAAGCAGCCATCCAATCAGAAAGCGTTAAAGCTCAAGCGGACCGAAAATCTATTATTCAAATATTTAATCTTAAACCCCTAACTATATTAGGCCACCCTATGCATACATAGGAGAGACGCTGCTAAAATGAGTAATAAGAAGGAATCCCCTTCTCCCCAGCCTACGTGTACGCTAGATCGAACCCCCACTAG | Steindachneridion melanodermatum voucher LGP11105 mitochondrion, complete genome
+ON408064        |      1181 |  1000982 | species              |  1000982 | Steindachneridion melanodermatum |   380997 | Steindachneridion              |    30998 | Pimelodidae                    |    33208 | Metazoa                        | D | CTTACCAGGAGGTTAAAGATTACA         |  0 | 54.01 | TCTTTTAATTGGGTTCGGTAATTG         |  0 | 54.06 |   223 | TTAATCAAGATATACCGCTTCAGTGGGCCTAAAAGCAGCCATCCAATCAGAAAGCGTTAAAGCTCAAGCGGACCGAAAATCTATTATTCAAATATTTAATCTTAAACCCCTAACTATATTAGGCCACCCTATGCATACATAGGAGAGACGCTGCTAAAATGAGTAATAAGAAGGAATCCCCTTCTCCCCAGCCTACGTGTACGCTAGATCGAACCCCCACTAG | Steindachneridion melanodermatum voucher LGP11105 mitochondrion, complete genome

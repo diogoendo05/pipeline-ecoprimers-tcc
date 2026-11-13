@@ -1,0 +1,18 @@
+#@ecopcr-v2
+#
+# ecoPCR version 0.2
+# direct  strand oligo1 : ACATACGAGTCAGAGTAACATGCA         ; oligo2c :         ACATAGGAGAGACGCTGCTAAAAT
+# reverse strand oligo2 : ATTTTAGCAGCGTCTCTCCTATGT         ; oligo1c :         TGCATGTTACTCTGACTCGTATGT
+# max error count by oligonucleotide : 3
+# optimal Tm for primers 1 : 57.84
+# optimal Tm for primers 2 : 57.87
+# database : banco_16s_iguacu
+# amplifiat length between [50,300] bp
+# output in kingdom mode
+# DB sequences are considered as linear
+#
+NC_065247       |      1181 |  1000982 | species              |  1000982 | Steindachneridion melanodermatum |   380997 | Steindachneridion              |    30998 | Pimelodidae                    |    33208 | Metazoa                        | D | ACATACGAGTCAGAGTAACATGCA         |  0 | 57.84 | ATTTTAGCAGCGTCTCTCCTATGT         |  0 | 57.87 |   205 | AGAGTTAATCAGAGGAGGTACAGCTCCTCTGAAACAGGACACAACCTTACCAGGAGGTTAAAGATTACATTAATCAAGATATACCGCTTCAGTGGGCCTAAAAGCAGCCATCCAATCAGAAAGCGTTAAAGCTCAAGCGGACCGAAAATCTATTATTCAAATATTTAATCTTAAACCCCTAACTATATTAGGCCACCCTATGCAT | Steindachneridion melanodermatum voucher LGP11105 mitochondrion, complete genome
+NC_033859       |      1680 |   594006 | species              |   594006 | Pseudoplatystoma reticulatum   |   309910 | Pseudoplatystoma               |    30998 | Pimelodidae                    |    33208 | Metazoa                        | D | AAATACGAGCCAGAGCAACATGCA         |  3 | 38.67 | ATTTTAGCAGCGTCTCTCCTATGT         |  0 | 57.87 |   205 | AGAGTTAATCAAAGGAGGTACAGCTCCTCTGAAACAGGACACAACCTTACCAGGAGGTTAAAGATTATATTAACCAAGATACACCGCTTCAGTGGGCCTAAAAGCAGCCACCCAAATAGAAAGCGTTAAAGCTCAAGCGGATTAAAAATCTATTATTCAAATACTTAATCTAAAACCCCTAACTATATTAGGCCGCCCTATGCAC | Pseudoplatystoma reticulatum mitochondrion, complete genome
+ON408064        |      1181 |  1000982 | species              |  1000982 | Steindachneridion melanodermatum |   380997 | Steindachneridion              |    30998 | Pimelodidae                    |    33208 | Metazoa                        | D | ACATACGAGTCAGAGTAACATGCA         |  0 | 57.84 | ATTTTAGCAGCGTCTCTCCTATGT         |  0 | 57.87 |   205 | AGAGTTAATCAGAGGAGGTACAGCTCCTCTGAAACAGGACACAACCTTACCAGGAGGTTAAAGATTACATTAATCAAGATATACCGCTTCAGTGGGCCTAAAAGCAGCCATCCAATCAGAAAGCGTTAAAGCTCAAGCGGACCGAAAATCTATTATTCAAATATTTAATCTTAAACCCCTAACTATATTAGGCCACCCTATGCAT | Steindachneridion melanodermatum voucher LGP11105 mitochondrion, complete genome
+JF898645        |      2661 |   380998 | species              |   380998 | Steindachneridion scriptum     |   380997 | Steindachneridion              |    30998 | Pimelodidae                    |    33208 | Metazoa                        | D | ACATACGAGTCAGAGTAACATGCA         |  0 | 57.84 | ATTTTAGCAGCGTCTCTCCTATGT         |  0 | 57.87 |   205 | AGAGTTAATCAGAGGAGGTACAGCTCCTCTGAAACAGGACACAACCTTACCAGGAGGTTAAAGATTATATTAATCAAGACATACCGCTTCAGTGGGCCTAAAAGCAGCCACCCAATCAGAAAGCGTTAAAGCTCAAGCGGACCAAAAATCTATTATTCAAATATTTAATCTTAAACCCCTAACTATATTAGGCCATCCTATGTAT | Steindachneridion scriptum voucher MZUSP 78463 12S ribosomal RNA gene, partial sequence tRNA-Val gene, complete sequence and 16S ribosomal RNA gene, partial sequence mitochondrial
+KU291530        |      1680 |   594006 | species              |   594006 | Pseudoplatystoma reticulatum   |   309910 | Pseudoplatystoma               |    30998 | Pimelodidae                    |    33208 | Metazoa                        | D | AAATACGAGCCAGAGCAACATGCA         |  3 | 38.67 | ATTTTAGCAGCGTCTCTCCTATGT         |  0 | 57.87 |   205 | AGAGTTAATCAAAGGAGGTACAGCTCCTCTGAAACAGGACACAACCTTACCAGGAGGTTAAAGATTATATTAACCAAGATACACCGCTTCAGTGGGCCTAAAAGCAGCCACCCAAATAGAAAGCGTTAAAGCTCAAGCGGATTAAAAATCTATTATTCAAATACTTAATCTAAAACCCCTAACTATATTAGGCCGCCCTATGCAC | Pseudoplatystoma reticulatum mitochondrion, complete genome
