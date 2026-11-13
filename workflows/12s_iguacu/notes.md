@@ -37,4 +37,4 @@ All 8 designs were downloaded again on the same day, with the same query pattern
 - Counterexample taxids (`-i`): 72.
 - ecoPrimers pairs, 20 to 25 bp: 49246, 52922, 56285, 60094, 63158, 65849.
 - Pairs with dif 3 = 0 and class GG (in silico PCR): 17, 26, 46, 48, 38, 53.
-- A second, independent run of the whole procedure produced the same output files byte for byte (WSL check pending).
+- The output files produced in WSL and in an independent run are identical byte for byte.
